@@ -1,0 +1,23 @@
+﻿# Virtual environments
+venv/
+eeg_env/
+**/venv/
+**/eeg_env/
+env/
+**/env/
+
+# Python bytecode & cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
