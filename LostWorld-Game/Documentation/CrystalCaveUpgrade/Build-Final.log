@@ -1,0 +1,505 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 37028)
+VBCSCompiler prewarm took 22.56 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Ryan Dhiman" at "2026-10-15T17:13:11.0093133Z"
+Built from '6000.6/staging' branch; Version is '6000.6.1f1 (7efac9f6c10e) revision 8321737'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 16068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-15T17:13:11Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 67264, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              72fd3c33f1a441c7955786982f2fdbc1
+  Correlation Id:          4c1805e75067ee09f199aab9e2c47017
+  External correlation Id: 6839130086016625887
+  Machine Id:              31n885ZKCdDnSsyGVgHSG2ufeGg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Ryan Dhiman" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Ryan Dhiman-notifications" at "2026-10-15T17:13:11.0561653Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469972738122-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Unity.exe
+-batchmode
+-projectPath
+C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015
+-executeMethod
+LostWorlds.Person2.Editor.CrystalCaveUpgrade.BuildBatch
+-logFile
+C:\UnityProjects\Lost Worlds\Documentation\CrystalCaveUpgrade\Build-Final.log
+Successfully changed project path to: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015
+C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [29580]  Target information:
+
+Player connection [29580]  * "[IP] 192.168.56.1 [Port] 55505 [Flags] 2 [Guid] 1032122361 [EditorId] 1032122361 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QH19IDG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29580]  * "[IP] 192.168.29.159 [Port] 55505 [Flags] 2 [Guid] 1032122361 [EditorId] 1032122361 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QH19IDG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29580] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29580] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-42060" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Refreshing native plugins compatible for Editor in 2.82 ms, found 0 plugins.
+Initialize engine version: 6000.6.1f1 (7efac9f6c10e)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   NVIDIA
+    VRAM:     6001 MB
+    Driver:   32.0.16.1060
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006928 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.877 seconds
+Domain Reload Profiling: 1430ms
+	BeginReloadAssembly (129ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (330ms)
+		LoadAssemblies (120ms)
+		TypeCache.Refresh (218ms)
+			TypeCache.ScanAssembly (204ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (878ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (442ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 59 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.searcher@4.9.5 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.render-pipelines.universal@e178ec6338de)
+    com.unity.test-framework@1.8.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.timeline@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.timeline@c56d56b0070b)
+    com.unity.ugui@2.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ugui@fa62679cc16a)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.shadergraph@7e60a14be593)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.test-framework.performance@0a60b857a52e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 2s877ms
+[ 811/1050  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1046/1050  0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[1047/1050  1s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 147 defines and 382 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[1048/1050  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[1049/1050  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (2.76 seconds), 5 items updated, 1050 evaluated
+AssetDatabase: script compilation time: 3.585155s
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 15.09 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.160 seconds
+Domain Reload Profiling: 3099ms
+	BeginReloadAssembly (427ms)
+		DisableScriptedObjects (71ms)
+		CreateAndSetChildDomain (151ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (171ms)
+	LoadAllAssembliesAndSetupDomain (1310ms)
+		LoadAssemblies (842ms)
+		TypeCache.Refresh (219ms)
+			TypeCache.ScanAssembly (199ms)
+		AnalyzeDomain (111ms)
+			BuildScriptInfoCaches (95ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1161ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (404ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (11ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Starting new worker id: 0 with log in C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015/Logs/AssetImportWorkerHW0.log
+Importing 'GUID: d110e5b36c59e0145babf4369bc37e04 - Path: Assets/Scenes/Person2/HiddenCity_Prototype.unity' with importer (DefaultImporter)
+Imported 'GUID: d110e5b36c59e0145babf4369bc37e04' -> (Import Result ID: '53df4fea6dc31e75983efbe538972600') in 0.013 seconds [static dependencies only]. Details - ImportResultOutputID=041ac306cdc3bb2dd25028011de59f1a DependenciesID=8ed163567ad90669d868440bd0189a24 StaticDependenciesID=5d8dcd038d8fb5c7111cab7c33634d4c 
+Importing 'GUID: 39f2e4ca47ae8644490387d72821a285 - Path: Assets/Scenes/Person2/CrystalCave_Prototype.unity' with importer (DefaultImporter)
+Imported 'GUID: 39f2e4ca47ae8644490387d72821a285' -> (Import Result ID: '044388d3f74e3c8a48d6a368c111cc40') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=d4826c6278d0863a75b8d58f9a51f06c DependenciesID=8a58d5fe346ba95aef5b7dbae86763ca StaticDependenciesID=37460e74ee7be5460817cd1417bc1f3e 
+Refreshing native plugins compatible for Editor in 6.84 ms, found 4 plugins.
+
+Asset Pipeline Refresh (id=c43636a3c0ae06446a6f3653cba0454e): Total: 8.371 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=2 (actual=2, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=2226 ms
+		Asset DB Callback time: managed=295 ms, native=31 ms
+		Scripting: domain reloads=1, domain reload time=2102 ms, compile time=3588 ms, other=124 ms
+		Project Asset Count: scripts=1438, non-scripts=2521
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 20.974ms
+	ApplyChangesToAssetFolders: 0.852ms
+	Scan: 349.204ms
+	Collect global state as custom dependencies: 41.460ms
+	OnSourceAssetsModified: 0.740ms
+	CategorizeScriptCompilationAssets: 61.544ms
+	ProcessAssetsWithTransientArtifactChanges: 135.792ms
+	CategorizeAssets: 114.895ms
+	CompileScripts: 3587.997ms
+	ImportOutOfDateAssets: 1267.237ms (1194.035ms without children)
+		ImportManagerImport: 21.369ms (1.868ms without children)
+		ReloadNativeAssets: 0.060ms
+		UnloadImportedAssets: 1.173ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.822ms
+		InitializingProgressBar: 0.290ms
+		ImportSchedulerStart: 49.483ms
+	PostProcessAllAssets: 301.539ms
+		XRBuildSystem.XRAssetImported 2.355ms
+		VCAutoAddAssetPostprocess 2.115ms
+		PostProcessCallbackCreateDeferredMaterials 0.051ms
+		MonoPostProcessAllAssets: 294.962ms
+			AssetPostprocessor.OnPostprocessAllAssets 193.190ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 18.783ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 17.899ms
+			SyncVS.PostprocessSyncProject 17.837ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 7.179ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 3.135ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.814ms
+			AssetChangedListener.OnPostprocessAllAssets 2.359ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.276ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.257ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.425ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.176ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.002ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.678ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.614ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.460ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.449ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.432ms
+			PostProcessor.OnPostprocessAllAssets 0.422ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.347ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.330ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.325ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.324ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.298ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.263ms
+			AssetEvents.OnPostprocessAllAssets 0.247ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.244ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.225ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.187ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.162ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.155ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.145ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.136ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.095ms
+	PostAssetChangesProfiler: 9.964ms
+	UnloadStreamsBegin: 1.586ms
+	PersistCurrentRevisions: 0.404ms
+	GenerateScriptTypeHashes: 2.046ms
+	GenerateScriptTypeSerializationHashes: 3.735ms
+	Untracked: 2463.436ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Scanning for USB devices : 2.003ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Lost Worlds
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6663 unused Assets / (7.7 MB). Loaded Objects now: 7668.
+Memory consumption went from 413.8 MB to 406.1 MB.
+Total: 18.069100 ms (FindLiveObjects: 1.010800 ms CreateObjectMapping: 0.537000 ms MarkObjects: 10.356900 ms  DeleteObjects: 5.535200 ms)
+
+[Project] Loading completed in 14.311 seconds
+	Project init time: 				13.749 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.231 seconds
+		Asset Database init time: 		0.947 seconds
+		Global illumination init time: 	0.003 seconds
+		Assemblies load time: 			1.521 seconds
+		Unity extensions init time: 	0.029 seconds
+		Asset Database refresh time: 	8.372 seconds
+	Scene opening time: 			0.213 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1792084405265,"processId":42060,"projectLoad":14.311193699999999,"projectInit":13.7489759,"templateInit":0.0,"packageManagerInit":0.23141,"assetDatabaseInit":0.947005,"globalIlluminationInit":0.0027792,"assembliesLoad":1.5214316,"unityExtensionsInit":0.0290935,"assetDatabaseRefresh":8.3715149,"sceneOpening":0.2125423}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1792084405265,"processId":42060,"editorVersion":"6000.6.1f1 (7efac9f6c10e)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+[Licensing::Client] Successfully resolved entitlement details
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Opening scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+	Deserialize:            16.007 ms
+	Integration:            24.428 ms
+	Integration of assets:  3.247 ms
+	Thread Wait Time:       14.370 ms
+	Total Operation Time:   58.052 ms
+Unloading 10 unused Assets / (18.4 KB). Loaded Objects now: 9306.
+Memory consumption went from 413.9 MB to 413.9 MB.
+Total: 8.595800 ms (FindLiveObjects: 0.464200 ms CreateObjectMapping: 0.193100 ms MarkObjects: 7.349800 ms  DeleteObjects: 0.287600 ms)
+
+Importing 'GUID: 94deac249f253ff45acfbd66179998c2 - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade' with importer (DefaultImporter)
+Imported 'GUID: 94deac249f253ff45acfbd66179998c2' -> (Import Result ID: 'b532b9997d54518fcd5c8198bbe75805') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=d5ee90db4d64f7a85999295b4133357a DependenciesID=e06770a0c6bfdb8b2caf1ad84149494b StaticDependenciesID=607f90136cf57c4ad988fe21c6c445bc 
+Refreshing native plugins compatible for Editor in 3.40 ms, found 4 plugins.
+Asset Pipeline Refresh (id=4b8d94ed8dcb14742b8a1c0110b81e85): Total: 0.118 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Importing 'GUID: 8957576e3e639b44abd32363ca394421 - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade/LayeredBasalt.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 8957576e3e639b44abd32363ca394421' -> (Import Result ID: 'ec28d112d9680a4f7729befbfcc6d2a4') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=3d1b78dcfe0b32e8c96f95f9352d1efa DependenciesID=0267ea9634a29042c4283f92cb803f6a StaticDependenciesID=ecd3f4501a8fe8c8b21a6708f70e92b7 
+Refreshing native plugins compatible for Editor in 3.48 ms, found 4 plugins.
+Asset Pipeline Refresh (id=fca3a4e125f21194d869e1380aef552f): Total: 0.060 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 655c394afb860d749ba172117cbac42d - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade/MineralStrata.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 655c394afb860d749ba172117cbac42d' -> (Import Result ID: '1cb2f6519d437f97d7e2af1a18494b72') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=176ef4ab638df22b556b072abea851c8 DependenciesID=848b3656b1aa7828de01f6a39fc40991 StaticDependenciesID=f1dded946c335315435b896b02b58688 
+Refreshing native plugins compatible for Editor in 4.08 ms, found 4 plugins.
+Asset Pipeline Refresh (id=edb1a18addf02b343aff01b74274a03e): Total: 0.052 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: e73890ee0fc6dd14daff62789655a56c - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade/SlatePath.mat' with importer (NativeFormatImporter)
+Imported 'GUID: e73890ee0fc6dd14daff62789655a56c' -> (Import Result ID: '6f37b72b64d983487830dda7bca0e14e') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=23573f73b01a941df0107da12ac4a933 DependenciesID=3b17ccdbb5b84b694cccc91033515f05 StaticDependenciesID=da12d9fba73e230546e615bcbafffe18 
+Refreshing native plugins compatible for Editor in 3.06 ms, found 4 plugins.
+Asset Pipeline Refresh (id=0c375c4a876966747942062f5e8f24a0): Total: 0.047 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 151d28cf021e7a54ea947fec3fd32402 - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade/CyanQuartz.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 151d28cf021e7a54ea947fec3fd32402' -> (Import Result ID: '7b4d9f4ae76a333d85806f31663fb47f') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=233f800cf71bece8dfaac96f5f4dfe58 DependenciesID=817c59539adbd43c71ba259238d59151 StaticDependenciesID=3b107a4cf3522d5ad29ce68bd1e034c6 
+Refreshing native plugins compatible for Editor in 3.36 ms, found 4 plugins.
+Asset Pipeline Refresh (id=18f87332a71b89a4697c70b0795b11af): Total: 0.051 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 801eb3c39477c804ca2c583b13740ea9 - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade/BlueQuartz.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 801eb3c39477c804ca2c583b13740ea9' -> (Import Result ID: '33c5e1eda679bf138362db24a641237d') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=17d60785472868ef8e18fa4169af9a26 DependenciesID=ac0a1cbcb93cf57009879adb23c55ccf StaticDependenciesID=1f76c60a9a1a1ed4a280d8bc6d32cf09 
+Refreshing native plugins compatible for Editor in 3.86 ms, found 4 plugins.
+Asset Pipeline Refresh (id=7db8af574c6521b489e702f49b88d750): Total: 0.049 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 00bf0d5627cae9c46a816a103ca62679 - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade/AmethystStone.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 00bf0d5627cae9c46a816a103ca62679' -> (Import Result ID: 'de3cdbf7ad1221feac7c746b0f915d6d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=0c685291835b69e8f286b69e881e2abb DependenciesID=8d0cec182f43941f5bd83258364029bf StaticDependenciesID=5727841b157e4f9275567b244cb72384 
+Refreshing native plugins compatible for Editor in 3.33 ms, found 4 plugins.
+Asset Pipeline Refresh (id=fe0a1b7b3d9cd1b44a378b253d828fbb): Total: 0.047 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 8fba08acad7181a4ebfc044b722e8ee9 - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade/PedestalActivated.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 8fba08acad7181a4ebfc044b722e8ee9' -> (Import Result ID: '278492163c0c4270243d290c4877741a') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=0e0aa19b9379d08a84b53a5ab325d164 DependenciesID=61c934e98ab474e7606257c574576153 StaticDependenciesID=4e43e48284007bdf380741b35d9d51bc 
+Refreshing native plugins compatible for Editor in 3.06 ms, found 4 plugins.
+Asset Pipeline Refresh (id=272cca1561b4af24fba5f79e662dad27): Total: 0.052 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: a11f97ff8cda67e41a7c553b78539c4e - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade/Road_Cube.asset' with importer (NativeFormatImporter)
+Imported 'GUID: a11f97ff8cda67e41a7c553b78539c4e' -> (Import Result ID: '92b319213db693d95f01c15056db0bc0') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d9a32c5cbd9384bc716e3a67e617dac7 DependenciesID=f642de4bf04a40418ed06fed95e252ed StaticDependenciesID=6ef77c6f31b3121731a8aadbf82b46d5 
+Refreshing native plugins compatible for Editor in 3.82 ms, found 4 plugins.
+Asset Pipeline Refresh (id=632a00817d7a3884fa326d88a0885508): Total: 0.044 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: c03199b63af77b24e8373122a3a92873 - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade/Road_Cylinder.asset' with importer (NativeFormatImporter)
+Imported 'GUID: c03199b63af77b24e8373122a3a92873' -> (Import Result ID: 'ef71225381b59c9b922bf564ee3e2e81') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=99d58b0b85b6310ed14d2a2a6eca85a9 DependenciesID=8b7b7ca35d2048716c97993654ab669e StaticDependenciesID=1bad8cf0178cd218a1ea27ece1cddde4 
+Refreshing native plugins compatible for Editor in 3.61 ms, found 4 plugins.
+Asset Pipeline Refresh (id=421437e25fc420d46aa32cf577e66a3f): Total: 0.052 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 805fefcb81aff5645aac4a8e4e5c9d8f - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade/HexagonalMineral.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 805fefcb81aff5645aac4a8e4e5c9d8f' -> (Import Result ID: '5a60c86dbf7db86a9c1b1c76cb637740') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a7e4dd5f5b7dda1cac44921dcfe8b86c DependenciesID=24e10da47b20dcc59d2fbdf8c03606a2 StaticDependenciesID=823ab25dedae5955f2ace4d51b2864f2 
+Refreshing native plugins compatible for Editor in 3.30 ms, found 4 plugins.
+Asset Pipeline Refresh (id=f7b401169b24e8f4ab786454e664046a): Total: 0.051 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/Person2/Ruins_Prototype.unity additively'
+Loaded scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+	Deserialize:            17.948 ms
+	Integration:            66.414 ms
+	Integration of assets:  0.018 ms
+	Thread Wait Time:       0.185 ms
+	Total Operation Time:   84.564 ms
+Importing 'GUID: 00bf0d5627cae9c46a816a103ca62679 - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade/AmethystStone.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 00bf0d5627cae9c46a816a103ca62679' -> (Import Result ID: 'c19c06895259dd1619662a79a75a619b') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=0c685291835b69e8f286b69e881e2abb DependenciesID=7837a28056d1baae390a8c33e17228e2 StaticDependenciesID=6afa845e903aef48f67819630d0ab5ee 
+Importing 'GUID: 801eb3c39477c804ca2c583b13740ea9 - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade/BlueQuartz.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 801eb3c39477c804ca2c583b13740ea9' -> (Import Result ID: '7011cf238e3f1328b06874568188c051') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=17d60785472868ef8e18fa4169af9a26 DependenciesID=66a6491e394ce6fb11651040fb9483aa StaticDependenciesID=d20392b039f82e1484b53d1532faa268 
+Importing 'GUID: 151d28cf021e7a54ea947fec3fd32402 - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade/CyanQuartz.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 151d28cf021e7a54ea947fec3fd32402' -> (Import Result ID: '6c6c3636be4ee3d3892e88afe2df2be9') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=233f800cf71bece8dfaac96f5f4dfe58 DependenciesID=3d28f3dbb0449594526237f852336540 StaticDependenciesID=5000cf65a38f249e4a219667845f9d21 
+Importing 'GUID: 655c394afb860d749ba172117cbac42d - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade/MineralStrata.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 655c394afb860d749ba172117cbac42d' -> (Import Result ID: 'e97de27c31c0a2d69a7ed57f0cdf40ba') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=176ef4ab638df22b556b072abea851c8 DependenciesID=1b402512dd7811f59955e063dda3d7c0 StaticDependenciesID=548a20447b6ab4045133faaa5311221a 
+Importing 'GUID: e73890ee0fc6dd14daff62789655a56c - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade/SlatePath.mat' with importer (NativeFormatImporter)
+Imported 'GUID: e73890ee0fc6dd14daff62789655a56c' -> (Import Result ID: '0e44d0112db1e011f8497d29aa5d9231') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=23573f73b01a941df0107da12ac4a933 DependenciesID=04bd3b415385102e1520a600bb8546d5 StaticDependenciesID=710b733f08533a6ce99d6509b5e63e59 
+Importing 'GUID: 8957576e3e639b44abd32363ca394421 - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade/LayeredBasalt.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 8957576e3e639b44abd32363ca394421' -> (Import Result ID: '8a5118c868080f43c55d65cab70802d4') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=3d1b78dcfe0b32e8c96f95f9352d1efa DependenciesID=af720d24c955a343641465f03aca2316 StaticDependenciesID=888752c2dcee55ca157f44d1599da8e9 
+Importing 'GUID: 8fba08acad7181a4ebfc044b722e8ee9 - Path: Assets/Art/Environments/CrystalCave/MineralUpgrade/PedestalActivated.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 8fba08acad7181a4ebfc044b722e8ee9' -> (Import Result ID: '1e59d34621eccc59d6d3688870416942') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=0e0aa19b9379d08a84b53a5ab325d164 DependenciesID=43a87ad8b290b5afd07853f075df23ff StaticDependenciesID=9524a0949af7a2dda166ea464ba8378b 
+Refreshing native plugins compatible for Editor in 3.55 ms, found 4 plugins.
+Asset Pipeline Refresh (id=30c511d96d91b994993ec2e9712cbfaa): Total: 0.067 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 39f2e4ca47ae8644490387d72821a285 - Path: Assets/Scenes/Person2/CrystalCave_Prototype.unity' with importer (DefaultImporter)
+Imported 'GUID: 39f2e4ca47ae8644490387d72821a285' -> (Import Result ID: '623c9267daee65255cda800e69732ee7') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d4826c6278d0863a75b8d58f9a51f06c DependenciesID=63b7182d4ae94f8417f452b40a3b723b StaticDependenciesID=22bff881973feed6f7ac23ca6efee2c6 
+Refreshing native plugins compatible for Editor in 3.57 ms, found 4 plugins.
+Asset Pipeline Refresh (id=2a0b57e23afb30441a153601dbf723e1): Total: 0.044 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Worker ready: AssetImportWorkerHW0 0
+Opening scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+	Deserialize:            15.993 ms
+	Integration:            27.249 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.043 ms
+	Total Operation Time:   43.291 ms
+Unloading 279 unused Assets / (1.3 MB). Loaded Objects now: 10073.
+Memory consumption went from 423.6 MB to 422.3 MB.
+Total: 8.947300 ms (FindLiveObjects: 0.694700 ms CreateObjectMapping: 0.155800 ms MarkObjects: 7.380500 ms  DeleteObjects: 0.387900 ms)
+
+CAVE VALID: 8 tokens, reused gate/pause, no decorative colliders; 126 road support/body-clearance samples passed.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.CrystalCaveUpgrade:Validate () (at Assets/Editor/CrystalCaveUpgrade.cs:89)
+LostWorlds.Person2.Editor.CrystalCaveUpgrade:Build () (at Assets/Editor/CrystalCaveUpgrade.cs:80)
+LostWorlds.Person2.Editor.CrystalCaveUpgrade/<>c:<BuildBatch>b__8_0 () (at Assets/Editor/CrystalCaveUpgrade.cs:93)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/CrystalCaveUpgrade.cs Line: 89)
+
+MonoPathRemapper: Attempts to remap: 26280; Successful remaps: 14192
+Serialized file version minimum: 22, current 23
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Ryan Dhiman-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Ryan Dhiman channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792084411522,"processId":42060,"allocatedMemory":15208886,"memoryLabels":[{"Default":192646},{"Permanent":15516},{"NewDelete":72479},{"Thread":4197984},{"Manager":34717},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":851132},{"Material":68},{"GfxDevice":55968},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":42816},{"Input":42840},{"JobScheduler":256},{"TextLib":336},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1259880},{"BaseObject":50384},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":19285},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":331131},{"StaticString":3808},{"Utility":2674806},{"Curl":2559},{"PoolAlloc":2264},{"AI":80},{"TypeTree":17165},{"ScriptManager":12640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7296},{"WebRequest":6866},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":729},{"Secure":2377},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":128},{"EditorUtility":137584},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4639666},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":40465},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":272},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3606},{"Windowing":456},{"Licensing":12763},{"AssetReference":32},{"IPCStream":32}]}

@@ -1,0 +1,76 @@
+# Files changed by collectible retirement
+
+This manifest compares against the project at the start of this request; earlier Jungle/P14 work is preserved.
+
+| Change | File |
+| --- | --- |
+| Changed | `Assets/Editor/P11IntegrationBuilder.cs` |
+| Changed | `Assets/Editor/P11IntegrationValidation.cs` |
+| Changed | `Assets/Editor/P125JourneyValidation.cs` |
+| Changed | `Assets/Editor/P125RegressionBatch.cs` |
+| Changed | `Assets/Editor/P12PolishValidation.cs` |
+| Changed | `Assets/Editor/P13FinalQA.cs` |
+| Changed | `Assets/Editor/P14DemoBuild.cs` |
+| Removed | `Assets/Editor/P5RelicBuilder.cs` |
+| Removed | `Assets/Editor/P5RelicBuilder.cs.meta` |
+| Removed | `Assets/Editor/P5RelicValidation.cs` |
+| Removed | `Assets/Editor/P5RelicValidation.cs.meta` |
+| Changed | `Assets/Editor/P7HudBuilder.cs` |
+| Changed | `Assets/Editor/P7HudValidation.cs` |
+| Changed | `Assets/Editor/P8EffortValidation.cs` |
+| Changed | `Assets/Editor/P9SimulatorBuilder.cs` |
+| Changed | `Assets/Editor/P9SimulatorValidation.cs` |
+| Removed | `Assets/Scripts/Collectibles.meta` |
+| Removed | `Assets/Scripts/Collectibles/LostWorlds.Person2.Collectibles.asmdef` |
+| Removed | `Assets/Scripts/Collectibles/LostWorlds.Person2.Collectibles.asmdef.meta` |
+| Removed | `Assets/Scripts/Collectibles/P5RelicTestInput.cs` |
+| Removed | `Assets/Scripts/Collectibles/P5RelicTestInput.cs.meta` |
+| Removed | `Assets/Scripts/Collectibles/RelicInteractable.cs` |
+| Removed | `Assets/Scripts/Collectibles/RelicInteractable.cs.meta` |
+| Removed | `Assets/Scripts/Collectibles/RelicTracker.cs` |
+| Removed | `Assets/Scripts/Collectibles/RelicTracker.cs.meta` |
+| Changed | `Assets/Scripts/Demo/LostWorlds.Person2.Demo.asmdef` |
+| Changed | `Assets/Scripts/Demo/Person2BuildDemo.cs` |
+| Changed | `Assets/Scripts/Hardware/LostWorlds.Person2.Hardware.asmdef` |
+| Changed | `Assets/Scripts/Hardware/P9SimulatorDemo.cs` |
+| Changed | `Assets/Scripts/Integration/IntegrationSession.cs` |
+| Changed | `Assets/Scripts/Integration/LostWorlds.Person2.Integration.asmdef` |
+| Changed | `Assets/Scripts/Journey/JourneyLedger.cs` |
+| Changed | `Assets/Scripts/UI/HudWorldContext.cs` |
+| Changed | `Assets/Scripts/UI/LostWorlds.Person2.UI.asmdef` |
+| Changed | `Assets/Scripts/UI/P7HudDemoControls.cs` |
+| Changed | `Assets/Scripts/UI/Person2Hud.cs` |
+| Changed | `Assets/Scenes/Person2/CrystalCave_Prototype.unity` |
+| Changed | `Assets/Scenes/Person2/Jungle_Prototype.unity` |
+| Changed | `Assets/Scenes/Person2/Ruins_Prototype.unity` |
+| Changed | `Assets/Scenes/Test/P10_HardwareAdapterDemo.unity` |
+| Changed | `Assets/Scenes/Test/P7_HudDemo.unity` |
+| Changed | `Assets/Scenes/Test/P8_EffortDemo.unity` |
+| Changed | `Assets/Scenes/Test/P9_HardwareSimulatorDemo.unity` |
+| Removed | `Assets/Prefabs/Collectibles/P5.meta` |
+| Changed | `Assets/Prefabs/UI/P7/Person2Hud.prefab` |
+| Changed | `Assets/Prefabs/Integration/P11/IntegrationSession.prefab` |
+| Removed | `Assets/Prefabs/Collectibles/P5/CrystalCaveRelic.prefab` |
+| Removed | `Assets/Prefabs/Collectibles/P5/CrystalCaveRelic.prefab.meta` |
+| Removed | `Assets/Prefabs/Collectibles/P5/JungleRelic.prefab` |
+| Removed | `Assets/Prefabs/Collectibles/P5/JungleRelic.prefab.meta` |
+| Removed | `Assets/Prefabs/Collectibles/P5/RuinsRelic.prefab` |
+| Removed | `Assets/Prefabs/Collectibles/P5/RuinsRelic.prefab.meta` |
+| Removed | `Assets/Art/Collectibles/P5.meta` |
+| Removed | `Assets/Art/Materials/P5Relics.meta` |
+| Removed | `Assets/Art/Materials/P5Relics/Amethyst.mat` |
+| Removed | `Assets/Art/Materials/P5Relics/Amethyst.mat.meta` |
+| Removed | `Assets/Art/Materials/P5Relics/CollectedPearl.mat` |
+| Removed | `Assets/Art/Materials/P5Relics/CollectedPearl.mat.meta` |
+| Removed | `Assets/Art/Materials/P5Relics/QuietStone.mat` |
+| Removed | `Assets/Art/Materials/P5Relics/QuietStone.mat.meta` |
+| Removed | `Assets/Art/Materials/P5Relics/VerdantJade.mat` |
+| Removed | `Assets/Art/Materials/P5Relics/VerdantJade.mat.meta` |
+| Removed | `Assets/Art/Materials/P5Relics/WarmGold.mat` |
+| Removed | `Assets/Art/Materials/P5Relics/WarmGold.mat.meta` |
+| Removed | `Assets/Art/Collectibles/P5/ThreeRelicTracker.asset` |
+| Removed | `Assets/Art/Collectibles/P5/ThreeRelicTracker.asset.meta` |
+| Added | `Assets/Editor/RelicRemovalValidation.cs` |
+| Added | `Assets/Editor/RelicRemovalValidation.cs.meta` |
+
+Documentation: PROJECT_STATUS.md and PERSON2_README.md current-design notes; current guides/retirement notices across Documentation/P5–P14 and JungleRoad; new Documentation/RelicRemoval reports and manual steps. Windows demo output refreshed separately under the Git-ignored Builds/LostWorldsSIH directory.

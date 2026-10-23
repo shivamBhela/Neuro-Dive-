@@ -1,0 +1,603 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 82812)
+VBCSCompiler prewarm took 12.02 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.1f1 (7efac9f6c10e) revision 8321737'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Ryan Dhiman" at "2026-10-18T08:20:02.0697474Z"
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 16068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-18T08:20:02Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 87304, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              d1841a19c9044124849016eed3730902
+  Correlation Id:          7d00041643ddaf1e0a13332cc3b68600
+  External correlation Id: 1887525016698901971
+  Machine Id:              31n885ZKCdDnSsyGVgHSG2ufeGg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Ryan Dhiman" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Ryan Dhiman-notifications" at "2026-10-18T08:20:02.116033Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469972738122-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Unity.exe
+-batchmode
+-projectPath
+C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015
+-executeMethod
+Realmwalker.Authoring.RealmwalkerR5.Batch
+-logFile
+C:\UnityProjects\Lost Worlds\Assets\Realmwalker\Validation\R5Author.log
+Successfully changed project path to: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015
+C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [40476]  Target information:
+
+Player connection [40476]  * "[IP] 192.168.56.1 [Port] 55505 [Flags] 2 [Guid] 82605854 [EditorId] 82605854 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QH19IDG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [40476]  * "[IP] 172.25.160.1 [Port] 55505 [Flags] 2 [Guid] 82605854 [EditorId] 82605854 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QH19IDG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [40476]  * "[IP] 192.168.29.159 [Port] 55505 [Flags] 2 [Guid] 82605854 [EditorId] 82605854 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QH19IDG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [40476] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [40476] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-88420" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Refreshing native plugins compatible for Editor in 7.98 ms, found 0 plugins.
+Initialize engine version: 6000.6.1f1 (7efac9f6c10e)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   NVIDIA
+    VRAM:     6001 MB
+    Driver:   32.0.16.1060
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003306 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.721 seconds
+Domain Reload Profiling: 1258ms
+	BeginReloadAssembly (124ms)
+		CreateAndSetChildDomain (7ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (313ms)
+		LoadAssemblies (112ms)
+		TypeCache.Refresh (212ms)
+			TypeCache.ScanAssembly (198ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (722ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (258ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 59 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.searcher@4.9.5 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.render-pipelines.universal@e178ec6338de)
+    com.unity.test-framework@1.8.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.timeline@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.timeline@c56d56b0070b)
+    com.unity.ugui@2.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ugui@fa62679cc16a)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.shadergraph@7e60a14be593)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.test-framework.performance@0a60b857a52e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 2s977ms
+[ 811/1050  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1046/1050  1s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[1047/1050  1s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 147 defines and 382 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[1048/1050  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[1049/1050  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (2.92 seconds), 5 items updated, 1050 evaluated
+AssetDatabase: script compilation time: 3.595877s
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.39 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.996 seconds
+Domain Reload Profiling: 2424ms
+	BeginReloadAssembly (399ms)
+		DisableScriptedObjects (49ms)
+		CreateAndSetChildDomain (159ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (920ms)
+		LoadAssemblies (567ms)
+		TypeCache.Refresh (199ms)
+			TypeCache.ScanAssembly (186ms)
+		AnalyzeDomain (83ms)
+			BuildScriptInfoCaches (72ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (997ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (11ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Starting new worker id: 0 with log in C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015/Logs/AssetImportWorkerHW0.log
+Importing 'GUID: c02f9bd16e12a724c87d1a5163d2fd6c - Path: Assets/Realmwalker/Validation/R5Hair/Front.png' with importer (TextureImporter)
+Imported 'GUID: c02f9bd16e12a724c87d1a5163d2fd6c' -> (Import Result ID: '34de6d66747c7d5a641a5d3a9aac9654') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=17768f97593991c30406a3a459491833 DependenciesID=a97049b30d38425cb3fe8f40f7e67930 StaticDependenciesID=8d1f3110d3739d9b3bdbab435ade4f78 
+Importing 'GUID: c2128831332f84c4eba95e66019fff39 - Path: Assets/Realmwalker/Validation/R5Hair/ThreeQuarter.png' with importer (TextureImporter)
+Imported 'GUID: c2128831332f84c4eba95e66019fff39' -> (Import Result ID: '3bf1945733e9422fae84b3e2ba1d1c16') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d665280a9083e03a9d70757d9edd8aab DependenciesID=6617f8bcba9d8228c506df111e664b00 StaticDependenciesID=02dd157207be1379f392cb79188fea89 
+Importing 'GUID: 664a0d331d12c5a43876fa9b137926ea - Path: Assets/Realmwalker/Validation/R5Hair/Side.png' with importer (TextureImporter)
+Imported 'GUID: 664a0d331d12c5a43876fa9b137926ea' -> (Import Result ID: 'c1f8cdbbfa12b0a8a6abd950afce7d95') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=02d3d76246955a4770a8d89d73321419 DependenciesID=8fd1336cae795cbc18c27ec9939bead2 StaticDependenciesID=bfba798c2f7ab41f9f8400c633f66488 
+Importing 'GUID: b600125b25c7ae84db1af206c7290059 - Path: Assets/Realmwalker/Validation/R5Hair/Rear.png' with importer (TextureImporter)
+Imported 'GUID: b600125b25c7ae84db1af206c7290059' -> (Import Result ID: '7f506661c0e91323b061c3fd094b37c3') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f3313a6f14bfe88891882f12c7d87d2b DependenciesID=641324573eb43a532f8d025bc193fd7a StaticDependenciesID=2a2e9aa77cfdeece4b91f31ec6ebfe47 
+Refreshing native plugins compatible for Editor in 4.07 ms, found 4 plugins.
+
+Asset Pipeline Refresh (id=f99e88039c668b84ca1e400d69d56789): Total: 7.319 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=4 (actual=4, local cache=0, cache server=0)
+		Asset DB Process Time: managed=4 ms, native=1830 ms
+		Asset DB Callback time: managed=201 ms, native=26 ms
+		Scripting: domain reloads=1, domain reload time=1538 ms, compile time=3598 ms, other=120 ms
+		Project Asset Count: scripts=1453, non-scripts=2811
+		Asset File Changes: new=0, changed=7, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 18.568ms
+	ApplyChangesToAssetFolders: 0.846ms
+	Scan: 298.071ms
+	Collect global state as custom dependencies: 22.075ms
+	OnSourceAssetsModified: 0.945ms
+	CategorizeScriptCompilationAssets: 52.710ms
+	ProcessAssetsWithTransientArtifactChanges: 73.974ms
+	CategorizeAssets: 68.330ms
+	CompileScripts: 3598.299ms
+	ImportOutOfDateAssets: 1109.299ms (1009.138ms without children)
+		ImportManagerImport: 75.238ms (1.331ms without children)
+			UpdateCategorizedAssets: 0.054ms
+		UnloadImportedAssets: 0.679ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.662ms
+		ImportSchedulerStart: 23.513ms
+	PostProcessAllAssets: 205.910ms
+		XRBuildSystem.XRAssetImported 3.063ms
+		VCAutoAddAssetPostprocess 1.440ms
+		PostProcessCallbackCreateDeferredMaterials 0.088ms
+		MonoPostProcessAllAssets: 199.396ms
+			AssetPostprocessor.OnPostprocessAllAssets 113.874ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 20.880ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 15.329ms
+			SyncVS.PostprocessSyncProject 11.670ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 6.243ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.739ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 2.150ms
+			AssetChangedListener.OnPostprocessAllAssets 1.886ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.679ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.343ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.334ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.981ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.786ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.720ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.651ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.598ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.484ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.351ms
+			PostProcessor.OnPostprocessAllAssets 0.342ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.321ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.312ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.290ms
+			AssetEvents.OnPostprocessAllAssets 0.284ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.269ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.206ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.198ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.182ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.180ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.159ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.148ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.135ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.134ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.114ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.084ms
+	PostAssetChangesProfiler: 6.987ms
+	UnloadStreamsBegin: 1.747ms
+	PersistCurrentRevisions: 0.243ms
+	GenerateScriptTypeHashes: 1.849ms
+	GenerateScriptTypeSerializationHashes: 3.230ms
+	Untracked: 1852.095ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 0.929ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Lost Worlds
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6679 unused Assets / (9.0 MB). Loaded Objects now: 7685.
+Memory consumption went from 413.5 MB to 404.5 MB.
+Total: 14.838800 ms (FindLiveObjects: 1.669800 ms CreateObjectMapping: 0.631100 ms MarkObjects: 6.354600 ms  DeleteObjects: 5.894900 ms)
+
+[Project] Loading completed in 11.396 seconds
+	Project init time: 				10.991 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.231 seconds
+		Asset Database init time: 		0.977 seconds
+		Global illumination init time: 	0.003 seconds
+		Assemblies load time: 			1.316 seconds
+		Unity extensions init time: 	0.024 seconds
+		Asset Database refresh time: 	7.320 seconds
+	Scene opening time: 			0.122 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1792311613423,"processId":88420,"projectLoad":11.396315900000001,"projectInit":10.9906772,"templateInit":0.0,"packageManagerInit":0.2312425,"assetDatabaseInit":0.976646,"globalIlluminationInit":0.0028409,"assembliesLoad":1.3163328,"unityExtensionsInit":0.0241861,"assetDatabaseRefresh":7.3195506,"sceneOpening":0.1220684}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1792311613423,"processId":88420,"editorVersion":"6000.6.1f1 (7efac9f6c10e)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+[Licensing::Client] Successfully resolved entitlement details
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Loaded scene 'Library/Unused/5bf031ff1a26caa47a030a182a20568e'
+	Deserialize:            9.676 ms
+	Integration:            148.846 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.018 ms
+	Total Operation Time:   158.542 ms
+Asset Pipeline Refresh (id=89e73d5307d6bfa46a90f01ea495bf65): Total: 0.084 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 7000a8094f407fc46a7ab7119165755a - Path: Assets/Realmwalker/Rig/RealmwalkerCrownHair.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 7000a8094f407fc46a7ab7119165755a' -> (Import Result ID: '2fc547ef75e2669dbe38df6ade9cb2be') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=d845d3dfdc25f452e97692d0d6efa438 DependenciesID=446fd5e68621c22f489212d2af291cd3 StaticDependenciesID=a097e3903c08720624bf939c6833fff2 
+Importing 'GUID: 2a97b6c2d2f6cbd4d8db48cc7f5f2844 - Path: Assets/Realmwalker/Rig/SkinnedMeshes/080_HairBack_Skin.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 2a97b6c2d2f6cbd4d8db48cc7f5f2844' -> (Import Result ID: '350e219113eb501485388b7e507a8556') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=3e5a9f7e98a1b1910e7f8827eb6a9ec2 DependenciesID=df9576431a52685150a7f814db024b0a StaticDependenciesID=4fd24af8646ed3246bff7d423b781e36 
+Refreshing native plugins compatible for Editor in 3.11 ms, found 4 plugins.
+Asset Pipeline Refresh (id=3a9c0e769398b8a49a897a6452729fab): Total: 0.070 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            50.983 ms
+	Integration:            248.191 ms
+	Integration of assets:  2.415 ms
+	Thread Wait Time:       0.199 ms
+	Total Operation Time:   301.788 ms
+Unloading 28 unused Assets / (91.7 KB). Loaded Objects now: 17973.
+Memory consumption went from 419.2 MB to 419.1 MB.
+Total: 9.231100 ms (FindLiveObjects: 1.007300 ms CreateObjectMapping: 0.394200 ms MarkObjects: 7.355400 ms  DeleteObjects: 0.104000 ms)
+
+R5 REALM 0 entrance=(0.00, 0.15, 0.00) runner=(0.00, 0.08, 2.00) exit=(0.00, 4.15, 108.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Realmwalker.Authoring.RealmwalkerR5:Apply () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:95)
+Realmwalker.Authoring.RealmwalkerR5/<>c:<Batch>b__5_0 () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:118)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Realmwalker/Editor/RealmwalkerR5.cs Line: 95)
+
+R5 GATE 0 zone=(0.00, 5.15, 104.80) size=(5.20, 3.00, 1.20) margin=.2m
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Realmwalker.Authoring.RealmwalkerR5:Apply () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:111)
+Realmwalker.Authoring.RealmwalkerR5/<>c:<Batch>b__5_0 () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:118)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Realmwalker/Editor/RealmwalkerR5.cs Line: 111)
+
+Importing 'GUID: 280e861fa0b0f74488e9b1f5fd920075 - Path: Assets/Scenes/Person2/Jungle_Prototype.unity' with importer (DefaultImporter)
+Imported 'GUID: 280e861fa0b0f74488e9b1f5fd920075' -> (Import Result ID: '95e847b2c5461f99916aa16a8f97b0e2') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=4c6cc8af1f71e23a13df5be976290e01 DependenciesID=dcd3d5e46ca515cd2492675dc9c12d02 StaticDependenciesID=cfeba74b1a437776a1190e4ad59c0342 
+Refreshing native plugins compatible for Editor in 2.61 ms, found 4 plugins.
+Asset Pipeline Refresh (id=6a22cf740fa166149bb3eae7a0e6d80b): Total: 0.030 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+	Deserialize:            16.409 ms
+	Integration:            21.369 ms
+	Integration of assets:  0.020 ms
+	Thread Wait Time:       0.009 ms
+	Total Operation Time:   37.806 ms
+Unloading 463 unused Assets / (6.7 MB). Loaded Objects now: 11253.
+Memory consumption went from 433.6 MB to 426.9 MB.
+Total: 9.261700 ms (FindLiveObjects: 1.078300 ms CreateObjectMapping: 0.310900 ms MarkObjects: 6.928700 ms  DeleteObjects: 0.582000 ms)
+
+R5 REALM 1 entrance=(0.00, 0.15, 0.00) runner=(0.00, 0.06, 1.00) exit=(0.00, 0.15, 88.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Realmwalker.Authoring.RealmwalkerR5:Apply () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:95)
+Realmwalker.Authoring.RealmwalkerR5/<>c:<Batch>b__5_0 () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:118)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Realmwalker/Editor/RealmwalkerR5.cs Line: 95)
+
+R5 GATE 1 zone=(0.00, 1.15, 84.80) size=(5.20, 3.00, 1.20) margin=.2m
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Realmwalker.Authoring.RealmwalkerR5:Apply () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:111)
+Realmwalker.Authoring.RealmwalkerR5/<>c:<Batch>b__5_0 () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:118)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Realmwalker/Editor/RealmwalkerR5.cs Line: 111)
+
+Worker ready: AssetImportWorkerHW0 0
+Importing 'GUID: 01101cf77d7b0744baf9d099d2a97676 - Path: Assets/Scenes/Person2/Ruins_Prototype.unity' with importer (DefaultImporter)
+Imported 'GUID: 01101cf77d7b0744baf9d099d2a97676' -> (Import Result ID: '5723239a885937d075e003db04de32a8') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=8524be6dd4078bb2ed80ea6a9e2ab8c3 DependenciesID=2eed4534e5f1d812978ccb2914a32a16 StaticDependenciesID=3b3504a68d7687b5bafdb8681ff06fba 
+Refreshing native plugins compatible for Editor in 3.31 ms, found 4 plugins.
+Asset Pipeline Refresh (id=3de038f94e3847d4297ce648654460c6): Total: 0.032 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+	Deserialize:            16.331 ms
+	Integration:            34.239 ms
+	Integration of assets:  0.038 ms
+	Thread Wait Time:       0.444 ms
+	Total Operation Time:   51.052 ms
+Unloading 251 unused Assets / (2.4 MB). Loaded Objects now: 10965.
+Memory consumption went from 430.4 MB to 428.1 MB.
+Total: 8.380600 ms (FindLiveObjects: 0.576000 ms CreateObjectMapping: 0.156800 ms MarkObjects: 6.964300 ms  DeleteObjects: 0.367000 ms)
+
+R5 REALM 2 entrance=(0.00, 0.15, 0.00) runner=(0.00, 0.06, 1.00) exit=(0.00, 0.15, 88.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Realmwalker.Authoring.RealmwalkerR5:Apply () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:95)
+Realmwalker.Authoring.RealmwalkerR5/<>c:<Batch>b__5_0 () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:118)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Realmwalker/Editor/RealmwalkerR5.cs Line: 95)
+
+R5 GATE 2 zone=(0.00, 1.15, 84.80) size=(5.20, 3.00, 1.20) margin=.2m
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Realmwalker.Authoring.RealmwalkerR5:Apply () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:111)
+Realmwalker.Authoring.RealmwalkerR5/<>c:<Batch>b__5_0 () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:118)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Realmwalker/Editor/RealmwalkerR5.cs Line: 111)
+
+Importing 'GUID: 39f2e4ca47ae8644490387d72821a285 - Path: Assets/Scenes/Person2/CrystalCave_Prototype.unity' with importer (DefaultImporter)
+Imported 'GUID: 39f2e4ca47ae8644490387d72821a285' -> (Import Result ID: '31ec62f1ff708ddd9de6745d46a35a5b') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=d4826c6278d0863a75b8d58f9a51f06c DependenciesID=50a0b1de0ba6afd05da2977fcb829026 StaticDependenciesID=9670948f71149010809fe2efbbdce65a 
+Refreshing native plugins compatible for Editor in 2.82 ms, found 4 plugins.
+Asset Pipeline Refresh (id=5964ece59c7ecd44fb4eab61e7a817c9): Total: 0.029 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+	Deserialize:            11.766 ms
+	Integration:            22.524 ms
+	Integration of assets:  0.306 ms
+	Thread Wait Time:       0.023 ms
+	Total Operation Time:   34.618 ms
+Unloading 265 unused Assets / (2.4 MB). Loaded Objects now: 11146.
+Memory consumption went from 430.6 MB to 428.2 MB.
+Total: 8.995800 ms (FindLiveObjects: 0.716900 ms CreateObjectMapping: 0.235500 ms MarkObjects: 7.339800 ms  DeleteObjects: 0.364600 ms)
+
+R5 REALM 3 entrance=(0.00, 0.15, 0.00) runner=(0.00, 0.06, 1.00) exit=(0.00, 0.15, 86.00)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Realmwalker.Authoring.RealmwalkerR5:Apply () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:95)
+Realmwalker.Authoring.RealmwalkerR5/<>c:<Batch>b__5_0 () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:118)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Realmwalker/Editor/RealmwalkerR5.cs Line: 95)
+
+Importing 'GUID: d110e5b36c59e0145babf4369bc37e04 - Path: Assets/Scenes/Person2/HiddenCity_Prototype.unity' with importer (DefaultImporter)
+Imported 'GUID: d110e5b36c59e0145babf4369bc37e04' -> (Import Result ID: 'f8a66f94b893e75c6efc84bea939acd1') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=041ac306cdc3bb2dd25028011de59f1a DependenciesID=576c64a623a04d6ef566149ffb87fedb StaticDependenciesID=44967f582fdc5aa444284b65f586ca54 
+Refreshing native plugins compatible for Editor in 2.87 ms, found 4 plugins.
+Asset Pipeline Refresh (id=6bb6900137e6a2347bb080df1910e788): Total: 0.032 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 949 unused Assets / (7.5 MB). Loaded Objects now: 7854.
+Memory consumption went from 435.5 MB to 428.0 MB.
+Total: 10.742300 ms (FindLiveObjects: 0.552400 ms CreateObjectMapping: 0.153600 ms MarkObjects: 7.628100 ms  DeleteObjects: 2.027300 ms)
+
+R5 HAIR BIND: 210 vertices, rest error=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Realmwalker.Authoring.RealmwalkerR5:HairPreview () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:133)
+Realmwalker.Authoring.RealmwalkerR5/<>c:<Batch>b__5_0 () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:118)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Realmwalker/Editor/RealmwalkerR5.cs Line: 133)
+
+GPU Resident Drawer created.
+R5 HAIR: original weights/bindposes and material; four preview angles saved.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Realmwalker.Authoring.RealmwalkerR5:HairPreview () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:153)
+Realmwalker.Authoring.RealmwalkerR5/<>c:<Batch>b__5_0 () (at Assets/Realmwalker/Editor/RealmwalkerR5.cs:118)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Realmwalker/Editor/RealmwalkerR5.cs Line: 153)
+
+MonoPathRemapper: Attempts to remap: 32019; Successful remaps: 18834
+Serialized file version minimum: 22, current 23
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '8151b601d05d3e12de314c2aa1f82962') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=6180c49ef29638684367d2893c04e070 StaticDependenciesID=5b19720d9149525484b40148944c8e26 
+Refreshing native plugins compatible for Editor in 3.08 ms, found 4 plugins.
+Asset Pipeline Refresh (id=8e91098003c48e0498b7bd413e8c348a): Total: 0.032 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+GPU Resident Drawer disposed.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Ryan Dhiman-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Ryan Dhiman channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792311619001,"processId":88420,"allocatedMemory":16319444,"memoryLabels":[{"Default":202499},{"Permanent":15516},{"NewDelete":79167},{"Thread":4197984},{"Manager":822173},{"VertexData":200},{"Geometry":816},{"Texture":24},{"Shader":851132},{"Material":68},{"GfxDevice":56112},{"Animation":2440},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":46464},{"Input":42840},{"JobScheduler":256},{"TextLib":336},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1271576},{"BaseObject":49168},{"Resource":1252},{"Renderer":2384},{"Transform":4685},{"File":25243},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":338983},{"StaticString":3808},{"Utility":2674806},{"Curl":2559},{"PoolAlloc":2504},{"AI":80},{"TypeTree":17165},{"ScriptManager":12640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":6808},{"CloudService":7296},{"WebRequest":7219},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":729},{"Secure":2377},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":128},{"EditorUtility":122830},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4934538},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":40465},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":272},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3606},{"Windowing":456},{"Licensing":12763},{"AssetReference":32},{"IPCStream":32}]}

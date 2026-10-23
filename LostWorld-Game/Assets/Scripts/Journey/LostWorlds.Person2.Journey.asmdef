@@ -1,0 +1,1 @@
+{"name":"LostWorlds.Person2.Journey","rootNamespace":"LostWorlds.Person2.Journey","references":["UnityEngine.UI","Unity.InputSystem","LostWorlds.Person2.Hardware","LostWorlds.Person2.Integration","LostWorlds.Person2.UI","LostWorlds.Person2.Polish","LostWorlds.Person2.Interaction"],"autoReferenced":true}

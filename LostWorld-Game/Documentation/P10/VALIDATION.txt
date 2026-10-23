@@ -1,0 +1,3 @@
+Unity 6000.6.1f1
+P10 checks passed: 65
+Actual localhost TCP tested for all five commands, invalid input, framing, reconnect, cleanup, fallback, core interactions and UI.

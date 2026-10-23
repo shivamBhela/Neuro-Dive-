@@ -1,0 +1,46 @@
+[
+  {
+    "Path": "C:\\UnityProjects\\Lost Worlds\\Assets\\Realmwalker\\Animations\\Airborne.anim",
+    "Hash": "46E6BB2FC282A7A6CDEE61DDA89CFCB64B85F93A701F6BB0755161520D973EF0"
+  },
+  {
+    "Path": "C:\\UnityProjects\\Lost Worlds\\Assets\\Realmwalker\\Animations\\Fall.anim",
+    "Hash": "091236F85CBDBEF08D244DFCE321BD538E66035FC0A327FC7AB246ED4047934F"
+  },
+  {
+    "Path": "C:\\UnityProjects\\Lost Worlds\\Assets\\Realmwalker\\Animations\\Idle.anim",
+    "Hash": "786B6B09E495353FA880E03FC47C21FDA3F40BEF357C4FB516628508EC157A4B"
+  },
+  {
+    "Path": "C:\\UnityProjects\\Lost Worlds\\Assets\\Realmwalker\\Animations\\Land.anim",
+    "Hash": "33B64F504AF11B5CA3E6D0456E05C94A4D08B64727401DF497D686155D73516B"
+  },
+  {
+    "Path": "C:\\UnityProjects\\Lost Worlds\\Assets\\Realmwalker\\Animations\\Run.anim",
+    "Hash": "A72A9D35192DCBE3DB6607C517FD49D4555CFA8D1D43DDB3B06B58ACE94B7ED9"
+  },
+  {
+    "Path": "C:\\UnityProjects\\Lost Worlds\\Assets\\Realmwalker\\Animations\\Takeoff.anim",
+    "Hash": "AE34B97EDF7A1A69CC8A2A23D5A15F793C7BC94FD6A9C5C86B00B546F2C766B2"
+  },
+  {
+    "Path": "C:\\UnityProjects\\Lost Worlds\\Assets\\Realmwalker\\Runtime\\RealmwalkerAnimation.cs",
+    "Hash": "DFB241F1BF8B73021932FB1C5D8741C53CFD9CE513D1EFEE3A29D9EA54DF77DF"
+  },
+  {
+    "Path": "C:\\UnityProjects\\Lost Worlds\\Assets\\Realmwalker\\Runtime\\RealmwalkerFollowCamera.cs",
+    "Hash": "6B8EB5CF7D67A294A32531BF3A0BDF292FC55698C1B0E6BE6E721573B4E69993"
+  },
+  {
+    "Path": "C:\\UnityProjects\\Lost Worlds\\Assets\\Realmwalker\\Runtime\\RealmwalkerRunner.cs",
+    "Hash": "632148640B3755E99F35CBFBF0739DDC0C38083D052C5AE493C20FF529F51992"
+  },
+  {
+    "Path": "C:\\UnityProjects\\Lost Worlds\\Assets\\Realmwalker\\Realmwalker_Player.prefab",
+    "Hash": "21963C883D2B08E3D7B50254FD3A825F702A2D92B8818887514871BB79B5E4E0"
+  },
+  {
+    "Path": "C:\\UnityProjects\\Lost Worlds\\Assets\\Realmwalker\\Rig\\RealmwalkerAnimator.controller",
+    "Hash": "E0180345DBE54B51896C4BB9697AC8200A21ABAC6238F3B8E958269562B20A47"
+  }
+]

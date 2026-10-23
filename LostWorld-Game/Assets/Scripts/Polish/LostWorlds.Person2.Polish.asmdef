@@ -1,0 +1,6 @@
+{
+ "name":"LostWorlds.Person2.Polish",
+ "rootNamespace":"LostWorlds.Person2.Polish",
+ "references":["LostWorlds.Person2.Interaction"],
+ "autoReferenced":true
+}

@@ -1,0 +1,2762 @@
+[
+  {
+    "Path": "Assets\\Art.meta",
+    "Hash": "4C42E3812F4D605A20135A3DB228315C42C8F7E3706E9F026CF4401E47670305"
+  },
+  {
+    "Path": "Assets\\Audio.meta",
+    "Hash": "683E803CF62E5A2C123D284B3BF057E8ED9FF877199D8D27E6A949F8BB2C2FF9"
+  },
+  {
+    "Path": "Assets\\Editor.meta",
+    "Hash": "35FDAAEC0E7C8DE5DBC1E2658E97D04C6347A6CF0A1A3B1C000D01D8D7434145"
+  },
+  {
+    "Path": "Assets\\InputSystem_Actions.inputactions",
+    "Hash": "1C6CBB519D65ECFE19A29231735B7F54741A20AC1A8AD4F46A18E1BFB28A3C39"
+  },
+  {
+    "Path": "Assets\\InputSystem_Actions.inputactions.meta",
+    "Hash": "3B4E424A80F5B4FA76B6ABD774884A24285EAA61F22FF9BB20E5AD505FD8B569"
+  },
+  {
+    "Path": "Assets\\Prefabs.meta",
+    "Hash": "8A9F766F050457A88E42158192A8B049FA8422EB49F8CF13496E854EC62CAD80"
+  },
+  {
+    "Path": "Assets\\Readme.asset",
+    "Hash": "4CA7614FE45A13AC0423B2C4CED1BCD13B0F889649BD9BD70BB2D2A4CEEE5AFA"
+  },
+  {
+    "Path": "Assets\\Readme.asset.meta",
+    "Hash": "46C6B89AC1D47BD0C0D1A8B141AE3E32CD95D3E74C49381F0D9F942488C254CE"
+  },
+  {
+    "Path": "Assets\\Scenes.meta",
+    "Hash": "92598EF42AEAA7813A50E780BCEE1AD6C832B257592D09FFB0E6FB6116BB703F"
+  },
+  {
+    "Path": "Assets\\Scripts.meta",
+    "Hash": "4BDF3EBF542E545305F75FBDCA1541C041D9B1A35CE059844461687528908AE1"
+  },
+  {
+    "Path": "Assets\\Settings.meta",
+    "Hash": "73C8E19843240273FACB0AF6BDBF430D719E397ADED705629594060CE25CE7AD"
+  },
+  {
+    "Path": "Assets\\TutorialInfo.meta",
+    "Hash": "07F022E5932C833D026E020B27D73452EBD781993B616D76003494AF1E140946"
+  },
+  {
+    "Path": "Assets\\UI.meta",
+    "Hash": "4E8FE446EE2E8B3373D42EB1DA2ADB3F1D325AE89940F9833EF898CFAD911F54"
+  },
+  {
+    "Path": "Assets\\Art\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Art\\Collectibles.meta",
+    "Hash": "145E60869261FEACE3D483B20AD2052E225E6072027D45B1063932E5A5201E6A"
+  },
+  {
+    "Path": "Assets\\Art\\Environments.meta",
+    "Hash": "77AFD099FA08BBAD3476DA6A5320643CFB68243C3D2F50D884568EAC0DA0AA44"
+  },
+  {
+    "Path": "Assets\\Art\\Materials.meta",
+    "Hash": "E99B8A6542C605F065A7758E448203D74968558D59181ADCFAB7D2EE699E76F0"
+  },
+  {
+    "Path": "Assets\\Art\\Models.meta",
+    "Hash": "D57BA3A68162FA22A10C542E2FA5EE07FE2C77BA38EFFF0260A7DA77FE61C37D"
+  },
+  {
+    "Path": "Assets\\Art\\Textures.meta",
+    "Hash": "2D50082801F1A727AB76337DDA6A1E80A30F9C5F6535839D8875239F39E937C9"
+  },
+  {
+    "Path": "Assets\\Art\\VFX.meta",
+    "Hash": "B29EB6249131EE8F10576A22EBC5E49634CF82C6D53D14F0C54168EEBCE0F4C5"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\CrystalCave.meta",
+    "Hash": "1AA4472AA03D60B82E5E461ADA5AE1093F7D1CF223834DDF06FA6E450B6772EF"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\HiddenCity.meta",
+    "Hash": "B4C672186CB9393922BB64E866A51E426F624D199CF9AF81BC69B21E61BE117C"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle.meta",
+    "Hash": "B7C051819A4CA3F8B149152A95AE961D3E54202C3951B2EAD9B63840D8576AD8"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Ruins.meta",
+    "Hash": "4AF58A7FB8B2D88A45E6082ABC5E17AE10120457912119A3AF519F15EC61BEE8"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\CrystalCave\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\CrystalCave\\Prototype.meta",
+    "Hash": "697244CD1CFB5A950D2A5E4897CD9B7AB7BE29C788DF7F8FA709C322A196B60E"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\CrystalCave\\Prototype\\FacetedCrystal.asset",
+    "Hash": "D9BEFDD4703A9156529A12FD09AB74ABA239162F7123C2B0A8BE65326FAF7615"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\CrystalCave\\Prototype\\FacetedCrystal.asset.meta",
+    "Hash": "7C8743B76205B967F98A7CB303E4D4F0082E8F30CAF58755A5F113DC8714411A"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\HiddenCity\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals.meta",
+    "Hash": "AB1B11D0DF9F9AFCF899BB1356DC1BE875D7007B06B1FF1FF4206784F328381E"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\P6Routes.meta",
+    "Hash": "56ECDD4D44C21D7F03283473AF6A2E0C018C5A27F098D54FD962EE37FFB08920"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype.meta",
+    "Hash": "16A4CAADCBBB074C3032F1D9CE8A267D9C1FE8586ECEE52B463564B1461B6BD5"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\ScenicPolish.meta",
+    "Hash": "FCBA7893F72BF9A0D3E4E7E45365B93BF7F08D70638272D0AF70F92DA68A814F"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\AgedLimestone_Color.png",
+    "Hash": "1D510A6B805CCBC8CB258BF660B54D361830870C8963229ED495E04E5FF40A5C"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\AgedLimestone_Color.png.meta",
+    "Hash": "3C9FC63EDC4CF12C8A50F3B55545DFE0176D176D607F7610C6EC0FAB7A1E411C"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\AgedLimestone_Normal.png",
+    "Hash": "E965EA70D05071B9605A87BC30D6EC1F4E8C0F5F01281AFEB34A576015C189FD"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\AgedLimestone_Normal.png.meta",
+    "Hash": "7C217BEF4C1018E8AEE3F989611A274800FC476941A704CB8AFE3BB1AC224743"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\AgedLimestone.mat",
+    "Hash": "3869D516B23B2FAE2DC6FC8A3879BF0920F7B4D7B065B1254D458CA1A552F3D7"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\AgedLimestone.mat.meta",
+    "Hash": "0FA4B7F46B026041053C2DD5DC43DEE10ED7500149E7BC7ABB2412CB2268EF94"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\ButtressWedge.asset",
+    "Hash": "5D7070272812821E7E5BDAAF5B22F8DBCC80097123AE6355A976733F49344D33"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\ButtressWedge.asset.meta",
+    "Hash": "A2F020E921D1F072CD363F30B9A4FF6156A23D21BEB522DE6BDF63FEA07FF697"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\CurvedLeaf.asset",
+    "Hash": "0D0DA9A6D176145E22FE08346222EC1C2227F0C7CDC2EDC7DF48593960DE6B70"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\CurvedLeaf.asset.meta",
+    "Hash": "6EA4A887F0ED23AAD57578AB44ADEAA31EAD3DC863DE12F6BF00C3A6652C4CBC"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\DeepFoliage_Color.png",
+    "Hash": "50A6F898A37F61A0E91C509D5ABE62F5AB9734CCFE527FD6302BCB76687E6524"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\DeepFoliage_Color.png.meta",
+    "Hash": "A00D1E2E19F0F3430A3E83833B3687D132FA62D96732715C5DBE523580289BC8"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\DeepFoliage_Normal.png",
+    "Hash": "E965EA70D05071B9605A87BC30D6EC1F4E8C0F5F01281AFEB34A576015C189FD"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\DeepFoliage_Normal.png.meta",
+    "Hash": "8CE1888AFE6C8B9E8CF5C9CB35B909506C45B5FE3969C7B9EB8F72AC0A8E6CBD"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\DeepFoliage.mat",
+    "Hash": "109E1B57C050E84EA3A72CD43515E200B49BDA4F5DF06A63B766311BADAFD52A"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\DeepFoliage.mat.meta",
+    "Hash": "4C79D29EB85B15137EBE7C60BD427C9BDBE39E55D1582637037A6D87E1314426"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\ForestFloor_Color.png",
+    "Hash": "ABC7DEB8FCBA5D820BD6AF816E3AB9897BD9D81C1A3A605CBEA9991F5F1FD339"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\ForestFloor_Color.png.meta",
+    "Hash": "998BEEF0E54B4EE52FD03E1B63EA12F415FC7E57A8DECB876F8F1A4F75981DF0"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\ForestFloor_Normal.png",
+    "Hash": "E965EA70D05071B9605A87BC30D6EC1F4E8C0F5F01281AFEB34A576015C189FD"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\ForestFloor_Normal.png.meta",
+    "Hash": "D2CC49995E17EE50BD04E445EF6222D32D79C41BAFFBFAA8B3E19EA832FCF93B"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\ForestFloor.mat",
+    "Hash": "844B38EBEBFE04CE8D32158D15A585B5E2185F225B3D6CD28766D3497E0C1757"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\ForestFloor.mat.meta",
+    "Hash": "632624A9635897156A652F836E1C85C4DD60220E0078543060FCE40520FBBB85"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\JungleHazeSky.mat",
+    "Hash": "3C31B3EC8BE992116D50B51C03649CA8D51231DFCDAD1DEDDCABBC069FB42528"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\JungleHazeSky.mat.meta",
+    "Hash": "1ADF65BF8A590F24A5C1873D469FA97D60FDB8EE49A0F01D768857E8E8F4398D"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\JungleNaturalGrade.asset",
+    "Hash": "B979599F95E7C45AFAD346C732CC9A19DF6ACDEF09E8AA22259C363F36DD7EE8"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\JungleNaturalGrade.asset.meta",
+    "Hash": "410B2352DBFA8141F615B522847C8669B7B4B80007FDCFC2E40709E99BA9AF0D"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\OrganicCanopy.asset",
+    "Hash": "691249660D0E860CACE3158CF4925657303743A9B99CF0C87FF4F4BCC96A4B1E"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\OrganicCanopy.asset.meta",
+    "Hash": "450D46399A8D7F993ECE0770D8B1A511FBF32C8372CE1DA8E5A9BF9DA772A3B3"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\OrganicRock.asset",
+    "Hash": "2DAE81ACC9F6E7C804D391C57EB07916583B7D3F657DD6B6ECA268C98F4BC8C8"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\OrganicRock.asset.meta",
+    "Hash": "DD2DF157B9FFB8EE6E88B57FD1779C1D3CCFF46499C40DAC0D1C97EAC4934E2F"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\RoughBark_Color.png",
+    "Hash": "F21975A6B29187EC8787E38063EF05FEA3E94327ABCDF0A1AC946B020C20B277"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\RoughBark_Color.png.meta",
+    "Hash": "FFF92535D044523028C9DFEED4569515441E2CEA6168117AEAC8FB4BA2B53501"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\RoughBark_Normal.png",
+    "Hash": "D28C2BF8254EF6BB29AB9C76178C3B23B1796F53B706598D821B00A834B0BF7D"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\RoughBark_Normal.png.meta",
+    "Hash": "6AC0B309558F0C1AC4B6FBD9C19E6633AFE6697758A68E41EDC2B4FB1EDBD7FE"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\RoughBark.mat",
+    "Hash": "483BDE0286C750F53CBAB3C531E451D36454DF23B4CAF7B713DC059C1F165426"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\RoughBark.mat.meta",
+    "Hash": "E79686F40C1B815F7A2889BDAF62076F4997606E65B47096B91D557D10B9BE3F"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\SoftMoss_Color.png",
+    "Hash": "35DB426C09B56BF8CB6131A5492661A15F76DAA3A08258BDF2EF0FEBC41739A7"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\SoftMoss_Color.png.meta",
+    "Hash": "B05E833E0D76E82123295371B0A4D676AC7DC81118C248BD609B2E4B6221942D"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\SoftMoss_Normal.png",
+    "Hash": "E965EA70D05071B9605A87BC30D6EC1F4E8C0F5F01281AFEB34A576015C189FD"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\SoftMoss_Normal.png.meta",
+    "Hash": "BEE8AD47A4B0F3A2208C47BFEBC89E6527165E2804CB6E0F6B53EE5C1A17D6BC"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\SoftMoss.mat",
+    "Hash": "06C94ECF3164C51033325727CB539B013622BB93DE677AE744812A24DDB96A42"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\SoftMoss.mat.meta",
+    "Hash": "00B90F93212A5B28E85112A30A898210C12D1F7FAC6CF8E6F822079D4DA0F3B6"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\SunlitFoliage_Color.png",
+    "Hash": "E72B7F21C75D986F0B2B8B964F4EE833272144C1CA20AFA30AB1E2CEA7E2E00A"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\SunlitFoliage_Color.png.meta",
+    "Hash": "69A986EDBCB26EEB671C006F027F59AC25FBC12BAB491AD2A3BE16D08943BAD3"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\SunlitFoliage_Normal.png",
+    "Hash": "E965EA70D05071B9605A87BC30D6EC1F4E8C0F5F01281AFEB34A576015C189FD"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\SunlitFoliage_Normal.png.meta",
+    "Hash": "B0035AC527CC38C4088CAEBF217C1AAC7C6488308D6343C341AB08A566EC22FF"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\SunlitFoliage.mat",
+    "Hash": "C8C8B16556E6A508095BF6225EF5481221F67D07B0FECAF590864028E62B26A9"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\SunlitFoliage.mat.meta",
+    "Hash": "952CD356FB3E7F8FF868C899A36EE8D53436E935D49C2F6F8164F6A54A32C56C"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_ContinuousMainRoad.asset",
+    "Hash": "A47C573C9D509F3E628D8A4607751A5910959F19B0F31674FEC55836EA56ACA8"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_ContinuousMainRoad.asset.meta",
+    "Hash": "C5E4125BE6E62D0EC6996F6941582854CF5B41DE6714B716395D43D0A67D102F"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_ExplorationGlade.asset",
+    "Hash": "CA01344B5B09CC76D781AFD54B7A4D44B477AF53CB368A606D185D7957863E61"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_ExplorationGlade.asset.meta",
+    "Hash": "5D168F286C95AEC16A73CA42E9877ED5B85EB191DD5A861E5F5F5F26D5D30435"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_GladeApproach_Junction0.asset",
+    "Hash": "FC0DE1DC788A535A3FFDFC431FA6BA40136D1EDC1C7634EF80009A4970FBAA81"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_GladeApproach_Junction0.asset.meta",
+    "Hash": "4998F9040660D330DA3A3CE8D91859863E09088F8E3B786C70D50D23CA50D474"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_GladeApproach_Junction1.asset",
+    "Hash": "3A10A8C164E96CDA95EDA2F85EF835929C64F5DF4B4FEE03EAB2F86733035723"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_GladeApproach_Junction1.asset.meta",
+    "Hash": "A2B8AAFF03117DD82C5596BEEA13FC59FD38B30B797794D4FD004D9D18E5C105"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_GladeApproach.asset",
+    "Hash": "19E080D269B86C648A85E25DD913BA2D0EF8D6B04860AFC011B9B04B348F4CE4"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_GladeApproach.asset.meta",
+    "Hash": "362E9A1AA72BADB6C210256797F50DB3C482F2C60D574B385BDB3494B9FC2FE0"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_JungleGround.asset",
+    "Hash": "4DE6ABFA60E2B50D24B92E4532C7DC85BDF8C57361D36EF13F8B6C0A5BD1E1B3"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_JungleGround.asset.meta",
+    "Hash": "13C45C29B6B3AC2FDE39F357D9B7BA6B4E5CF07B1D393F8C239C302EBDA66A4D"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_RuinClearingApproach_Junction0.asset",
+    "Hash": "FDE3432F828A0B3879AEA20CDCB2233CF820C52510A5E4528408BE17BD5A5AED"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_RuinClearingApproach_Junction0.asset.meta",
+    "Hash": "6D0EEE448CFEEF8BD11FEB03F178998D908FD68500E272B1216DB6E608C92801"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_RuinClearingApproach_Junction1.asset",
+    "Hash": "E9461FC1BFFA80E3E9B04A01D9FB1A038A5A803CE392117233052B7CA1372905"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_RuinClearingApproach_Junction1.asset.meta",
+    "Hash": "3E6B2D8EBA7D37F4FAD4C1654CA1CE27FBFED7F36A404FBEEE8B57D383A2F8A3"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_RuinClearingApproach.asset",
+    "Hash": "692CB24BD7D12873A413E54BB6BE2F5A9DEF0AE95FFAB30558D9656F29E12922"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_RuinClearingApproach.asset.meta",
+    "Hash": "8F24AFEF6BF2F42946B4C2AF7B831BDFBABF50F71876B8FBDD9F7BBBCA893EE0"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_RuinCourtyard.asset",
+    "Hash": "393EC227D54DE7DFF7C17F36ABBCC6BB49C76735291A019AB4460226374C34B4"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_RuinCourtyard.asset.meta",
+    "Hash": "7349907B77A8823E19577EE1D6172866329A1D9EC0758B8A65C843B1CAD4093A"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_StartClearing.asset",
+    "Hash": "B29A4EA991A21A897679F09D75BE29EB1421F7CEB34F0559D1C633056EC8B9AB"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Surface_StartClearing.asset.meta",
+    "Hash": "8D80EC47B1C1DEA3BF7FDFD14DF72FDC77C15C86494AD85186DAB3F7037624ED"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\TaperedTrunk.asset",
+    "Hash": "68D37F9FB5EF5F3AE08009B3A2734BA3B94472ECC3E8BB44F847F37594901AE3"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\TaperedTrunk.asset.meta",
+    "Hash": "685AD5E02941E4B21D5D0AC1F699D6DDBA3BF005B0FAFBFE26558EA5F087C654"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Understory_Color.png",
+    "Hash": "06E1E22C5531606B7A34AF3EC1AD9FFB4E599B291D0505B0B837FBA934335BFB"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Understory_Color.png.meta",
+    "Hash": "4C85728BB2DB1C88F291FB66F4BB96DB147FFF88567F8FE8971707F93FD672AD"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Understory_Normal.png",
+    "Hash": "E965EA70D05071B9605A87BC30D6EC1F4E8C0F5F01281AFEB34A576015C189FD"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Understory_Normal.png.meta",
+    "Hash": "542B68FB3F27019A54DC441CCD6ABD94C6A2769104AA95C520F8F02A00BC09C1"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Understory.mat",
+    "Hash": "6AB26FA11D0EB23356D1BDB5F4320E19E7530DFCC27155E5EAC38E0A30BBB82E"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\Understory.mat.meta",
+    "Hash": "D70ADA491B598F1D0FB6FB53BDD68CAE3722393512CA4F4D2636BF825F35E2F1"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\WeatheredEarth_Color.png",
+    "Hash": "2F51F1872CB8428DD11C804F5AC1FA30EDBC2BF5A1161DEF9435F3AE750EEDE4"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\WeatheredEarth_Color.png.meta",
+    "Hash": "736CCF6803148DB45D485A59DC47CFEDCBC59FDC174F9FFF8693F037113FCB4A"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\WeatheredEarth_Normal.png",
+    "Hash": "E965EA70D05071B9605A87BC30D6EC1F4E8C0F5F01281AFEB34A576015C189FD"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\WeatheredEarth_Normal.png.meta",
+    "Hash": "3DA3ECE4C2AF024844B3F6AAE301572DC9FB6C6347FBED4A1E4ACF6A7B44C88C"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\WeatheredEarth.mat",
+    "Hash": "C1EF16BBBD580AF9CDA81D67A0D46D2F3128E4071C8E7F3639703201659A1756"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\WeatheredEarth.mat.meta",
+    "Hash": "4C7267ADF9C7CD32E8D5A3F39B0D73970C6A07170C19371AC60BE48FAA9DADA9"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\WeatheredRock_Color.png",
+    "Hash": "5D2EF34127D55648E7C195B71527D647A030D42178AD7CEC72DC961FE9435707"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\WeatheredRock_Color.png.meta",
+    "Hash": "EF28F79F97BC1C4F8148B31D91603C61EFAC9AE0B2369B5595106F392FB4A9C1"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\WeatheredRock_Normal.png",
+    "Hash": "E965EA70D05071B9605A87BC30D6EC1F4E8C0F5F01281AFEB34A576015C189FD"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\WeatheredRock_Normal.png.meta",
+    "Hash": "F220260BBD08BCC56A17FAD7AD2392B450E5B18199A0212A7BE5CC884DA6CB36"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\WeatheredRock.mat",
+    "Hash": "A1B8C0E888F394FC4DADD865BF75DC9B0E8D41DCF7739321B29F2257406752C4"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\NaturalVisuals\\WeatheredRock.mat.meta",
+    "Hash": "029AAD80D9C431D28C46A44991B3890C1B538C95CDA23F9EF0884CBE9BD65C67"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\P6Routes\\GroundArrow.asset",
+    "Hash": "D41D0AE69C918A31DC2565C2705A16163452E48943A999A45E41C239E32EC970"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\P6Routes\\GroundArrow.asset.meta",
+    "Hash": "2F50BB0C4574F0C00BBA1F55632020BF434D9FD8DAA112CCB5464D3A06CFEE6F"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\ContinuousGround.asset",
+    "Hash": "FD678A47F20B58121E38C545B366ABB25086AB7144E9DFBB47B55C86688CE6FA"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\ContinuousGround.asset.meta",
+    "Hash": "190F39A035E8307A009AF6FC2006DF495911727178D503E4625ECB074C314AF9"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\ContinuousRoad.asset",
+    "Hash": "0BD4590D9D60D1B14B1D786E163D587D34AAEE77A0A2706600CA1B0215E616F4"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\ContinuousRoad.asset.meta",
+    "Hash": "731F17DDCA2FD507F7615BF54233AC54E0C1FF0DEBF44220BD588EB32CBC7B7C"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\ExitApproach_Junction0.asset",
+    "Hash": "886F26A3B28CCC0109BFB721E2FF61A1E8202C750B869F7110BD21D752F4F615"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\ExitApproach_Junction0.asset.meta",
+    "Hash": "2BB8E0440D95417D0DA26AE704D08904820F49D56736E864BF1847FC99BE4ED5"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\ExitApproach_Junction1.asset",
+    "Hash": "97048A44AB941B945887B3E8C43E40982A379E77F1BA382103F0DFB1EBD70BEC"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\ExitApproach_Junction1.asset.meta",
+    "Hash": "F0A3ED060AFEF4FB5AE368804A3DA74EC0D7E88500024FD9659D60EEF9CE279C"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\ExitApproach.asset",
+    "Hash": "893DA31A3204542C8F71A04F1A011CE3CF94ACABC353C57C93AB8E42465B4C10"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\ExitApproach.asset.meta",
+    "Hash": "B0A373CFE30AF24148926149D92D833B7FF9BBC2E99888D1D88673E3E97A4447"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\ExplorationGlade.asset",
+    "Hash": "DDF0EC7C348604097F97891B98272C79103D254F352E686832D5390AB6CC1818"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\ExplorationGlade.asset.meta",
+    "Hash": "A4D1C3EE07498CC6997D88175507BC0D7D2DF8EFC060983323E8E07C0632B36E"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\GladeApproach_Junction0.asset",
+    "Hash": "CF7A3687BD21417164097367421A6D7A16BBFD7B35BF96B89DC7D447DC6AC653"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\GladeApproach_Junction0.asset.meta",
+    "Hash": "A5782692A1206E521EB265187F188A7C03FE98714D3758B3B57845CBC13FA1E6"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\GladeApproach_Junction1.asset",
+    "Hash": "FDB1E75B478F3D025712A969F8529226824714805847EB7810076844F3DD20BB"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\GladeApproach_Junction1.asset.meta",
+    "Hash": "2FB709EB5CC011E5E318AAA14430B35BBAFD00FBFDB566E31D8D63E965004DCF"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\GladeApproach.asset",
+    "Hash": "FF5E5185758B69B6994824F6DB71DB98A9943B0C5888055A49E3F7C6866F0F41"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\GladeApproach.asset.meta",
+    "Hash": "18D692DAAC422639650021630A10E3B4CC4BC7B72A2848067FED00F6121ED3FD"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\JungleGround.asset",
+    "Hash": "B0770D8FD451CFFDFE2F9D0BCAFACE2DE777812001BE8E4FF5225F69FE729F09"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\JungleGround.asset.meta",
+    "Hash": "FF0BEC32C1F59E17EDC5784FFE5FF77F50643815CB771C4023B5C334173BF85A"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\LeftRoute_Placeholder_Junction0.asset",
+    "Hash": "0472C0DC3E6C96888DE0C923FDE04BA4685C4C230865AD9F815428C9FDF852E8"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\LeftRoute_Placeholder_Junction0.asset.meta",
+    "Hash": "B6CAEC6E2A13EC99E09C00BC4C3FC2C65E8EF24115D3DFE078BD036E35274AD6"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\LeftRoute_Placeholder_Junction1.asset",
+    "Hash": "2C068EDD67E59185CFDC943C066C18971C86C2AA96776F8E9D077B3155A53091"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\LeftRoute_Placeholder_Junction1.asset.meta",
+    "Hash": "61CA90CD18B8DD1350F29E87F319A8F49ADC737EC2A509F2E1E9C8042882102B"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\LeftRoute_Placeholder_Junction2.asset",
+    "Hash": "98DD72CBBCFAFE08A6023EB85D779E24D6796AAAD092078E0D1351D5A4720101"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\LeftRoute_Placeholder_Junction2.asset.meta",
+    "Hash": "B12552B8544C14F8C577097DE61CD5536064C14B6B482C94BD137710A76EE00E"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\LeftRoute_Placeholder_Junction3.asset",
+    "Hash": "804BD80A65C04ACCABA2302AADE615FE4A8D1C140B205158289D70B708D3B06E"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\LeftRoute_Placeholder_Junction3.asset.meta",
+    "Hash": "F9E6E3C4066858BCF53B28283261C79C58F7FB9DD7503BCBB21AFBC7BA5636A5"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\LeftRoute_Placeholder.asset",
+    "Hash": "F9665E56861FA8B11974126646AF20D3F7154BC7C3FC590599B5BE7B4A80B20B"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\LeftRoute_Placeholder.asset.meta",
+    "Hash": "7C6D74D070DA416EDA6FEF75C2053880360B6DE3673F0C66B0EFC2B46CAAF9BC"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction0.asset",
+    "Hash": "D84C9718A08CABAEA13DD81F44D70000890CED2AFEA8B2F67172AE9D080C4DC8"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction0.asset.meta",
+    "Hash": "05FD8FE5CE989DF7B341A9191D1A40998821F2F4D64A6E50F270D171E630BF6A"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction1.asset",
+    "Hash": "77551E9B4E96FBAD5A39029578B4B12BF57C420B68BC6212E23CC523DC9129E4"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction1.asset.meta",
+    "Hash": "DDBBFF71B2A12366245570987091280C1780C9D83A013F39352358AC762403D2"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction2.asset",
+    "Hash": "824D75A19C25881D43E130B19E062E0B0556EBF46CA0DEADDDFCD8BBCCD53A07"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction2.asset.meta",
+    "Hash": "0E74CCE2EAD3ABFBE2C0F211C5078A573049F9E8E4CA50A19088F38A775AF45D"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction3.asset",
+    "Hash": "13DB7545760CFBAE8E059A3608C24B1E12CA5C885EB7508F0A891510F5B700DE"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction3.asset.meta",
+    "Hash": "237EB7E20C4A796055E7A645810784D441157B72B70674788A560F04FE6E5132"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction4.asset",
+    "Hash": "1F6B19CD9A189E78B7501F27702BC59440BC7AF3845E24A99128C326314589F0"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction4.asset.meta",
+    "Hash": "1DECBFEEF711A6041271F9BBA4916423FACFB1E9C200D591B9DB8E9056373739"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction5.asset",
+    "Hash": "BC29A5286842B67B071304DEB8F48619272276C042CB56B1EFAB3B4269C3525E"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction5.asset.meta",
+    "Hash": "C67DC6B6DA4F38B1170AC7F56490B4451E4A92B425050E5B4ECFEDB939438920"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction6.asset",
+    "Hash": "FDF039DBE3A40A7CD41553988B97AEF78A2A24F89CA41EBAF6736CC47F4310CD"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction6.asset.meta",
+    "Hash": "792FA739CDEE42DCB6D7726A0A56D63ECCF543C37FEE0299D58B11937CAB74B5"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction7.asset",
+    "Hash": "44CA0310025D3A632D5826D561E3201BCB116AA9CCE25EF3723B1BD339B4B99A"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction7.asset.meta",
+    "Hash": "7C5CA7F512599448DB2BDBA7B3B91E676962A5D18C0C1DAFF853EF4B6853A12D"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction8.asset",
+    "Hash": "903BF2128A509B0F86D76387620F91E1DFFBD1F6B168CEA3A09ED5F98BFD4151"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass_Junction8.asset.meta",
+    "Hash": "7DD84891F0F16AD8DDFBC54B0DB6EFE579122E7C7F822B6F878B4D494B18CEDF"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass.asset",
+    "Hash": "05D40EFE1753A2DC972700113BCBDDA55C493336E31122692098DB51CA3C7991"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\MainTrail_WithWestBridgeBypass.asset.meta",
+    "Hash": "C4C6B2DE71698F617A7995ACDA1EF67DE6E77450CE015818AF424FDEE5DC2CBE"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RightRoute_Placeholder_Junction0.asset",
+    "Hash": "2CA4FC43969B07BBC78E577DBC43BA619C4AE86280EAB8E2B91E03BE663E85D4"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RightRoute_Placeholder_Junction0.asset.meta",
+    "Hash": "80DF2E5A5318971D92972FF15DAE39A01244272D02DB35128A75BCCA0AFDEEDF"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RightRoute_Placeholder_Junction1.asset",
+    "Hash": "7E98FA04ED412D02AC550EBE03770E4DB145CFE2C2CE076CCBD5EBF74B921B83"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RightRoute_Placeholder_Junction1.asset.meta",
+    "Hash": "F8FD78A8301ACDC4BBCC9ACF5D402494F1C133AE9E4A06E201451122C031818D"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RightRoute_Placeholder_Junction2.asset",
+    "Hash": "FBB2E2F97F66A6661F895C3251F230C1CDF8F96CBE91FA04CA254130CCD100DF"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RightRoute_Placeholder_Junction2.asset.meta",
+    "Hash": "AECD5E6B4323CD34D266F41C4C3F45C15E19C66F933D4F0089E16157C9913ADB"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RightRoute_Placeholder_Junction3.asset",
+    "Hash": "F796AB4C838EA4A89C23743205B29BF8D1EB573DF8955F8A47C8B0AF366FE60A"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RightRoute_Placeholder_Junction3.asset.meta",
+    "Hash": "4D2C82E896767B859FDD8CC017B6B6E9D5EABE2E970BA4E4CC12A49E7E208CFC"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RightRoute_Placeholder.asset",
+    "Hash": "A6F5A6AF7B3FD112F2CF27A8840E3EAF47A3B286769688634D862AD40A57CF26"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RightRoute_Placeholder.asset.meta",
+    "Hash": "E69728B00354090A67303116DC22650DA7F926334B69A7A6E3F9A9CAC81C34BC"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RouteSplitClearing.asset",
+    "Hash": "16976B99B45AAE1AB5579BF9712FC8B2F8A29CF0F9594873C5E7EBFE0805D2BF"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RouteSplitClearing.asset.meta",
+    "Hash": "8B4CD9BEA1232D951FD0FEC4D3535CC372444F887D323ECAFAD737323F0CEE86"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RuinClearingApproach_Junction0.asset",
+    "Hash": "8682D035491056B90059D9EDC3E9BEC4375633F769D7D5D9D439809EBD16D0A8"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RuinClearingApproach_Junction0.asset.meta",
+    "Hash": "63E57B068185334A029420F2F2CFFB20793FA6EF21BA22257DD64B180129E236"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RuinClearingApproach_Junction1.asset",
+    "Hash": "5D8BED82035E04E4490A51303862F2F128475016FE2EB34C5899CB292023F329"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RuinClearingApproach_Junction1.asset.meta",
+    "Hash": "172D78AA8BB549E29FBAAA29F06913DFC8C9B26A34890B599CEC5751754095F4"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RuinClearingApproach.asset",
+    "Hash": "D6F73211A9607F45D7BE34F19BA428083E1B34D98C1D64460601E4F40C268415"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RuinClearingApproach.asset.meta",
+    "Hash": "30EE40527E29BFFDA045DD1E8CC6713B3D9055FD4C1804768CE2868F0FB95ED7"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RuinCourtyard.asset",
+    "Hash": "FA24F13223F876BF06E7681109DCE522D65EFA81859D2FC1874EAFE202C15A42"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\RuinCourtyard.asset.meta",
+    "Hash": "16572E69A6B8DED5B10638A5FC841EF0EC7E21EBD19A25CADF818A4BFC030100"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\StartClearing.asset",
+    "Hash": "B77A50D82CDB3CE45DAB3F34746CE103346CA5F03B512B094E8772E8DD2C3D71"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\Prototype\\StartClearing.asset.meta",
+    "Hash": "16CA832473718EA8D16C5E6EFA358DAF02918E0C3736CCEE78072CAE851D2480"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\ScenicPolish\\QuietStream.mat",
+    "Hash": "2D59F27B5E39A26F9F2A7768F377AA80141A57FAB65E457DFEEE21E0863D1DF8"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\ScenicPolish\\QuietStream.mat.meta",
+    "Hash": "1D9F8A6678A711D6BC679F1CC566AE9A3F0BF8F18219DBD01A710812EC006ACA"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\ScenicPolish\\StreamBanksCollision.asset",
+    "Hash": "61874D338C8D50738EAF08C5D12891F95E65B84CAC86996EB2243562A5D82AFF"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\ScenicPolish\\StreamBanksCollision.asset.meta",
+    "Hash": "07FC216C74918AA8245D7B114FDE3EB397918EA1E77A99061A05DCF86F03271A"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\ScenicPolish\\StreamGroundVisual.asset",
+    "Hash": "F5AABC3E350BE770043125C80EB4EAF7F98E375B23AF2C91630B3509F9D350BE"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\ScenicPolish\\StreamGroundVisual.asset.meta",
+    "Hash": "F404A9443B061C8E8B5C3EE95BCB0D899E016F916D9D2BDB81BD915A621B9B87"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\ScenicPolish\\StreamRibbon.asset",
+    "Hash": "F9808CD182D9F3EC7F97F12FA364D76550EDD947C9B27625D606B99CE2C3B8D7"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Jungle\\ScenicPolish\\StreamRibbon.asset.meta",
+    "Hash": "DC4117F1A05F7049A7986FCF7A3743F1C41CC219CA08742CBE356F69B1DDE62F"
+  },
+  {
+    "Path": "Assets\\Art\\Environments\\Ruins\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype.meta",
+    "Hash": "4823C029AD1A67382DED95B662121E52BBCCB555FDF27399FAD4CC82E6FB897A"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P125Journey.meta",
+    "Hash": "0D63A6CD4AEBC1151471B82366FB1AC286AB3D92D68FB59A5007EC69F2989CFE"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish.meta",
+    "Hash": "20E21E2B7A815D261A515EA4A6D9101D8DAAAEDF032F443BF98296706248F0D6"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P4Interactions.meta",
+    "Hash": "D0168A8DDCFE03AEC21DBE1C5F14C7360476BE1C2CA19E2C684F8368278C7062"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P6Routes.meta",
+    "Hash": "C411F6812C81EBC3795964BF9186AE3E2D8E3723595C11DDF41A989114CEED59"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion.meta",
+    "Hash": "4E2C04E35E028306A00939EA18FB294FE9282BFFF83F4879942CFCC1D6D81ED5"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Bark.mat",
+    "Hash": "6BEA17716760D0249C00F8EC5F15237D741E9C0FAC1CB19596A6842D8510943B"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Bark.mat.meta",
+    "Hash": "E449362E4287605DEC20454D594A9284C30F1BA626FD0C289AE315D71DC88508"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Canopy.mat",
+    "Hash": "F1BBCDD712865E8805D963A381D6C0F9B3F4780B6AE252EDB3E50B40B89D1599"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Canopy.mat.meta",
+    "Hash": "FF003E10F11E6AFF087E066F75BB632663F3DCCED7F608E819315D791A88F3CF"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Fern.mat",
+    "Hash": "F3A0CCCD4A33B0CED77A17C154B73EBB963367E9E830577C5818AB2438711CAA"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Fern.mat.meta",
+    "Hash": "C57B20B0EE3655A6DAF0E35DC35D784BB2E30922B78A2EC4397DF9BDB2CE1257"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Ground.mat",
+    "Hash": "5F1E7AC21311D862809B1342D4D8D87202BE452E1854F43AAD37797061C3829B"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Ground.mat.meta",
+    "Hash": "B3282836F6F6316B009F05D5E360061015F3B46B0D6249C1C216FD7EBD950482"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\LeafLight.mat",
+    "Hash": "CBC93946E87B31664221700C7B89A1E1A964215A97E7197FAB5D6B3270E3F416"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\LeafLight.mat.meta",
+    "Hash": "80D0FEA4EC1B38253EEE08BD826760520380AF18C1AC13E846257489F536AD5D"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\LocationAmber.mat",
+    "Hash": "5EACDA4B599CC651BC2B2804DE02D187ED8EF94CDF081CA8348A3DA3C44518E6"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\LocationAmber.mat.meta",
+    "Hash": "59197F2BDDE27D201BBCB321763E85519BEC9EB54D2A15E98123FDA485D88F77"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\LocationTeal.mat",
+    "Hash": "E3A1706D536B5FEC558E912FC51E7CE6A24C7C08EF87D346F4F2D94B1049EADD"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\LocationTeal.mat.meta",
+    "Hash": "C2E6D4446EAEEFB4E5E853C4979BFB51AA41ED2012AAA2DF1850799F01D67883"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Moss.mat",
+    "Hash": "B1807DEA857DF58125414C76FCB4630CEE9F6A5FCB0CE6EFA925D5CFBC97E52C"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Moss.mat.meta",
+    "Hash": "68F1C6361A132C84B71D56E0EAFFBD890F510D2FD0BFE7BF7334EB4ABEC0605F"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Ravine.mat",
+    "Hash": "6CD426604024EBCA76AC7F384C9835619671D70CBFEA559E826B3C4AC21CE75E"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Ravine.mat.meta",
+    "Hash": "5126FB2E5A72389C9482792B80A30863A3214D2F61379ACADF95BEE92C45A2B0"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Rock.mat",
+    "Hash": "68C58B615A494F857DB2C15773F2FE725C09E23B87145912DD23E730D63D884C"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Rock.mat.meta",
+    "Hash": "43E1E06DED9C2805DA209F6F1141F3AF1FEFE3C29D17BB7905A2254CF9F9A82A"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Ruin.mat",
+    "Hash": "4B36BDFC701656E1A31C81FC97F9869D31ED3D5CE97F9E342F84F080C88CF848"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Ruin.mat.meta",
+    "Hash": "9C423B1176B89988B9793E758CFCF5D519844AE0332AB151170FF838615A7C10"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Trail.mat",
+    "Hash": "D4EFDE1E756C26C02771B67B773A20C03061C85E7E444C856E4950995AE8E79E"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Trail.mat.meta",
+    "Hash": "14C00695086AF491E5DA08A273BFD02E83088D6118D49D9931C0E38F29DF08C2"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Wood.mat",
+    "Hash": "9D3B8D386984AD0339FB628C5BFCBEF56505C8C367BA6751D2DA9D43A9DFA1CF"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\JunglePrototype\\Wood.mat.meta",
+    "Hash": "D062A4B4C877542392BA06B6164C535F4FD2D85485F2CD41EFC99109F4DA4288"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P125Journey\\PortalEnergy.mat",
+    "Hash": "C145D52315820ACEF593D47F4DD41AD98A93F08A09A2BAB1AA0F95F008EDA314"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P125Journey\\PortalEnergy.mat.meta",
+    "Hash": "9F119AE2BEF5C96CAC9CBD351181C98DDBE76C95540D68CC31191E4BAD999520"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P125Journey\\PortalEnergySurface.asset",
+    "Hash": "3294CA4765BD8FE695DC22209DBD95D694A84E5AB7EA7BC12F8C9988F5EAE156"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P125Journey\\PortalEnergySurface.asset.meta",
+    "Hash": "9479CA1D25F080AD7879F32F81B8B3567827FFDEFBAD09A2109120986AECA6BB"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P125Journey\\QuietPortalArch.asset",
+    "Hash": "C4410A7503CB7885E4B2F4005E088BB6196DCAC8702200441DE35777F99D742B"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P125Journey\\QuietPortalArch.asset.meta",
+    "Hash": "829F6A56C5BB67027C25414864DC8730BCD82C9DAB5DA19A2F4063F883C01ED5"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P125Journey\\QuietPortalEnergy.shader",
+    "Hash": "687D25BDC76F7116F009AD4B315D49071831D29CB0679BD6B0C3A93FFB372737"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P125Journey\\QuietPortalEnergy.shader.meta",
+    "Hash": "874A8934A6B68EF5C55C5568A9C3547CE8A20BEFE4812EE2E2DD0E90E5EB99CF"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P125Journey\\QuietPortalTeal.mat",
+    "Hash": "506AAA5B8558E98A29306E74DE67D9CF95AD28FA94E313EB0AD275744BBA90EF"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P125Journey\\QuietPortalTeal.mat.meta",
+    "Hash": "9D1E29C1E1FCB24C798C476798A3B3E8E0FFAEC31528560D8EC6DAAA7E235C58"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P125Journey\\TokenIvory.mat",
+    "Hash": "5B0EFA57E2D3598DC3C23A56D8CB291CE6A75033F630B89887F64182D0022AD3"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P125Journey\\TokenIvory.mat.meta",
+    "Hash": "8F9CDC2375BD3533A479B43F34B4285CF0D375280D56510407D698B2CB956A81"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P125Journey\\TokenWarmGold.mat",
+    "Hash": "F69899BB49022C60D01F9CE676BFE17627C0C2DB93B36CF90A42BF9459045A35"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P125Journey\\TokenWarmGold.mat.meta",
+    "Hash": "8035FA88C165FBEDBBD43422DBCDEFDD149A7F2918F198CAD57E8A0117785334"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\City_DestinationIvory.mat",
+    "Hash": "B00E9F792A704FE4CF5CCA68246F0F165D48E6E0B54B5D91A7F0C4ED31BE9E9E"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\City_DestinationIvory.mat.meta",
+    "Hash": "8F2E9E70D3CD8EED384991468556983752EBCD4132AC4F6B5500C9346AF43647"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\CrystalCave_ObstacleContrast.mat",
+    "Hash": "F63D7819CB04529A240B91805C37F911BE2C5E5346456E953DD352B170400299"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\CrystalCave_ObstacleContrast.mat.meta",
+    "Hash": "750D24FBFC2C9975CB529A3E1BBFCFBB40654F4BA4F6793772F0A40406DBB350"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\CrystalCave_QuietAccent.mat",
+    "Hash": "A7A6E58B0510C7D60BDD2241C36A7BCC9E23E87AE47E0B6C37E7A4E20550180C"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\CrystalCave_QuietAccent.mat.meta",
+    "Hash": "AAF7D2B8DAE2F456C2462BDBF213D82E030A0CB30A7536154E4BC3B34EF5B41D"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\CrystalCave_ReadablePath.mat",
+    "Hash": "EB85A29CCE5A95CA7F7141098438C068C869F189B0D840D5B740C51EE65C09C0"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\CrystalCave_ReadablePath.mat.meta",
+    "Hash": "5061E327512D94213BC2788C1182A1669422053A80EECB6EF50E6EFFC771B93A"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\HiddenCity_ObstacleContrast.mat",
+    "Hash": "7814ACEA053979CF7C6814C3894441BE2190D7CEE08BF58A6FFD4801F40023B3"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\HiddenCity_ObstacleContrast.mat.meta",
+    "Hash": "A3625074DF1A68BCB21250EB6F7059A8CFA1AB12385E1EFA93F25AF23892F040"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\HiddenCity_QuietAccent.mat",
+    "Hash": "226AF603DB69FD0307EBF336DCE429E678142998A5BD5784660E714CE2631B0C"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\HiddenCity_QuietAccent.mat.meta",
+    "Hash": "68DB36C819265C135B216EB516E63EDCE8EA75ED688B4AE84F671C68D9FCD5E5"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\HiddenCity_ReadablePath.mat",
+    "Hash": "E08215FC812DAE620976877B6AD1954A4F31A227CEBF05BDFE64BD1C19B064BB"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\HiddenCity_ReadablePath.mat.meta",
+    "Hash": "687AE32CA46BFF0046F9B11CD7734E87ABC88F81A41676E33A340CBB9BCBCE96"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\Jungle_ObstacleContrast.mat",
+    "Hash": "471710C3482A8269419D8EE37ED39D15FB87BB789B356DF26273EFB3C59CBCEA"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\Jungle_ObstacleContrast.mat.meta",
+    "Hash": "FDF1781AA7D2D2146F09D6E5B118419F935EA60E7AEB5D5F61DD1F8DD642E8D8"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\Jungle_QuietAccent.mat",
+    "Hash": "E16E2A3F8C079345144E42EAAD5ED382C24DD2E696FF8BBBDF9A7DED44F17980"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\Jungle_QuietAccent.mat.meta",
+    "Hash": "52946724E9512F5276E93E8E357D73F9A41CC2CB8BD74B3CA8C2B54B62CC9384"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\Jungle_ReadablePath.mat",
+    "Hash": "22FEB6D4FCAFF50011937797310C5CE49C928D2EE7012E2E71CEC1E288C2419B"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\Jungle_ReadablePath.mat.meta",
+    "Hash": "C0A293D68004FC3CC56CA0CD5940055D92510DFF54AEBFCD4DE9BA00C3D72602"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\QuietRing.asset",
+    "Hash": "4F853CCB5E9D9991FFD9AF1069B7550A40F75FE61DABC96EE44E918815AB435F"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\QuietRing.asset.meta",
+    "Hash": "682A366574410F7CD942BB569707CDE5C38246F89E34238D00D40619F5E287A2"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\Ruins_ObstacleContrast.mat",
+    "Hash": "7BE0577619A74D0D0A47C0DD528D2E21263CDA268DD560EB33EF0FFE52C4DCCB"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\Ruins_ObstacleContrast.mat.meta",
+    "Hash": "E3C17337462A3BBF41E8BE743A2A10FA9066498E975B425093FC770BF3E0469F"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\Ruins_QuietAccent.mat",
+    "Hash": "6E323B7EDF2DA6B6E0AB048A8F952967E809F0FF6112142874C0A6546F3040B0"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\Ruins_QuietAccent.mat.meta",
+    "Hash": "2F00209C48E6D37B1866307291A064CCDADCD039150DC5B412880FD4F575BB5C"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\Ruins_ReadablePath.mat",
+    "Hash": "12071D8E81F384EBDAACE42455F422EAC5827ED94AC30641D8286FB8D19A3C51"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\Ruins_ReadablePath.mat.meta",
+    "Hash": "39C1EB58C2909C6B8E0E6C46F79BAA038CF05127CE3279690D2369E3AE7AAF17"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\SoftDisc.asset",
+    "Hash": "9283575F8565FE8A599C79EDA567A6C086378F4F1543FBD1A8D291AA2D640D4D"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\SoftDisc.asset.meta",
+    "Hash": "B0A65C9B5E5D27A513B15D165CF27FDEA49A99C948859A1195B7B645F51DEE1B"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\SoftMotes.mat",
+    "Hash": "12923D3DFBB99C116F43D0C3DB80EDE9F1517C73AFDD16BC7C9CC133EEAB4AE5"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P12Polish\\SoftMotes.mat.meta",
+    "Hash": "096BF377C54FE15771ED9876CB6DE23748B50AA7392DCD77797723936061101B"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P4Interactions\\DemoStone.mat",
+    "Hash": "835BCEB17B5D82C9CA84EA6D6D700EBAFE6FC5364B159AC4A7ED323BC95A908E"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P4Interactions\\DemoStone.mat.meta",
+    "Hash": "0A58E81FCE4B7F20CC422A406CBF670E06A57DDFD978418884AE135864755889"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P4Interactions\\ReadyAmber.mat",
+    "Hash": "46D6911308A68FA82A04624059E297E0CFED9BE5A47833B48C4EC5B7AF4EE9D7"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P4Interactions\\ReadyAmber.mat.meta",
+    "Hash": "693A6B27464C652FB726C11DBE14280581F4B767C59461068CB34D5667FDF2CD"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P4Interactions\\SuccessTeal.mat",
+    "Hash": "18DA9679C947BB79BD02433DECD88D1642DFAC37C14D113B450D475BA61DFB4C"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P4Interactions\\SuccessTeal.mat.meta",
+    "Hash": "5D8A5EFC5AE20697B50E7706C8496129BB81D36543060FBC55DC8500672DF603"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P4Interactions\\TargetBlue.mat",
+    "Hash": "ED46A235C0B75097132697C8A5247552A840D21B752241A9A8A09CEE60D41B27"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P4Interactions\\TargetBlue.mat.meta",
+    "Hash": "5ED7095EE2A94A4159A8BF94D652C9F2C01AAA8C16B908078ED61A22241C69A3"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P6Routes\\MarkerStone.mat",
+    "Hash": "094AB13DCB965DCE7120760620FCB33487AC2C631032826D6B81161601459117"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P6Routes\\MarkerStone.mat.meta",
+    "Hash": "49F2E4DBA1E561730F851A1D40AA5BB3CE34E463C4433B97F81F8A15A008A2C6"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P6Routes\\ReadyBlue.mat",
+    "Hash": "14316379861B9CE2C7E6D4D6B62E1DA9497311F350CDF2517D4256A04F3470F2"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P6Routes\\ReadyBlue.mat.meta",
+    "Hash": "C85F44B98C547AED3D77F7B4AC264EFBF0764DEB0685B670EB2DAF12D13F37B1"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P6Routes\\SelectedTeal.mat",
+    "Hash": "B81418D93F5C810973BD38609B7454107B7B6C78B8EC0DB1F600DE7135A362B9"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\P6Routes\\SelectedTeal.mat.meta",
+    "Hash": "47BAA124C71779BA27EFDF5A594EFB9C396459AEB35EAEC03B054E8310843DCF"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\CaveRock.mat",
+    "Hash": "DF40C5B58B754A2A91BA672EBE8EC71FBFE8FA45D0B19F610E7670F9D3370E8D"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\CaveRock.mat.meta",
+    "Hash": "102910B288B10AE6C5D77BAF1E9DB86C27E653D7DA6265BEBCB0022FF64F481F"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\CaveTrail.mat",
+    "Hash": "FDC83DB67A694B1168789C482B7A43180369F30BC0FF0DFD20850D6FFEFCB11E"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\CaveTrail.mat.meta",
+    "Hash": "D67D05E12DAEB01821658AE406CB89589AA6F153C6C6BF3FDA579BFE553D291E"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\CityGround.mat",
+    "Hash": "8689AA7994FD58EC1C1118A3FF14A0D0F1674C480DC09244702C6A550E1A745D"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\CityGround.mat.meta",
+    "Hash": "F76F4520C66D1614D03234B05CACF7D97F428D52544E30170A1367B42DC67888"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\CityPaving.mat",
+    "Hash": "2BA1558C367FEB04180137A2F7537BD7C639412B7419564ABA85FEA915498759"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\CityPaving.mat.meta",
+    "Hash": "328BCCACADA080821547C72FC1C48676B95C243A5EF4267A650DD85A042BEA37"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\CrystalTeal.mat",
+    "Hash": "3A6B3E4F65F4F2BB0CB7FE6752F1980273A8E4DF4B2D0285A738BA8E4CCAF71A"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\CrystalTeal.mat.meta",
+    "Hash": "3355F28BF2E374074D6A5B700A4E7070B7FCB9FCE6A6106202B30BF31066F104"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\CrystalViolet.mat",
+    "Hash": "3609454DF97E2D06B3DE1997EA5E879D284FA85125A844FE1E8FBC46C3B054B3"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\CrystalViolet.mat.meta",
+    "Hash": "FCAEC4F88E162CD33B2BD5CE713E892E9910E6826A684E836BF00CB2884C7338"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Foam.mat",
+    "Hash": "A0917F53D89226D1EF12CDF84900653F30BC0D8674D7D01B9A4CAC9C8F424E75"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Foam.mat.meta",
+    "Hash": "69C856C0B061ABC13E07638D2F4D8CB5A72FFF982E2E09FBB1CA5A9CDA1354F6"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Gold.mat",
+    "Hash": "E324AF887B09A8BEFBEDFE3C9D7F5CA13FF727239D42B77F81D2C441FAEE9E56"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Gold.mat.meta",
+    "Hash": "BE81ED21A7556896218EDE7A890718C4D4429B4327D995C5F32060FD5229979B"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Ivory.mat",
+    "Hash": "DAE461F6C3D2724DC95CD59F48EAD362B10961B1A913C3DD46F5B4B2B81255BD"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Ivory.mat.meta",
+    "Hash": "DCAEFDD43F1EC7018B9256683F89E5F63C49FF4BF0851F4E9506160BFB70DE6A"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Limestone.mat",
+    "Hash": "3546B096C47B118B8387AEB7671BDE26CFDE6616BD7F17C749D57EC9B5B452B7"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Limestone.mat.meta",
+    "Hash": "D155B0AD4D255448589428CE779850D6A7EE28981557E2C4FA72C0004BF6821A"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Location.mat",
+    "Hash": "C8D0848925F488EFAFD10D1D9AFE7EED67A476292F1083D61379A48F69C0C3AD"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Location.mat.meta",
+    "Hash": "7F76FE17D05C033960CDBC40A0E911EE9A8D07956BB76F6D92821B0262BC7487"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Moss.mat",
+    "Hash": "10C49840D47EF60EE46B854ECB6B874361C71409BC7EF42FD6BC448A79AA24B9"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Moss.mat.meta",
+    "Hash": "924371A2EEF4E94AB0AFB570EC228AD6321A07AC4824A9E1CA6A95A0DFEB3D81"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Patina.mat",
+    "Hash": "179964DE80DA7529A4AE45BBEB1C4BF4AFCFA385ECFA3B13F4C2C72DAF009CEB"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Patina.mat.meta",
+    "Hash": "297B2D9C06DF853FC0EABF669690DD2AD5DB18EA15302333361870C028088023"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\RuinsGround.mat",
+    "Hash": "750225BB8153C93C9DA4BB8726F1799E3F348DDABBE700029136B8E377AFF780"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\RuinsGround.mat.meta",
+    "Hash": "91F56B6CF155D3792CC387769720D52445880D6431E6C65F03456B35DA9260F5"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Sandstone.mat",
+    "Hash": "8757B303FBF269E12935CFE8FC2EE03C1B84E42A5367712EF326FB16663E9015"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Sandstone.mat.meta",
+    "Hash": "3FA0EE4115921E40301C1646F445072A366E34140F2EC279DF256583E89A9181"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Slate.mat",
+    "Hash": "AAAD421753EF33008BF183CED63838CCDEB7201F1127EE94DFDC0A2270623EB5"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Slate.mat.meta",
+    "Hash": "9AAC71F684E7AFAFC7DDC6B61F4BA3574406F09A4EF25F7FEE8D4CC4AD833D3B"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Water.mat",
+    "Hash": "321C036A39D2BFDE50EC712EF6107DA879137A7B29EC4E249D2EBCFBD9D28FA1"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Water.mat.meta",
+    "Hash": "3FCDD42384C86AD58E8FDC9C80845221EC1743DF663EFF16853FCF70217DAC93"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Waterfall.mat",
+    "Hash": "2F0A7773BFAB29FBD0FE74220C2D0B369CB80CBD9647D883917EDA93186BA8F4"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\Waterfall.mat.meta",
+    "Hash": "1DF2BDD903E2148D9EC6B20AFF0B0455A37E9DFA83381356F0BC8304D12D5DA8"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\WindowGlow.mat",
+    "Hash": "7F6BA8A8A07997839A68005AFE28C4AFD7EA32E396662FF8F4CEE7577390353C"
+  },
+  {
+    "Path": "Assets\\Art\\Materials\\WorldExpansion\\WindowGlow.mat.meta",
+    "Hash": "D8FA9C96A0C2A2091F0C53CC4D8C9E159A75CB6537174AE099C1EA9451A2790A"
+  },
+  {
+    "Path": "Assets\\Art\\Models\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Art\\Textures\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Art\\VFX\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Audio\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Audio\\Music.meta",
+    "Hash": "760250A35DA622DAE6D644669605A0307F82D471893FF4442758BE53AA04CB98"
+  },
+  {
+    "Path": "Assets\\Audio\\P12.meta",
+    "Hash": "69955EE24B70B6DD8D231247C8D6C5C0FB7AE807755F1B56EDBD214A54DDD371"
+  },
+  {
+    "Path": "Assets\\Audio\\SFX.meta",
+    "Hash": "EE9C858AA0AD420DD51F1992A353FAEF25E503B789E0D3D6CCE969BAD07214DB"
+  },
+  {
+    "Path": "Assets\\Audio\\Music\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Audio\\P12\\CrystalCaveAudio.asset",
+    "Hash": "D3D0ABB94EF4FD2DCCF8B35C4A8A6A5B2FE62DA4774D96AAC33589B063656F0B"
+  },
+  {
+    "Path": "Assets\\Audio\\P12\\CrystalCaveAudio.asset.meta",
+    "Hash": "13B6DC3B3E9292F4A1786B84FE30A2D8A66AD76B074A4E0A3B1F661B6018007A"
+  },
+  {
+    "Path": "Assets\\Audio\\P12\\HiddenCityAudio.asset",
+    "Hash": "30DB7A348A7E2CA84D50C71B291BE2A457814BCA0936A29E4EB980EFE83C5405"
+  },
+  {
+    "Path": "Assets\\Audio\\P12\\HiddenCityAudio.asset.meta",
+    "Hash": "98690B82A919DED8DFE5EC42B754586089FCA2724A61715FC4F66750DA3F2605"
+  },
+  {
+    "Path": "Assets\\Audio\\P12\\JungleAudio.asset",
+    "Hash": "D725D41937A036D98EBE81F148406C65FA6728A7E148D08FDB55ACAC60F8C8E3"
+  },
+  {
+    "Path": "Assets\\Audio\\P12\\JungleAudio.asset.meta",
+    "Hash": "3ABB2BA3C22DE2742AF057D899E54AF7BCE6BC126B686F678F21CD22B0AE599F"
+  },
+  {
+    "Path": "Assets\\Audio\\P12\\RuinsAudio.asset",
+    "Hash": "A0498C446B261300F374F4470F178FA670DD33AFCB465193DB356DAD335B7CDD"
+  },
+  {
+    "Path": "Assets\\Audio\\P12\\RuinsAudio.asset.meta",
+    "Hash": "1830B62B2EF2265CA5335E6E43E1DCF07EA7CC9B33696CD4A7B1471F997C9EFB"
+  },
+  {
+    "Path": "Assets\\Audio\\SFX\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Editor\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Editor\\JunglePrototypeBuilder.cs",
+    "Hash": "9D21FA9A9636A185C754FD7A45CDDFF0A16D247BA6EB45CB2B76E6280EBDA4D0"
+  },
+  {
+    "Path": "Assets\\Editor\\JunglePrototypeBuilder.cs.meta",
+    "Hash": "AB88685ED8873B0C9E102CCA3E7FBA6A86F1C44C8F327996DF837870F816636D"
+  },
+  {
+    "Path": "Assets\\Editor\\JungleRoadRefinement.cs",
+    "Hash": "E248279F395EBCEB45EC8701CC413E46E0D8E679391B1330981627B2C4D2C97D"
+  },
+  {
+    "Path": "Assets\\Editor\\JungleRoadRefinement.cs.meta",
+    "Hash": "6F2FAA78CAFC659D954F93D0073B2DB0E01415F225E2FB3CE5B99BCF5F91709B"
+  },
+  {
+    "Path": "Assets\\Editor\\JungleScenicPolish.cs",
+    "Hash": "54853FE84CD737F8E56876066CC9FAF99AF7F209686EEB6F092C669368643BCF"
+  },
+  {
+    "Path": "Assets\\Editor\\JungleScenicPolish.cs.meta",
+    "Hash": "7B7628A69B73CF2A1CA57A079BF81A027C26D347C0C8E722AECE719440FF8F51"
+  },
+  {
+    "Path": "Assets\\Editor\\JungleVisualUpgrade.cs",
+    "Hash": "A4986FC3AA9689E0D4EAC878994AAC9DCAE017589B1C8690B87603B4CFC36A07"
+  },
+  {
+    "Path": "Assets\\Editor\\JungleVisualUpgrade.cs.meta",
+    "Hash": "92FE1AE054206D33926CB627949F9A9FC263B9642C7CA559BB00709F34D650AD"
+  },
+  {
+    "Path": "Assets\\Editor\\P10AdapterBuilder.cs",
+    "Hash": "F8489EA8BDAB00D61037290D411E3E1E718CFE492E9C9D4F986DC99945EC4852"
+  },
+  {
+    "Path": "Assets\\Editor\\P10AdapterBuilder.cs.meta",
+    "Hash": "FF5646B83F281EC9D6832E8DDD2C172B18E4D923B81D8FA5757DC50BCB723B5C"
+  },
+  {
+    "Path": "Assets\\Editor\\P10AdapterValidation.cs",
+    "Hash": "341CEFD0A442D0FAC012269804C0D3C5604118BCD2E94F35F2A71365CD4083F1"
+  },
+  {
+    "Path": "Assets\\Editor\\P10AdapterValidation.cs.meta",
+    "Hash": "7272A49880FBF19B8B9FA31D03347B8B913E51527D3352D3D93BC5C0BAA971B4"
+  },
+  {
+    "Path": "Assets\\Editor\\P11IntegrationBuilder.cs",
+    "Hash": "8A630E2246CF59BABA8E2F0BA8D9C7947BAF523F74FB397E756C117830A7352F"
+  },
+  {
+    "Path": "Assets\\Editor\\P11IntegrationBuilder.cs.meta",
+    "Hash": "12F3448207209826D02F1EBE1265705A1A67782F5151A3E7564272D3AA2354F1"
+  },
+  {
+    "Path": "Assets\\Editor\\P11IntegrationValidation.cs",
+    "Hash": "D373A4ABBC6A3090D9A4983DA8FB51A4575AEB99FCF859E973BAD05FA325FE9A"
+  },
+  {
+    "Path": "Assets\\Editor\\P11IntegrationValidation.cs.meta",
+    "Hash": "8AEA0B6F2CC800559BBF138DB9B5FFBE81B8D43D75F0137CBB142E49045A92BC"
+  },
+  {
+    "Path": "Assets\\Editor\\P125JourneyBuilder.cs",
+    "Hash": "9E59C5E3C7B22DD00CFB2FF5ABCE9F075538D6D2181FC52D8A58B5343DD2AB98"
+  },
+  {
+    "Path": "Assets\\Editor\\P125JourneyBuilder.cs.meta",
+    "Hash": "CD9CE86FF421B710B092B80904EBC296E30B43643196BE84D4314A297B55B089"
+  },
+  {
+    "Path": "Assets\\Editor\\P125JourneyValidation.cs",
+    "Hash": "A2AC751991D068EC942A5F5CB87C30DCE32D8B7A1F4DA659173BE15CDA2F8D94"
+  },
+  {
+    "Path": "Assets\\Editor\\P125JourneyValidation.cs.meta",
+    "Hash": "98CEED343B89C8381E0A5544EC172A07C950A63BB3586BBD5829D3EE75C7CA85"
+  },
+  {
+    "Path": "Assets\\Editor\\P125PortalVisualBuilder.cs",
+    "Hash": "7BAA43ADF8C69CE9B49C5DC044BB0770DE20ACE5F09315B567876CC7D00912F1"
+  },
+  {
+    "Path": "Assets\\Editor\\P125PortalVisualBuilder.cs.meta",
+    "Hash": "43C81CDDFD712CE2ABF540FD61A596A4B84A5CD932C71212E47D9F5AC5B9609B"
+  },
+  {
+    "Path": "Assets\\Editor\\P125RegressionBatch.cs",
+    "Hash": "BD231A68FBED1AC50E7DD521A8542E446D54748D1EA8C8A57AC744F7EF170FE2"
+  },
+  {
+    "Path": "Assets\\Editor\\P125RegressionBatch.cs.meta",
+    "Hash": "80E2ADB671088B2331F3FC1B1290A06FB834298FC48B0701AC27E688CEFA0EB5"
+  },
+  {
+    "Path": "Assets\\Editor\\P12PolishBuilder.cs",
+    "Hash": "739C6DDD007E1E9F4C05BF4E2180588A828D3653114F4512C5C8BC7E3F43C54E"
+  },
+  {
+    "Path": "Assets\\Editor\\P12PolishBuilder.cs.meta",
+    "Hash": "316A0A361E1E76B519020C989C5264E77E043E1416C15133B0BFCD476C0F9C7E"
+  },
+  {
+    "Path": "Assets\\Editor\\P12PolishValidation.cs",
+    "Hash": "414D8C61281EC250EC5E2200342B3D7A486929629DCE13920A8C36AD41389B59"
+  },
+  {
+    "Path": "Assets\\Editor\\P12PolishValidation.cs.meta",
+    "Hash": "5A9EA17F20F5C16AC9591B2ED88DAE78B7111F74EB4AA4F471AFD759758FDF4B"
+  },
+  {
+    "Path": "Assets\\Editor\\P13FinalQA.cs",
+    "Hash": "A5C10B8B367F0D0DC196EAA95592D1EFEC1070143DAD11E026FA20DECED11BC9"
+  },
+  {
+    "Path": "Assets\\Editor\\P13FinalQA.cs.meta",
+    "Hash": "A9B32B3DC8F1CA94E439BEDEC688F7058CA55B0775FDE1E4CBECE1936D229F68"
+  },
+  {
+    "Path": "Assets\\Editor\\P14DemoBuild.cs",
+    "Hash": "7F8DF07E7A00E7F038757E3539729141C97F98D456A4E9960AF1B37D9D3F4D2C"
+  },
+  {
+    "Path": "Assets\\Editor\\P14DemoBuild.cs.meta",
+    "Hash": "76CB52EC786C9FD54D6BF273FAA2A0C18A952CB159A5D82D95754E48D268B47D"
+  },
+  {
+    "Path": "Assets\\Editor\\P4InteractionDemoBuilder.cs",
+    "Hash": "483137CA85D94BD97DDDEC13E86B2A9E5E699785B59C6E63531C8E20C77A4932"
+  },
+  {
+    "Path": "Assets\\Editor\\P4InteractionDemoBuilder.cs.meta",
+    "Hash": "BD8DCE70E07223E45583F61B6FB07977B3203DA7D1FDCB348B2DFF0D9AFF957C"
+  },
+  {
+    "Path": "Assets\\Editor\\P4InteractionValidation.cs",
+    "Hash": "C042FD2A2BAC27249B44992FF7A2F82C8131D5DD4978EDB54A92326BDD3E9768"
+  },
+  {
+    "Path": "Assets\\Editor\\P4InteractionValidation.cs.meta",
+    "Hash": "9188537E7FADEC6F7A28C18389D13AC95BE2D706E8A68ED52DB4333D84FBFD6B"
+  },
+  {
+    "Path": "Assets\\Editor\\P6RouteBuilder.cs",
+    "Hash": "EC5CC81669E2EB9E111C5A96ED2FBC2559F7DE3F0CC5C95E7FB3AF16BB7DE528"
+  },
+  {
+    "Path": "Assets\\Editor\\P6RouteBuilder.cs.meta",
+    "Hash": "4B36405091AFC407CEC065F8F82F7D7AE63D75E4EEB708A98B752D36D1D2459C"
+  },
+  {
+    "Path": "Assets\\Editor\\P6RouteValidation.cs",
+    "Hash": "4FA2D594E6FD7511C9137D5156F5E9DD93CE6C6C7E5BA4790300EE9E02857934"
+  },
+  {
+    "Path": "Assets\\Editor\\P6RouteValidation.cs.meta",
+    "Hash": "18E9D016441BF9E20FFDBAE3D7CB32984CB494EDFA84819FA267A586507A6DF2"
+  },
+  {
+    "Path": "Assets\\Editor\\P7HudBuilder.cs",
+    "Hash": "6A97FA307A61363FB2DC45A0427CFB9EF145EE5FC1FD52D67ED09FCEBA018078"
+  },
+  {
+    "Path": "Assets\\Editor\\P7HudBuilder.cs.meta",
+    "Hash": "B2DBBF34BAA3C4E621E08731B645D5AF374164F33BBC17865ACB738BE77F44CD"
+  },
+  {
+    "Path": "Assets\\Editor\\P7HudValidation.cs",
+    "Hash": "69D4AE2759EABBEC84E79A29B17449FCA6D0F5097B452AC2748002A228D2B419"
+  },
+  {
+    "Path": "Assets\\Editor\\P7HudValidation.cs.meta",
+    "Hash": "87E147D45FFB8DABAFA73A32892CC65F97787343B9EB40931BADCFA18827F677"
+  },
+  {
+    "Path": "Assets\\Editor\\P85ObstacleBuilder.cs",
+    "Hash": "6FF14B18527EBA4C33FBB375A3BD2D1053BB5274A0FF6DFC6E12565055A1E694"
+  },
+  {
+    "Path": "Assets\\Editor\\P85ObstacleBuilder.cs.meta",
+    "Hash": "511E8780746A099F75F5A3751E3CA49B68181DBAD60E86A49968DD76F8513891"
+  },
+  {
+    "Path": "Assets\\Editor\\P8EffortBuilder.cs",
+    "Hash": "64643059FD4EE46C6559C567B73D9D93A1EC06FB574F215EAEFABC42B2A99E5F"
+  },
+  {
+    "Path": "Assets\\Editor\\P8EffortBuilder.cs.meta",
+    "Hash": "6F84B7AC1F532A3A70F725CA2EE477DF8F236E367B74B39745A40875985D4890"
+  },
+  {
+    "Path": "Assets\\Editor\\P8EffortValidation.cs",
+    "Hash": "F1BBB84F22AF1DA679BCE80AFC84DE8958317FCD788C1B17C86543F90F6E4C50"
+  },
+  {
+    "Path": "Assets\\Editor\\P8EffortValidation.cs.meta",
+    "Hash": "888CF4546F70ACEF11C7411DC89AB5FBD76B2284BF40532CC92B5328204BE42D"
+  },
+  {
+    "Path": "Assets\\Editor\\P9SimulatorBuilder.cs",
+    "Hash": "8A765A02430516E9C9D3C64461DC740B43F8F94CD9EBE0CC686135CAC72E3179"
+  },
+  {
+    "Path": "Assets\\Editor\\P9SimulatorBuilder.cs.meta",
+    "Hash": "9A3DF6499485BDD5704E42E6752C22461223EDB424FE09FDE8E4903534F77F8B"
+  },
+  {
+    "Path": "Assets\\Editor\\P9SimulatorValidation.cs",
+    "Hash": "89FCA35F7820E1C916E76BDA77B299DEA753907DBA80DAC1088CAB9C0997896B"
+  },
+  {
+    "Path": "Assets\\Editor\\P9SimulatorValidation.cs.meta",
+    "Hash": "495EECF6D2BFAAB56F947ACC26F2D578221AC825644061DF7FE19A500F1E3074"
+  },
+  {
+    "Path": "Assets\\Editor\\RelicRemovalValidation.cs",
+    "Hash": "0D94CCA4C407ACEB132B58FAA1AC3E6B153AE804CE2904A17800691F3EE4B64C"
+  },
+  {
+    "Path": "Assets\\Editor\\RelicRemovalValidation.cs.meta",
+    "Hash": "81A0E4631588ADF16D841C4AE982625CAD6D35B146B3DAE5D63A5D97CB6CB6AF"
+  },
+  {
+    "Path": "Assets\\Editor\\WorldExpansionBuilder.cs",
+    "Hash": "B6E85D4094D3307E5EDC655DE7C4558B30C82181923D5F254A0EC0E27B9439B1"
+  },
+  {
+    "Path": "Assets\\Editor\\WorldExpansionBuilder.cs.meta",
+    "Hash": "59EB4123EE434EA197EB1A24A67096ABFFAA4ABB68F883E0C75583F2B905B7DB"
+  },
+  {
+    "Path": "Assets\\Prefabs\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Collectibles.meta",
+    "Hash": "0CDF4E98C1AD97413DF40CFC2110CE139627FD871DE858379C5B400ECD933C23"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Hardware.meta",
+    "Hash": "B5B56768A065447550CBD57A065802E487371ECC24EB734DD136A82F131B164B"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Integration.meta",
+    "Hash": "9AE05F6D20A4A4D9E8F0CE3B80BAA9E2EB7A303DDDE7B01654A72F448E8450BF"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Interactions.meta",
+    "Hash": "F72BD40D7D316F6527294BA00565DB77153DCD620C84AFA985B0382BCC475754"
+  },
+  {
+    "Path": "Assets\\Prefabs\\UI.meta",
+    "Hash": "AC6BEFF079E01341210D3987AE021982C93C5D2D13F50C4A36CC364E89EC60E6"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World.meta",
+    "Hash": "F12B7DE77827888B7D8433C8A67B777EB5624DF710883F84B9DD29399D58E566"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Collectibles\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Hardware\\P10.meta",
+    "Hash": "BDE4734E8D373F7ACA09DFB5C86243171683B9D08C24EDA67BA97C336C11C3DA"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Hardware\\P9.meta",
+    "Hash": "8F07F7D8C6A31EF4A684943AF09F056A5A5579B0A6B12BDD067243B1C5375D51"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Hardware\\P10\\ProcessedHardwareAdapter.prefab",
+    "Hash": "F5B2E0604B0E53BD49DCF58A66DEB5C1DE156133CA0E62C3F4F6EB4865DAB585"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Hardware\\P10\\ProcessedHardwareAdapter.prefab.meta",
+    "Hash": "31E4D8A4349EFAC0D71D8BBF8CA83124452ADC99D85C52E9C1700D165B4789D4"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Hardware\\P9\\HardwareCommandSimulator.prefab",
+    "Hash": "65E20F684B455FFFF263854270E0D7AF65528839B4417E24494F0BD897C1CB16"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Hardware\\P9\\HardwareCommandSimulator.prefab.meta",
+    "Hash": "A5DBC0729A27DE07DCCB90F6A40B8880D6B2EF27A5F20DE25D686DB12A2997D0"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Integration\\P11.meta",
+    "Hash": "25F117F971C1EEF418C92FAD6E2FA74CCB054DBACFF2D367690C28146557C1CF"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Integration\\P11\\IntegrationSession.prefab",
+    "Hash": "8E47B3DDF95AA719C54CCFBA2A5DCF26B1A48FAC93DED68C44171223428A13CC"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Integration\\P11\\IntegrationSession.prefab.meta",
+    "Hash": "0BE17808040F7C1AF039915A038605CDA541A2931BC21D9C1B34BB2C9D00C1FA"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Interactions\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Interactions\\P4.meta",
+    "Hash": "D33585CE38D65DD33B41BE0BD039D3EC992FABB019DF48B48922D7DCC84395C8"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Interactions\\P4\\ActivateBeacon.prefab",
+    "Hash": "844ACBFE51D8D593FF3E871BB968199E40AADA704E6F94D9D566760A0DFA27CC"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Interactions\\P4\\ActivateBeacon.prefab.meta",
+    "Hash": "0D140B2C6E76CCDD6120A2A0748ADC224FE168FBCCFE6D886D1961FF73B46333"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Interactions\\P4\\GrabDemoObject.prefab",
+    "Hash": "CB6EEAAF072767C1903589AE785537CD84DCA577E6B47CAC3692987819E2402D"
+  },
+  {
+    "Path": "Assets\\Prefabs\\Interactions\\P4\\GrabDemoObject.prefab.meta",
+    "Hash": "83647C12F4C0E36F5C4A875DE6C65BEC311965A05D09EA545B90110D5A9031FD"
+  },
+  {
+    "Path": "Assets\\Prefabs\\UI\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Prefabs\\UI\\P7.meta",
+    "Hash": "C60C7601EC5414C00F12B7D03FEE5DCB12731D1E5EADCFD27174932118DAE524"
+  },
+  {
+    "Path": "Assets\\Prefabs\\UI\\P8.meta",
+    "Hash": "4B370D6AEE8919EA63C21463EB3FD8A401B53FE942245FD607C551EAD69FDEE7"
+  },
+  {
+    "Path": "Assets\\Prefabs\\UI\\P7\\Person2Hud.prefab",
+    "Hash": "94118F687F9671EB78B20554925AB7BD7E28288029BEE75B85407270C614A0D9"
+  },
+  {
+    "Path": "Assets\\Prefabs\\UI\\P7\\Person2Hud.prefab.meta",
+    "Hash": "AD54B3604BD7358982B145625C8761E6DD3BB292B87797E8E941AC1A6BAF8A92"
+  },
+  {
+    "Path": "Assets\\Prefabs\\UI\\P8\\EffortPanel.prefab",
+    "Hash": "E9FFF80727CE41BB1F4049BDD38577F7D1F1324E38CC11A09D8FCB5B4E8C7F0E"
+  },
+  {
+    "Path": "Assets\\Prefabs\\UI\\P8\\EffortPanel.prefab.meta",
+    "Hash": "2D0D59F4DD0816CD567BD3543B4614E15E09C9B9632693199C0A0C4B74163723"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\JunglePrototype.meta",
+    "Hash": "0A62ACA10C3DB4C27826CA0B0F70A9DC24F5B872753A097F077288DE231F7A5C"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P125Journey.meta",
+    "Hash": "E0D59CA8DC6AE6C5FE18DE5505482627CB1E0DA4B612359F2F1E6B56E6F2967D"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P12Polish.meta",
+    "Hash": "94430E19EB1EFFDBA31FBBFC146072480D33DAB4463153E729F87E1EAA6390D9"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P85Obstacles.meta",
+    "Hash": "1CE1D003BE35BA785B116DB6859C5E5A3DE998644E33A4A6627D52BFA72A1264"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\Routes.meta",
+    "Hash": "06A8B9D07C00AF8E954DF65BCE81E4CEA48909EC5C0145B26DF8BA7BB599A370"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\WorldExpansion.meta",
+    "Hash": "4CF10D30DD2B45507FABFC943620A65FDAF26BC0C98676E9B1E9E60D4FF89819"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\JunglePrototype\\BrokenBridge.prefab",
+    "Hash": "A4B5C205B1500857DA85878431032238DE353951E28D09C3CE30F8FC548381BC"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\JunglePrototype\\BrokenBridge.prefab.meta",
+    "Hash": "C45C81DDB2957F64F9044CEE53A00AD5AB16F2A4B25EF6EF5B8C4DCA3B0B9009"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\JunglePrototype\\CanopyTree.prefab",
+    "Hash": "9C907E3C7B6E5136E8446FAECA032A7C8EA79BC060BA053CC4B7DB52B8DCAF5C"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\JunglePrototype\\CanopyTree.prefab.meta",
+    "Hash": "40E858CB27D035A2306866A5EA29B77477857AB5E8508AD894DBE67EC7086219"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\JunglePrototype\\FernCluster.prefab",
+    "Hash": "77DC45A5AFB0AED7A41CE664D8C4CD2EEF4890FFDADE66586EA19FE57434E7FA"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\JunglePrototype\\FernCluster.prefab.meta",
+    "Hash": "12671601E6BCCA5E56B48C97BD650A074FA8280317A2876FFDF3E3F0EB1CEE0D"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\JunglePrototype\\MossyBoulder.prefab",
+    "Hash": "84C72C5B8EB62925DFE2842A51E7BAC01723795EE57A5275F4AE8122701B7A2A"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\JunglePrototype\\MossyBoulder.prefab.meta",
+    "Hash": "AAA30785CCDD7708A0EC1C733CD0CE25B232239679BC3CD36439127D1B4DCF80"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\JunglePrototype\\RuinColumn.prefab",
+    "Hash": "1C8EA6A4B25066373678CCCEC1E9DA5C8C29318D076DD551F668E930D9DB11E6"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\JunglePrototype\\RuinColumn.prefab.meta",
+    "Hash": "2B2B1B76E546AFB0EAC65DF9266147C823761654786771BA612BFEA40B298B1A"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P125Journey\\JourneyToken.prefab",
+    "Hash": "D610B5C372C286F7D93591C03E1BA4B3D2E0803AD50705DBC11D407D5372462A"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P125Journey\\JourneyToken.prefab.meta",
+    "Hash": "E1E58AA763683AF8CF2C155DDA7B1C8444950D689A9D9A9B77AC070E6E3DEEC7"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P125Journey\\RealmExitPortal.prefab",
+    "Hash": "FF76CC4CDFE057481DE35CD1BFBAC0947347AC3AEFFACE892339ED5E1CDD8585"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P125Journey\\RealmExitPortal.prefab.meta",
+    "Hash": "23BF2D418C24D7540653037F89174ABBF65A12C94431217070FF8140235A81AF"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P12Polish\\CalmMotes.prefab",
+    "Hash": "D7D90DF37D9F7BBE1A9A3DD0760B59D04145D5CE42CF78ADAD729B7B0EBDCE3A"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P12Polish\\CalmMotes.prefab.meta",
+    "Hash": "6027A50F90255D7FB0FBF1F9D9F73A0E1A923E12DA59A463E90ED96D25BED37D"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P85Obstacles\\CaveCrystals.prefab",
+    "Hash": "437E1BD825330531CCF96891FC83EE049025577102F9A12F304272218E8585A6"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P85Obstacles\\CaveCrystals.prefab.meta",
+    "Hash": "85766A27B92CD434607838B8EC5161E262DAC7B654FFFB3A3BEFCD2A1DC56149"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P85Obstacles\\CaveRock.prefab",
+    "Hash": "E9D4182349AD93B70C0070594EB4E678C953A9E04B437F7D8929780D49D149EA"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P85Obstacles\\CaveRock.prefab.meta",
+    "Hash": "A7320A16D31C08E32EFCE3F3F5830E9BCACF63C739D48EFCF8EED10F48CE513E"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P85Obstacles\\CityDebris.prefab",
+    "Hash": "EB4BCA9B2FC75AC05991034201DCAAEBCB0D9B1CFE689C34A2061C1E1BECF45C"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P85Obstacles\\CityDebris.prefab.meta",
+    "Hash": "FD9B6961872BA6A004EA737ABA970281E6EC9A21C277BF53B53F890BA3B3ACE1"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P85Obstacles\\CityStoneBarrier.prefab",
+    "Hash": "1CBAF0EE29D8552725B01A71FE7E7DE9D6BD551BD693AF537CE5D0AA1B632ADB"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P85Obstacles\\CityStoneBarrier.prefab.meta",
+    "Hash": "27A14B2A7CBC7954F0E382244873FD41E9AED3360D69F86A0D52B243C6C2D9B8"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P85Obstacles\\JungleBoulder.prefab",
+    "Hash": "7D0A0D9A073D40763CBC5750EE5D8E10DDD5B42695750386D8149A486B323674"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P85Obstacles\\JungleBoulder.prefab.meta",
+    "Hash": "0FDDD659DE27062B3420E65C8289FDEA9ADAD9F8F827F96DDF4E20ADBDE3B89C"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P85Obstacles\\JungleLog.prefab",
+    "Hash": "AE5CD7781FB88A7BDAA78DDA3A773FEECEFC6B1DBDD09518D6A6F9E22470EBE8"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P85Obstacles\\JungleLog.prefab.meta",
+    "Hash": "1B5CD56D315D98DEDBA42C50952910EE6906D99E2965059B0F694181185EDC6D"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P85Obstacles\\RuinsBrokenBlocks.prefab",
+    "Hash": "9925141A4543EB53067D6E8B259EB2F1B016D469AA822136FFAC355908DF65C9"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P85Obstacles\\RuinsBrokenBlocks.prefab.meta",
+    "Hash": "1A23E07CD08E38AEEC9B6C0E7277CBF4DA665F3CCD7D3C2CB67DCC68ED676206"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P85Obstacles\\RuinsPillarRubble.prefab",
+    "Hash": "D883EDFD96A7C7C4D6908FA88C700AEAF4BCB1B6D0B82EA729C54A83E1CBC6E3"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\P85Obstacles\\RuinsPillarRubble.prefab.meta",
+    "Hash": "3D9BED11123A9376C4572A0D89042E3D99EA6443738B0AD7A328D918662F6EED"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\Routes\\P6RouteChoice.prefab",
+    "Hash": "0FACD9175B6707D259C92F687912CE010111378FCE16C0D9910989D6D5B0FB66"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\Routes\\P6RouteChoice.prefab.meta",
+    "Hash": "B545E149188DE9B19CB42A6584C2399630BA4902D538F8E431E24075ED66E7EC"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\WorldExpansion\\CaveFormation.prefab",
+    "Hash": "28E5469EC33E6B52CEB0E7A995ADDC8002F5D47E9A1CA5F06FD2B331FF958F55"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\WorldExpansion\\CaveFormation.prefab.meta",
+    "Hash": "B7D8803F3342DD7814618708592D1E7331ED0C6D1F7AB3B2DAFE3773220819C9"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\WorldExpansion\\CityPavilion.prefab",
+    "Hash": "8187BF46FD4ACE6E1F6806B6CD20D8CC7571B0AFB941DD26BDDE4314682A6C9B"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\WorldExpansion\\CityPavilion.prefab.meta",
+    "Hash": "50EC2C34B8BDF28E3022CF052B1C9CD31E228682C9749CA63CDD4CFCA8DB8786"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\WorldExpansion\\CrystalCluster.prefab",
+    "Hash": "576249B5ED8366F792A38CF890E1B769C0A4391F10928E0F2C5A4BA5B4AEB2A1"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\WorldExpansion\\CrystalCluster.prefab.meta",
+    "Hash": "15383150B292090C627E0C0F9650C828715ADA895C955D4116D3FD8F111C09F3"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\WorldExpansion\\IvoryColumn.prefab",
+    "Hash": "7DA649E532DF51DF5FF894B7849F54F1FBC83E7D1C646BA8937BE87850208EC3"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\WorldExpansion\\IvoryColumn.prefab.meta",
+    "Hash": "56382739EE8AE37D4819344E36D2053799D54A77C118B15E2B863CB602B2E769"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\WorldExpansion\\LowBalustrade.prefab",
+    "Hash": "C8F3BB4CA74C91E0E8C144B6997A37A6A6A7F4762639D0A027819D4D2A335385"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\WorldExpansion\\LowBalustrade.prefab.meta",
+    "Hash": "55FBD064F28B3C6392FF1AEAED85AE8957648D4FE120D4113C5746274993B99D"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\WorldExpansion\\SandstoneColumn.prefab",
+    "Hash": "05122DD11EC12EC68210E8AE7929DC9DE601554D4E1670F34AD9AE323C2AE18E"
+  },
+  {
+    "Path": "Assets\\Prefabs\\World\\WorldExpansion\\SandstoneColumn.prefab.meta",
+    "Hash": "186597A682980ABE23DCD3A9828DE064A0485044B9B148AFCC9AF8FE6BDAE991"
+  },
+  {
+    "Path": "Assets\\Scenes\\Person2.meta",
+    "Hash": "8E695263A4386FE0A6B0CD70CD83215FD9BD874D7AB09D5733E3E41284747F68"
+  },
+  {
+    "Path": "Assets\\Scenes\\SampleScene.unity",
+    "Hash": "07FCE8B04804DDCCB3026DB5B43D8DC41BA138E49D50D36A5C24877081EACDCA"
+  },
+  {
+    "Path": "Assets\\Scenes\\SampleScene.unity.meta",
+    "Hash": "B5815A6B12AFAF810577BC89041C4CE46516C7CD6609693F8DB616F8E5584D80"
+  },
+  {
+    "Path": "Assets\\Scenes\\Test.meta",
+    "Hash": "F55F02C54E6DA8E3B398B618F10C89977653BFC105C5C1C121E5509B58BCEE8A"
+  },
+  {
+    "Path": "Assets\\Scenes\\Person2\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Scenes\\Person2\\CrystalCave_Prototype.unity",
+    "Hash": "F514B7386D42B24D4C91097765D3144B9E04C96F2CD409885B39339021EF2646"
+  },
+  {
+    "Path": "Assets\\Scenes\\Person2\\CrystalCave_Prototype.unity.meta",
+    "Hash": "D51474F5BA0F73B874A39F24D6B6D27BB3DA68383112E0A104C568DBCBE114C7"
+  },
+  {
+    "Path": "Assets\\Scenes\\Person2\\HiddenCity_Prototype.unity",
+    "Hash": "383D94AF4F440BDCF41F6171663683C8F1A8E5C526ADF6D1F8A602F5CE193CD0"
+  },
+  {
+    "Path": "Assets\\Scenes\\Person2\\HiddenCity_Prototype.unity.meta",
+    "Hash": "BC1774FDC90B164129B9E7E43BB2912F9469731D228CA51A5A43B1A911DF6108"
+  },
+  {
+    "Path": "Assets\\Scenes\\Person2\\Jungle_Prototype.unity",
+    "Hash": "0420BE41F0CDE6A195A498C2CA4732FE6F9086A7C792D6ADECE24FBCA7006D0F"
+  },
+  {
+    "Path": "Assets\\Scenes\\Person2\\Jungle_Prototype.unity.meta",
+    "Hash": "E03FD075265429A459DD4C89ADD878DE44252CDB65F2B847F1C2BF869B471083"
+  },
+  {
+    "Path": "Assets\\Scenes\\Person2\\Ruins_Prototype.unity",
+    "Hash": "010A36240267F5EFC38A1A42704C6384BBB3FEF02B018490DE12BF2F91825042"
+  },
+  {
+    "Path": "Assets\\Scenes\\Person2\\Ruins_Prototype.unity.meta",
+    "Hash": "2A5A1D6AFD601CFFC5155322A016E7F11F09510CA4CBBE917B33451A2E2A5748"
+  },
+  {
+    "Path": "Assets\\Scenes\\Test\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Scenes\\Test\\P10_HardwareAdapterDemo.unity",
+    "Hash": "9E2BE6A478E9DDB4575A3BA89B3186DF3FDC4AC01176C0CF7DE208E5B4549477"
+  },
+  {
+    "Path": "Assets\\Scenes\\Test\\P10_HardwareAdapterDemo.unity.meta",
+    "Hash": "BF6624B7AE19AE6316D5887418076A2703C55CC02746FF5C224C67C29705202F"
+  },
+  {
+    "Path": "Assets\\Scenes\\Test\\P7_HudDemo.unity",
+    "Hash": "6EE73E6F6E3495E4D3E52257C60C71882A025F1E9D13FCBE9311C1D8831FC98B"
+  },
+  {
+    "Path": "Assets\\Scenes\\Test\\P7_HudDemo.unity.meta",
+    "Hash": "CA75B168E61D29BE442501CFD78F1C316E595B308180C964DA7EFB1744EB8462"
+  },
+  {
+    "Path": "Assets\\Scenes\\Test\\P8_EffortDemo.unity",
+    "Hash": "0E4E336336200F58B6AE0DA9353E815B420B0C1DDDE995B19676FF4D0BFB7534"
+  },
+  {
+    "Path": "Assets\\Scenes\\Test\\P8_EffortDemo.unity.meta",
+    "Hash": "B5723EB5B628ABD59D28A954D3156FDDD90A9590241BD00625C4E368F655D09A"
+  },
+  {
+    "Path": "Assets\\Scenes\\Test\\P9_HardwareSimulatorDemo.unity",
+    "Hash": "13B3EBE13E3D5FAC006ED1298DC410DA42AFE9072D243B7D63BBB156AE355FDF"
+  },
+  {
+    "Path": "Assets\\Scenes\\Test\\P9_HardwareSimulatorDemo.unity.meta",
+    "Hash": "ECD129DC6F87BC2ED3BE08D0765C400CE9106579E296F675740AF60F7B7B21F0"
+  },
+  {
+    "Path": "Assets\\Scripts\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Scripts\\Core.meta",
+    "Hash": "9FD58CCDFD995E0456B8FD7467FCF2A14C3A0F8243CD1750B323D7ECBBFC9688"
+  },
+  {
+    "Path": "Assets\\Scripts\\Demo.meta",
+    "Hash": "A88A63B5B9D411B506DCFF7372433CC49030461DA34BDDAE6BB5DFD6101317D0"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware.meta",
+    "Hash": "61C74DB1B866DF0EB548BB860142FDFA3051A62ABA392395DFD608C8312AB031"
+  },
+  {
+    "Path": "Assets\\Scripts\\Integration.meta",
+    "Hash": "43A2ADC4F9B227BA3830C6CA77C758B9B7EBB3A0F42D4D5E9C565639A6AEE0DA"
+  },
+  {
+    "Path": "Assets\\Scripts\\Interaction.meta",
+    "Hash": "76621E94021526F8DB0E00D91601C08649AE2EE8A0C18EEAA080F607993BB97A"
+  },
+  {
+    "Path": "Assets\\Scripts\\Journey.meta",
+    "Hash": "B39E6732FF0B68D40FA174741FE04026E142514B615C7B8CBE9458D53D956E05"
+  },
+  {
+    "Path": "Assets\\Scripts\\Polish.meta",
+    "Hash": "FF199AFD30A53102B6E2887438E70C36244BDD5673DD9544F9AB60E052FFD8FF"
+  },
+  {
+    "Path": "Assets\\Scripts\\UI.meta",
+    "Hash": "EED6928F1175C643F3F1799173659EEDDA93D2405F424D503646E90479FA19A1"
+  },
+  {
+    "Path": "Assets\\Scripts\\World.meta",
+    "Hash": "44988291BA56E9CEEFFC0DAE86AA6D56FBDF811550FFD45D514ADA73F7BCAC72"
+  },
+  {
+    "Path": "Assets\\Scripts\\Core\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Scripts\\Demo\\LostWorlds.Person2.Demo.asmdef",
+    "Hash": "3FF7139C57BC89EAF7B02FC8458716ABAC428E8143649C53E4C7C543B3867926"
+  },
+  {
+    "Path": "Assets\\Scripts\\Demo\\LostWorlds.Person2.Demo.asmdef.meta",
+    "Hash": "783AFDD4DB2DBDCD3127DA7B8E7D02A89B9EED7AE7272BA5E53C9CEFF0EA70F4"
+  },
+  {
+    "Path": "Assets\\Scripts\\Demo\\Person2BuildDemo.cs",
+    "Hash": "099CA529ACA84F5C629DF32B052349B001820F0D3AE3314CDEDE3148EAAEE9CE"
+  },
+  {
+    "Path": "Assets\\Scripts\\Demo\\Person2BuildDemo.cs.meta",
+    "Hash": "4574C803B93D2F26C935E666204085709CCC5B7F2FCD46BC61FC4881515BE14E"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\CommandChannel.cs",
+    "Hash": "92D2B96AB9A751A0E866AD8EA86F9FF770DE9A2FDBE0D3EB25BD0489F6BE23EC"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\CommandChannel.cs.meta",
+    "Hash": "C2CEB5A480A82132BBD918CAA6A8932001D8D994F9A22D65C8555AECC76E13DA"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\CommandDebugFeedback.cs",
+    "Hash": "75B4F9B63649C3FD8ABCBFEE389985B7E78045FA1D416180F6755BFD663FE227"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\CommandDebugFeedback.cs.meta",
+    "Hash": "A9FCECFCD33E0981D55D5E8AD558A58934E11BA2CFCC95805B2325BCD0484E10"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\HardwareAdapterStatus.cs",
+    "Hash": "C7C6F574DC1C23AFE7A3806F541883B73A465C943D11BFC3490461895F2AEA4A"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\HardwareAdapterStatus.cs.meta",
+    "Hash": "0CF05F5F00D5997DCCA03F0FB98BD6B25997B33C9C9169E83B2F9D5709E25A86"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\HardwareCommandSimulator.cs",
+    "Hash": "6658BDCE7BB4478DF142A03A1FE790004EBF2137BE3C6EBB63DEDC6E48F01AB1"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\HardwareCommandSimulator.cs.meta",
+    "Hash": "5AD04E830DC1FAEA7B64CF7C4ABBEE32A25CEF1871B33ABB8C0E305B7331ED7A"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\InteractionCommandReceiver.cs",
+    "Hash": "00BB2EB74A8C8627E5A1E173E62DF54B48427E06EB39D52C6CF3163014A84F8F"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\InteractionCommandReceiver.cs.meta",
+    "Hash": "5C11F636F6DD3497CA36DBE999E6859098AA9DC4150454E6841E97BFF7FC528A"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\LostWorlds.Person2.Hardware.asmdef",
+    "Hash": "A1F77E62CD24B884779DD1DF6FC06100CB88067F0A6AC145301442E6D3E0AEB5"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\LostWorlds.Person2.Hardware.asmdef.meta",
+    "Hash": "5427875B547DD73072C2749547C79DB9EDFA61AEB1F2FF4DEEEBA1746AAEAFA2"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\P10LocalTestClient.cs",
+    "Hash": "75352BAD956C9C9A6AD543C463A228ED79F4224493F8431B752B0384E505900C"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\P10LocalTestClient.cs.meta",
+    "Hash": "60F3970FC9491078F3BB94566537FAABBC36F67169CB7A76E041AD836936F816"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\P9SimulatorDemo.cs",
+    "Hash": "0E7D7B8F4CFF5E72F35900AD35F755EE0606F349B0987C1A65EFAF2AD5A6D320"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\P9SimulatorDemo.cs.meta",
+    "Hash": "69899AB50B44CA31AC76256A7E38DF7BC00FEC4825CC66230FE9671AFC64981B"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\ProcessedCommandParser.cs",
+    "Hash": "ECA402C3F6A5509E9757E2BAA3FC225131BB6E8885B9034D6F592987B78E3FDE"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\ProcessedCommandParser.cs.meta",
+    "Hash": "8F18DF4EBCCF985CE5C91C6AFE85A294708D995F175CAE7335C1A63C5A47E6F4"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\ProcessedHardwareAdapter.cs",
+    "Hash": "8D7FF53F8EB6B602358CAABF0D0C54ECBADBDAA15929C55E408BE8E4F1F6A73F"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\ProcessedHardwareAdapter.cs.meta",
+    "Hash": "5A2DE50D45055D59D71BB13DE1CE165A5A5E0DD6A3BB7E9AC01344BF4D5A1F8D"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\RouteCommandReceiver.cs",
+    "Hash": "12A1DE6110D49EAAEA48E303A0796383FE715C57F752BB4696152CA5A507A87D"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\RouteCommandReceiver.cs.meta",
+    "Hash": "061DC68E8B275C7AD0C76B5828AECAAB147619D31F504C189D8C89F5DD03364F"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\TcpCommandTransport.cs",
+    "Hash": "AE4B39410FE7F503907CD70FA7DDB5C85A4C39273E267C8986A8DF877ED5E31B"
+  },
+  {
+    "Path": "Assets\\Scripts\\Hardware\\TcpCommandTransport.cs.meta",
+    "Hash": "298AF43C3AD2CC9983E722D77DEF646E55B2DE7D857BA7A58408C9021C69B2B1"
+  },
+  {
+    "Path": "Assets\\Scripts\\Integration\\BranchPathBinding.cs",
+    "Hash": "8224062B3BDDBDD6D3172B7DCBEA4F5AFFE00DD9B111D2537407079AC8219FCA"
+  },
+  {
+    "Path": "Assets\\Scripts\\Integration\\BranchPathBinding.cs.meta",
+    "Hash": "424BEC1E4BECC2A3088747941C1B7C0F9F669205DBBAEDC7401C2F57682FE76B"
+  },
+  {
+    "Path": "Assets\\Scripts\\Integration\\IntegrationSession.cs",
+    "Hash": "46EBDDA927EA4C0F91F6C272C285AF1E9518F73002B97771459D95566D11D2BC"
+  },
+  {
+    "Path": "Assets\\Scripts\\Integration\\IntegrationSession.cs.meta",
+    "Hash": "0A6B2186A6FED3E0F2975A1D706F2908B545C2F4B7A1A8C66A13EDDFDA9D5FCE"
+  },
+  {
+    "Path": "Assets\\Scripts\\Integration\\LostWorlds.Person2.Integration.asmdef",
+    "Hash": "A3F9D1E30865CF13153903B5ED5565006C133F4362A2BA8EB332E0101F94D4B3"
+  },
+  {
+    "Path": "Assets\\Scripts\\Integration\\LostWorlds.Person2.Integration.asmdef.meta",
+    "Hash": "67F7FA0D406B1B42E82E184339CAF9FD239899E90C975E9F3BFB6A0E100D82F8"
+  },
+  {
+    "Path": "Assets\\Scripts\\Integration\\PlayerCommandBridge.cs",
+    "Hash": "F353D846A045D3234832F636CECF6BE928D26205E462AD3800142FB0F8F789C2"
+  },
+  {
+    "Path": "Assets\\Scripts\\Integration\\PlayerCommandBridge.cs.meta",
+    "Hash": "93A426B2EF9BA50134E1F190EB3755CDCD6AD912E053C78603E833CE34A90755"
+  },
+  {
+    "Path": "Assets\\Scripts\\Integration\\RealmBindings.cs",
+    "Hash": "184D18E66BBF97275D42CE3DB8645CFEFF676A7B043CB895A751893A5E589626"
+  },
+  {
+    "Path": "Assets\\Scripts\\Integration\\RealmBindings.cs.meta",
+    "Hash": "B56CAB1B9B0D5A17F31F8E10AAFA86A20B0ED23A75CA3F0F395ACE148C89C19C"
+  },
+  {
+    "Path": "Assets\\Scripts\\Interaction\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Scripts\\Interaction\\ActivateInteractable.cs",
+    "Hash": "6AB475E4AF2B4B97CA6473BC70C05056E3EBFAB83CDE5AC58B2FB875C4A14E41"
+  },
+  {
+    "Path": "Assets\\Scripts\\Interaction\\ActivateInteractable.cs.meta",
+    "Hash": "B02A12BCE9E39ABCE9A41BE03CC98A1C5B564DBB9E63884E2A2C13CD810783CC"
+  },
+  {
+    "Path": "Assets\\Scripts\\Interaction\\GrabInteractable.cs",
+    "Hash": "EA50C2DE1B8CD99FABDC9A2ECEBBC13E46B5A40E3A9390FF4E75BD359749723A"
+  },
+  {
+    "Path": "Assets\\Scripts\\Interaction\\GrabInteractable.cs.meta",
+    "Hash": "13E3757EB8F810B66378E25C2DFE558CDDAFB68119DDA4FFB88D33C01ABA2082"
+  },
+  {
+    "Path": "Assets\\Scripts\\Interaction\\IInteractable.cs",
+    "Hash": "C0B816CCC3EF6C3F1EABBB45E0EAE9140F9360655BBEA3486C02BD27530EE59E"
+  },
+  {
+    "Path": "Assets\\Scripts\\Interaction\\IInteractable.cs.meta",
+    "Hash": "E636075C4C3FA326F6B3DBBE303AC8F75778BE022D34717CC137488563BC40C3"
+  },
+  {
+    "Path": "Assets\\Scripts\\Interaction\\InteractableBase.cs",
+    "Hash": "BD5FFC6E61EDE091D982344E6A3873318180BDBA41A8F4D462A57964343D644F"
+  },
+  {
+    "Path": "Assets\\Scripts\\Interaction\\InteractableBase.cs.meta",
+    "Hash": "C746AB92907ABD940A86C043590E0877DEB4D4E5425C6253B4B3E73CD0CD6369"
+  },
+  {
+    "Path": "Assets\\Scripts\\Interaction\\InteractionInteractor.cs",
+    "Hash": "6A27AC1CDBEED9666E79415338294D51AF52B6EB362F98ADC49FB63906D851B6"
+  },
+  {
+    "Path": "Assets\\Scripts\\Interaction\\InteractionInteractor.cs.meta",
+    "Hash": "87B9D06ACA6E084B4F7FD5504D1CED82A4C39AB16F4D1142E86BEDF73FCEE7CD"
+  },
+  {
+    "Path": "Assets\\Scripts\\Interaction\\LostWorlds.Person2.Interaction.asmdef",
+    "Hash": "00525743DDCB1E6E704271DA9C4C1DE9F7AA8B6C9575AC59B632B4A7DDECBD04"
+  },
+  {
+    "Path": "Assets\\Scripts\\Interaction\\LostWorlds.Person2.Interaction.asmdef.meta",
+    "Hash": "547386E5BB4085F596341F08405446F5F344F6E525112E22DA620F9A9C0AD5B5"
+  },
+  {
+    "Path": "Assets\\Scripts\\Interaction\\P4KeyboardTestInput.cs",
+    "Hash": "82ED7E7D8129A8877D9CBE2A3CA96BB0308EE87EBC125CBD0BBD87120E3C191C"
+  },
+  {
+    "Path": "Assets\\Scripts\\Interaction\\P4KeyboardTestInput.cs.meta",
+    "Hash": "52C611D5B5690DDE74544F2A3F66530F033F9D2AC39332691CCF75A762203751"
+  },
+  {
+    "Path": "Assets\\Scripts\\Journey\\JourneyLedger.cs",
+    "Hash": "9A4DC99C7FB31AF26D6BD61CDDD5AF0756137BAC332067E9650B3CA5A649FEF5"
+  },
+  {
+    "Path": "Assets\\Scripts\\Journey\\JourneyLedger.cs.meta",
+    "Hash": "CFB465CA59622A51C5979A48B428ED2184409600C2F4750454F9E609FBC4243F"
+  },
+  {
+    "Path": "Assets\\Scripts\\Journey\\JourneyRealm.cs",
+    "Hash": "068204199EF5DA1580EA095C473C85321816B5CC499FF5D0F80723C8FDF6736C"
+  },
+  {
+    "Path": "Assets\\Scripts\\Journey\\JourneyRealm.cs.meta",
+    "Hash": "C45896F48CE126E0CBB41C9917D6389ED5EF1765BD5C3F7D9DD3921A37427E45"
+  },
+  {
+    "Path": "Assets\\Scripts\\Journey\\JourneyToken.cs",
+    "Hash": "1882816D05125EDF01077F8EC2AD2DED1594AE174FEB89B259E44203B1066806"
+  },
+  {
+    "Path": "Assets\\Scripts\\Journey\\JourneyToken.cs.meta",
+    "Hash": "0329DD76A9B6389BA4C3C6B036EF681A9AC40B4A7F5FA7B8585538823BCD80E5"
+  },
+  {
+    "Path": "Assets\\Scripts\\Journey\\JourneyTokenHud.cs",
+    "Hash": "2108E50702BAF86925944DAC509BB9989A46C0377341D0B517D13D79265718F4"
+  },
+  {
+    "Path": "Assets\\Scripts\\Journey\\JourneyTokenHud.cs.meta",
+    "Hash": "88C3BBE02F9438657A2FCF462D0F16F40CADC33D5E2F491A15F3F64836ACB276"
+  },
+  {
+    "Path": "Assets\\Scripts\\Journey\\LostWorlds.Person2.Journey.asmdef",
+    "Hash": "3851B74E2285DDD1FACEFF59E9E60FCD4C7D620D9B8D32ACDDF79081185EB236"
+  },
+  {
+    "Path": "Assets\\Scripts\\Journey\\LostWorlds.Person2.Journey.asmdef.meta",
+    "Hash": "C374A69FC634F54D36A301A8806B3802C899F257110901AE3FDB41465D58AC4C"
+  },
+  {
+    "Path": "Assets\\Scripts\\Journey\\PortalAtmosphere.cs",
+    "Hash": "C22F2B1CFD0E1975D927746D366DADEB564D6D3DBF0047A45BBB29CC68CB4D0E"
+  },
+  {
+    "Path": "Assets\\Scripts\\Journey\\PortalAtmosphere.cs.meta",
+    "Hash": "D4B1903AFCDE2E6445E9573A2F3ABA6A5AB246637C4162C0FA7EB8890BA6F79F"
+  },
+  {
+    "Path": "Assets\\Scripts\\Journey\\RealmExitPortal.cs",
+    "Hash": "CFFE1A0F6A38157596E71B3054089D32E623855CCDAC3B132C6E587ECE034C8D"
+  },
+  {
+    "Path": "Assets\\Scripts\\Journey\\RealmExitPortal.cs.meta",
+    "Hash": "8FD2B8032E4A10247B557A3321769288F1C0C1261F8731DFAA3ADC2D9E112FBB"
+  },
+  {
+    "Path": "Assets\\Scripts\\Polish\\LostWorlds.Person2.Polish.asmdef",
+    "Hash": "DF39777BEB2DC13B0F0BE26A9B175755C56632D985FB2E7B28C5ACD8ACDD8759"
+  },
+  {
+    "Path": "Assets\\Scripts\\Polish\\LostWorlds.Person2.Polish.asmdef.meta",
+    "Hash": "843D5B461C58FC5F1F4A42F88433016793009CB8BF6BB8345E02DAF0FB16773F"
+  },
+  {
+    "Path": "Assets\\Scripts\\Polish\\RealmPolish.cs",
+    "Hash": "DA801ECD919C8CBDFAE57773BB894ED66A70F1922B5675BD6BEC2094522F8AD5"
+  },
+  {
+    "Path": "Assets\\Scripts\\Polish\\RealmPolish.cs.meta",
+    "Hash": "C7DAEB22A64F231ECBA0F40D9172C7A20355A8231BFAC070ADF438D1C790E37B"
+  },
+  {
+    "Path": "Assets\\Scripts\\Polish\\RealmPolishProfile.cs",
+    "Hash": "E9C374EF38C84CEAD73062A9E93AAD5BB8ED961ADA0DBF0DFD9EFD9CC17BFC09"
+  },
+  {
+    "Path": "Assets\\Scripts\\Polish\\RealmPolishProfile.cs.meta",
+    "Hash": "113A288AFB5E9D6D536DE1B25D954C6396A09C2CF6170193F621FC251799316B"
+  },
+  {
+    "Path": "Assets\\Scripts\\UI\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Scripts\\UI\\EffortHud.cs",
+    "Hash": "78A15D29DCB6D19E484FBF31E7607EFE39D1CFF9E70D748AF39AC95E031BC129"
+  },
+  {
+    "Path": "Assets\\Scripts\\UI\\EffortHud.cs.meta",
+    "Hash": "494AC21818DFF97F4C97262A8F840A6FAA932D4C7139A96DCA8B6AAB9B6201FF"
+  },
+  {
+    "Path": "Assets\\Scripts\\UI\\EffortModel.cs",
+    "Hash": "0D4F5D7F116F7758C818531A33A8610C474E822FC13D5A21763AF0B71AA803CA"
+  },
+  {
+    "Path": "Assets\\Scripts\\UI\\EffortModel.cs.meta",
+    "Hash": "0D9D73E32697F381CA3F184E3B033B2D8E261DF46F46AE5A3F6634D3A60FB439"
+  },
+  {
+    "Path": "Assets\\Scripts\\UI\\HudWorldContext.cs",
+    "Hash": "EECD730089847DEFA3C2E1CEE7E0BFF7BEB47ED7C33BA38690507D6E3CC97D4A"
+  },
+  {
+    "Path": "Assets\\Scripts\\UI\\HudWorldContext.cs.meta",
+    "Hash": "16836144808F7545BA6619012E783470EE63FE5E933574D1CD4597DB3B176CA3"
+  },
+  {
+    "Path": "Assets\\Scripts\\UI\\LostWorlds.Person2.UI.asmdef",
+    "Hash": "DCC9A8D48FA86DB9A21E8F3D993DE57995F1C164086DF0B62BD6C4AECC7FFE27"
+  },
+  {
+    "Path": "Assets\\Scripts\\UI\\LostWorlds.Person2.UI.asmdef.meta",
+    "Hash": "6E02642E7A141FD017E7FF09DCCDAF3F0FB793A2A0B2731312BE54F50DE3BB8F"
+  },
+  {
+    "Path": "Assets\\Scripts\\UI\\P7HudDemoControls.cs",
+    "Hash": "FEC56161237905C076E274BB772C067A95BA5F962E74552386AEE252288EE8AC"
+  },
+  {
+    "Path": "Assets\\Scripts\\UI\\P7HudDemoControls.cs.meta",
+    "Hash": "8496A5D707D0FC52E52CC885BC30434B11603BB6E3119261C04FCB6B7D4BDD88"
+  },
+  {
+    "Path": "Assets\\Scripts\\UI\\P8EffortTestInput.cs",
+    "Hash": "4DDA9016615115A98A2C7F366E24C41736AB6925078C67080E1FDE4B4CFE7F12"
+  },
+  {
+    "Path": "Assets\\Scripts\\UI\\P8EffortTestInput.cs.meta",
+    "Hash": "1A0E4708AE7E4A16C436D7747F8C6840B0B1F90F502FDCF4CBF3EBFE577AE454"
+  },
+  {
+    "Path": "Assets\\Scripts\\UI\\Person2Hud.cs",
+    "Hash": "EC0DFB326466E372F5073C13C16C54CF9DA1A3C2CDDEA829BBB086AB040A9297"
+  },
+  {
+    "Path": "Assets\\Scripts\\UI\\Person2Hud.cs.meta",
+    "Hash": "8DF148924B11C71AE4A89D261DBFD83BE0D975C8CC7DD4EF6A8D2F1D10C7CB96"
+  },
+  {
+    "Path": "Assets\\Scripts\\World\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Assets\\Scripts\\World\\LostWorlds.Person2.World.asmdef",
+    "Hash": "C16FF667C76D5535FE7A5B4F18F755B848C5C92DCFFBFE2ABEAE5CC7ADB52FF5"
+  },
+  {
+    "Path": "Assets\\Scripts\\World\\LostWorlds.Person2.World.asmdef.meta",
+    "Hash": "E4B95E4B0C4A399D5B92848E202C70400A31426C76C0AC0071AA1956CD99F132"
+  },
+  {
+    "Path": "Assets\\Scripts\\World\\P6RouteTestInput.cs",
+    "Hash": "EE67387355DF575E70B1799148186B8A60C2FB88F8343252243262266B9F363B"
+  },
+  {
+    "Path": "Assets\\Scripts\\World\\P6RouteTestInput.cs.meta",
+    "Hash": "0C2C94BA5E2E8EBAC8B6488EF554A49A57D2BBA57DF36011CE6E53E03F972692"
+  },
+  {
+    "Path": "Assets\\Scripts\\World\\RouteChoiceFeedback.cs",
+    "Hash": "D20579DE1C4F9FB36D7D9C7887E5E3050D6F80D863D7DD4C4C6D7F2B0349607C"
+  },
+  {
+    "Path": "Assets\\Scripts\\World\\RouteChoiceFeedback.cs.meta",
+    "Hash": "1076054DAE40EEF8B7A0C5F84981CD6CFDA02B9854D546CD6FD61F788DDBA508"
+  },
+  {
+    "Path": "Assets\\Scripts\\World\\RouteChoiceZone.cs",
+    "Hash": "91E11E5A92CE30BA5DA783D258496330A1D4657407814F18806C9E62580769B0"
+  },
+  {
+    "Path": "Assets\\Scripts\\World\\RouteChoiceZone.cs.meta",
+    "Hash": "EDC2F81D4E73E73B71AD6ACFFAF0CA14288DEDC1F0CD608F70B301E359046ADF"
+  },
+  {
+    "Path": "Assets\\Settings\\DefaultVolumeProfile.asset",
+    "Hash": "6698BFACFAD479ACFD9766D00ABA81AB52527D3B15C8B133D03ED7A2401499D6"
+  },
+  {
+    "Path": "Assets\\Settings\\DefaultVolumeProfile.asset.meta",
+    "Hash": "EFBCB026CEE6B8E32FDF27018C06B0515296A6CCBB43969E792FEA270310700A"
+  },
+  {
+    "Path": "Assets\\Settings\\Mobile_Renderer.asset",
+    "Hash": "AA93274C9521FA941170BECEC9E87C5FA36B8587EEFD5EEB5C0EED0D1D4B1DBE"
+  },
+  {
+    "Path": "Assets\\Settings\\Mobile_Renderer.asset.meta",
+    "Hash": "A148EE2B4987B05B8FF7AE5F9BF84916184F77AEFDDC821DCEB551F5A69F8179"
+  },
+  {
+    "Path": "Assets\\Settings\\Mobile_RPAsset.asset",
+    "Hash": "8D551911E1E411B063203E4EE970B4C1BCC209DC561AA7ECFE8824F85C2498F4"
+  },
+  {
+    "Path": "Assets\\Settings\\Mobile_RPAsset.asset.meta",
+    "Hash": "53EA46647712C615FD1A3F2E0DDDFA8559EEEDC649E9A1DBF93FF913DE28544C"
+  },
+  {
+    "Path": "Assets\\Settings\\PC_Renderer.asset",
+    "Hash": "3D0B01D8DED3327263B6690BE128A3DE58D17C514943AE42FE743A3E084A9C79"
+  },
+  {
+    "Path": "Assets\\Settings\\PC_Renderer.asset.meta",
+    "Hash": "B5DF8DDB2708C6ED4C133A5FF9EE95A75CC20E4EE3ED6181366A61AEDBAF31EC"
+  },
+  {
+    "Path": "Assets\\Settings\\PC_RPAsset.asset",
+    "Hash": "65B657B87062616FCA959AECBB64B4B01DFD3B0051AC1119FB65BE615539DF96"
+  },
+  {
+    "Path": "Assets\\Settings\\PC_RPAsset.asset.meta",
+    "Hash": "BB469B9B6F318E9E9BED29C3B2E73E79371C04743C6F95DD6603941F1CD3E53E"
+  },
+  {
+    "Path": "Assets\\Settings\\SampleSceneProfile.asset",
+    "Hash": "A8677D4BAC051D24CAA11CD622E39F968155EE277BFCE132274F1DE225692FE9"
+  },
+  {
+    "Path": "Assets\\Settings\\SampleSceneProfile.asset.meta",
+    "Hash": "2E23ABC214069F0ADBF2B2207F1DB54BE7876629EC2A3681D0F4AA5B61622EF0"
+  },
+  {
+    "Path": "Assets\\Settings\\UniversalRenderPipelineGlobalSettings.asset",
+    "Hash": "F074F70005181226C7614CBFB06B064E692C1032763BEF94CCF334D91D0056D0"
+  },
+  {
+    "Path": "Assets\\Settings\\UniversalRenderPipelineGlobalSettings.asset.meta",
+    "Hash": "F61661D8BC8DBE531DAF09F6211EF978C7BA145C9207C8E76524396AE0722D7C"
+  },
+  {
+    "Path": "Assets\\TutorialInfo\\Editor.meta",
+    "Hash": "7036BDBC8AF05799B5FD508484343B35C28A68B390198DA4673D34357D7D667F"
+  },
+  {
+    "Path": "Assets\\TutorialInfo\\Icons.meta",
+    "Hash": "546E7D7AF6B4D5E17D284C8F1188D05472E681911B8359905EE9B9E20769A106"
+  },
+  {
+    "Path": "Assets\\TutorialInfo\\Layout.wlt",
+    "Hash": "0A18BF035AA7CE914F19F7CE6B60A5A2D33E2371AF6F492A8EA7A1BC78755B8B"
+  },
+  {
+    "Path": "Assets\\TutorialInfo\\Layout.wlt.meta",
+    "Hash": "B8745A251DF078FFA75DBAAC0C4C6DEBECB61AB306B5B119A490CE6C635A11D8"
+  },
+  {
+    "Path": "Assets\\TutorialInfo\\Readme.cs",
+    "Hash": "6C1D741BCCB431EF270AA99BEA9498ABD5F17191DDB022834F82582C13AA8D64"
+  },
+  {
+    "Path": "Assets\\TutorialInfo\\Readme.cs.meta",
+    "Hash": "80A3DF9969FAB6E656583EE9BBCA884D0507E2B7DE3417F6EA3118FBA901CD60"
+  },
+  {
+    "Path": "Assets\\TutorialInfo\\StyleSheets.meta",
+    "Hash": "930D0C8276CEA1559A3E315F8500EA6CA8B58D980EEE3B44AAA1D461742C47E0"
+  },
+  {
+    "Path": "Assets\\TutorialInfo\\Editor\\ReadmeEditor.cs",
+    "Hash": "4EAA92BC653D0DFA552685C9766BE3CCD6D94715570FC709510E56D2AB299472"
+  },
+  {
+    "Path": "Assets\\TutorialInfo\\Editor\\ReadmeEditor.cs.meta",
+    "Hash": "F59080B424C16FA13EDD105BF006FDBAD98C11FCE0C921043E63C8877F144CD9"
+  },
+  {
+    "Path": "Assets\\TutorialInfo\\Icons\\URP.png",
+    "Hash": "1D17A9FF3537859ABE2C008603D29D90CF43191AE77AA386167CC65E53BA03D9"
+  },
+  {
+    "Path": "Assets\\TutorialInfo\\Icons\\URP.png.meta",
+    "Hash": "B330F1FCFC4E6CECCC95FC34A38434141603469B135633E1C4E8A03C19F9FDBC"
+  },
+  {
+    "Path": "Assets\\TutorialInfo\\StyleSheets\\ReadmeEditor.uss",
+    "Hash": "EF26F35935595D237802D5FD7EC7608DF7EC1E2EBED25BDE15AA4972C7CB55C9"
+  },
+  {
+    "Path": "Assets\\TutorialInfo\\StyleSheets\\ReadmeEditor.uss.meta",
+    "Hash": "0B7D3988E424498E61B8AD246996CBDEF616DFCEEEADE3D8EBE974546F13F5AE"
+  },
+  {
+    "Path": "Assets\\TutorialInfo\\StyleSheets\\ReadmeEditorDark.uss",
+    "Hash": "55520CCB7AB7E06C25283F608A4391F25C3A62E19F4BD8EE270BB80FB50F3FF8"
+  },
+  {
+    "Path": "Assets\\TutorialInfo\\StyleSheets\\ReadmeEditorDark.uss.meta",
+    "Hash": "E42F7F9DDA8A158EBE18760E1AD684EB113EF70061A046955DB87592610BD8F2"
+  },
+  {
+    "Path": "Assets\\TutorialInfo\\StyleSheets\\ReadmeEditorLight.uss",
+    "Hash": "5E9ACE1270007DC66B8B1C29063DE8D3A6F056485AE116DFA38D2C5519334445"
+  },
+  {
+    "Path": "Assets\\TutorialInfo\\StyleSheets\\ReadmeEditorLight.uss.meta",
+    "Hash": "0E4AF29F8ADDCCEE1C225BD695B280D2E712E59B8801B574481A934F7F78C2ED"
+  },
+  {
+    "Path": "Assets\\UI\\.gitkeep",
+    "Hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "Packages\\manifest.json",
+    "Hash": "B07376D7FA06054028A4C600A1B191286CBB08F82D658C81CFCAA62D28EC5835"
+  },
+  {
+    "Path": "Packages\\packages-lock.json",
+    "Hash": "3B18F96DEBC9223D364DBCC5B7C8384B096ECB8F9FB1FDA1F7D7AADCA4FBFCFF"
+  },
+  {
+    "Path": "ProjectSettings\\AudioManager.asset",
+    "Hash": "AEEDEB3243F07B61DBBE854AA08B5EF6F0B5274DD9852AD9F6129DDE3E105A31"
+  },
+  {
+    "Path": "ProjectSettings\\ClusterInputManager.asset",
+    "Hash": "40E65DD214BF254955D2C8829CA8CE2130FD3510485560CE012E9A1DDD93E623"
+  },
+  {
+    "Path": "ProjectSettings\\DynamicsManager.asset",
+    "Hash": "BF017B547BB77CE3443DD5287DDF2516A74FD167F4F2EE5D798340694F51776D"
+  },
+  {
+    "Path": "ProjectSettings\\EditorBuildSettings.asset",
+    "Hash": "39D5A79D6640156229368099FA1A999FB5957E4E8BB79A0C2236C5977083C703"
+  },
+  {
+    "Path": "ProjectSettings\\EditorSettings.asset",
+    "Hash": "BBEDCF93C32BCA12EABA9ED61189AB13F064217E9F2984A66772719FA73C56B5"
+  },
+  {
+    "Path": "ProjectSettings\\GraphicsSettings.asset",
+    "Hash": "15FF4127A0F261F15321F24C6A6B5C82E1F5A306AD32FD399EAC3E3C46C723C9"
+  },
+  {
+    "Path": "ProjectSettings\\InputManager.asset",
+    "Hash": "7A1BB836A1008D26D0860D143E9D9DF7CA41731D30A72901B518063819C62DF2"
+  },
+  {
+    "Path": "ProjectSettings\\MemorySettings.asset",
+    "Hash": "1E8379A461B10AE09F3F696911088C16875D63E87ED5F2D95DF9E1892703F9FD"
+  },
+  {
+    "Path": "ProjectSettings\\MultiplayerManager.asset",
+    "Hash": "ABA89FD1A1DDAD182727AD82727E536D27372E90328A8196DA2A4560398983DD"
+  },
+  {
+    "Path": "ProjectSettings\\NavMeshAreas.asset",
+    "Hash": "80106CFA7E6181A1928B142C075F3E510D527441E3D79BC83590E4AC91E7CD66"
+  },
+  {
+    "Path": "ProjectSettings\\PackageManagerSettings.asset",
+    "Hash": "F281D96E785DF430D30CE0A515F4FE5C625EF44467125879F4B9F4CB087E1578"
+  },
+  {
+    "Path": "ProjectSettings\\Physics2DSettings.asset",
+    "Hash": "D57A0FE55659C33879E8B70BC01C5EA9CDF082069DAB649905C6C5138531E6EB"
+  },
+  {
+    "Path": "ProjectSettings\\PhysicsCoreProjectSettings2D.asset",
+    "Hash": "BEDC5339A832C60DC3F11B84ABC4F4384DBFA20B0CD9AD6C444B907E751FC35E"
+  },
+  {
+    "Path": "ProjectSettings\\PresetManager.asset",
+    "Hash": "29C125923FE6E29F90190D4FCE1C82D660E7051546E2C9D02908D18C9CF2436C"
+  },
+  {
+    "Path": "ProjectSettings\\ProjectAuditorSettings.asset",
+    "Hash": "9E68444B9BDA981E2927A98DF9EDF69EA88362F0C6B7F3C81B39B9D515D2A416"
+  },
+  {
+    "Path": "ProjectSettings\\ProjectSettings.asset",
+    "Hash": "0D4B884611455EA4AD1B9065D4398EC4C51CCAA8716BC70069C0483FB42F38E4"
+  },
+  {
+    "Path": "ProjectSettings\\ProjectVersion.txt",
+    "Hash": "C42304CCF9A727E75D565625E67A9D17E07CA408948B5385B940AD38BA04DA98"
+  },
+  {
+    "Path": "ProjectSettings\\QualitySettings.asset",
+    "Hash": "600BEE1DD55CC67DBDFDCF320395635175C0E762760A8504CCEAA080A18A4EBA"
+  },
+  {
+    "Path": "ProjectSettings\\SceneTemplateSettings.json",
+    "Hash": "BB9098B3BFCDE78D93E264B96F7B77B5430E64E8C57A7AAD7F5A5D9C3945E16A"
+  },
+  {
+    "Path": "ProjectSettings\\ShaderGraphSettings.asset",
+    "Hash": "CDBA1E5D65BCF6E3269D76ED3E60B6C21F98322002996642C9D74F1EB89F6B91"
+  },
+  {
+    "Path": "ProjectSettings\\TagManager.asset",
+    "Hash": "23FC56B484AA3D7EDF5914CD3591F7A823CCEF5E3F3496F8A51F30388EAD63DC"
+  },
+  {
+    "Path": "ProjectSettings\\TimeManager.asset",
+    "Hash": "1A83E54ADBBDA7C9F4851103A0C6AB7F6448A3343D4EA5B7620452FA08416ECD"
+  },
+  {
+    "Path": "ProjectSettings\\UnityConnectSettings.asset",
+    "Hash": "7F2112B8C6EA0885DCC72B312C9726FFCD909F2E89D1EEAD61889274A4E5D1C0"
+  },
+  {
+    "Path": "ProjectSettings\\URPProjectSettings.asset",
+    "Hash": "596D5C8BF4F957B03684C949BEBC252AE1918F25415A1147A00684C4B086EFDA"
+  },
+  {
+    "Path": "ProjectSettings\\VersionControlSettings.asset",
+    "Hash": "E7BDA45BF7A394745FEE1316E6C71FA676004D591AD1F3AA247FD3E4CEB86071"
+  },
+  {
+    "Path": "ProjectSettings\\VFXManager.asset",
+    "Hash": "F066C6483919961332415EE64204F74FE52F38C02E82892EB02B7A5B2E381F0E"
+  },
+  {
+    "Path": "ProjectSettings\\XRSettings.asset",
+    "Hash": "EDD2BEB4A2E388312B4B7DA241AA51070434005D82C59363F1237DD2E567585F"
+  }
+]

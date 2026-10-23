@@ -1,0 +1,12 @@
+Assets\Scenes\Person2\Jungle_Prototype.unity
+Assets\Editor\JungleScenicPolish.cs
+Assets\Editor\JungleScenicPolish.cs.meta
+Assets\Art\Environments\Jungle\ScenicPolish.meta
+Assets\Art\Environments\Jungle\ScenicPolish\QuietStream.mat
+Assets\Art\Environments\Jungle\ScenicPolish\QuietStream.mat.meta
+Assets\Art\Environments\Jungle\ScenicPolish\StreamBanksCollision.asset
+Assets\Art\Environments\Jungle\ScenicPolish\StreamBanksCollision.asset.meta
+Assets\Art\Environments\Jungle\ScenicPolish\StreamGroundVisual.asset
+Assets\Art\Environments\Jungle\ScenicPolish\StreamGroundVisual.asset.meta
+Assets\Art\Environments\Jungle\ScenicPolish\StreamRibbon.asset
+Assets\Art\Environments\Jungle\ScenicPolish\StreamRibbon.asset.meta

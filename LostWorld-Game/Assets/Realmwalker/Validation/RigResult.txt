@@ -1,0 +1,1 @@
+Unity Humanoid Avatar valid/isHuman; HumanPose round-trip passed. 103 skins; bind error 1.342765E-07. Joint pose preview baked/rendered. No animation clips/locomotion tested.

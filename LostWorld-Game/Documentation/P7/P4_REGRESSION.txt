@@ -1,0 +1,5 @@
+Unity 6000.6.1f1
+P4 Play Mode checks passed: 22
+Actual Input System keyboard events tested for G/E.
+Range rejection, missing hold point, disabled input/targets/interactor, nearest selection, duplicate colliders, held following, idempotence, trigger zones and success feedback passed.
+Runtime test changes were not saved to the scene.

@@ -1,0 +1,740 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 30660)
+VBCSCompiler prewarm took 26.22 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.1f1 (7efac9f6c10e) revision 8321737'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Ryan Dhiman" at "2026-10-15T01:47:47.5546509Z"
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 16068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-15T01:47:47Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 61464, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              e6fc6a28e9ae409e81d50227c5f6bc33
+  Correlation Id:          bb5ff803ba6370f03a50f026455e7633
+  External correlation Id: 7764326265707118669
+  Machine Id:              31n885ZKCdDnSsyGVgHSG2ufeGg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Ryan Dhiman" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Ryan Dhiman-notifications" at "2026-10-15T01:47:47.6058331Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469972738122-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.06s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Unity.exe
+-batchmode
+-projectPath
+C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007
+-executeMethod
+LostWorlds.Person2.Editor.JungleVisualUpgrade.ApplyBatch
+-logFile
+C:\UnityProjects\Lost Worlds\Documentation\JungleVisuals\Apply.log
+Successfully changed project path to: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007
+C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-JungleFinal-20261007
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [31628]  Target information:
+
+Player connection [31628]  * "[IP] 192.168.56.1 [Port] 55505 [Flags] 2 [Guid] 851355797 [EditorId] 851355797 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QH19IDG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31628]  * "[IP] 192.168.29.159 [Port] 55505 [Flags] 2 [Guid] 851355797 [EditorId] 851355797 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QH19IDG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31628] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31628] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-50444" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-JungleFinal-20261007[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Initialize engine version: 6000.6.1f1 (7efac9f6c10e)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-JungleFinal-20261007/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   NVIDIA
+    VRAM:     6001 MB
+    Driver:   32.0.16.1060
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006786 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.914 seconds
+Domain Reload Profiling: 1476ms
+	BeginReloadAssembly (131ms)
+		CreateAndSetChildDomain (10ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (118ms)
+		TypeCache.Refresh (229ms)
+			TypeCache.ScanAssembly (214ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (915ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (452ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 59 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.searcher@4.9.5 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.render-pipelines.universal@e178ec6338de)
+    com.unity.test-framework@1.8.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.timeline@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.timeline@c56d56b0070b)
+    com.unity.ugui@2.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.ugui@fa62679cc16a)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.shadergraph@7e60a14be593)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.test-framework.performance@0a60b857a52e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+AcceleratorClientConnectionCallback - disconnected - :0
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-JungleFinal-20261007
+DisplayProgressbar: Compiling Scripts
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\DotNetSdk\dotnet.exe "C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-JungleFinal-20261007ExitCode: 4 Duration: 0s679ms
+[ 368/1050  0s] WriteResponseFile Library/Bee/artifacts/rsp/4747638433968585886.rsp
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+[ 811/1050  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra requires additional run (0.59 seconds), 2 items updated, 809 evaluated
+
+ExitCode: 0 Duration: 1s355ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-JungleFinal-20261007
+ExitCode: 0 Duration: 3s183ms
+Finished compiling graph: 1054 nodes, 20884 flattened edges (17746 ToBuild, 164 ToUse), maximum node priority 1086
+[ 578/1050  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp
+[ 811/1050  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1046/1050  1s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[1047/1050  1s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 147 defines and 382 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[1048/1050  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[1049/1050  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (3.12 seconds), 6 items updated, 1050 evaluated
+AssetDatabase: script compilation time: 5.918879s
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Importing 'GUID: 00000000000000006100000000000000 - Path: ProjectSettings/GraphicsSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000006100000000000000' -> (Import Result ID: '5716143f9234750bc7cd32f86dca7e6f') in 0.023 seconds [static dependencies only]. Details - ImportResultOutputID=a2dcdb8bc9503711bc0f2e2d72cfd36c DependenciesID=e0faa94f0ec67fa10371b908e76b8592 StaticDependenciesID=6835c2b1867a507c04d7889234c93812 
+Importing 'GUID: 0000000000000000a100000000000000 - Path: ProjectSettings/UnityConnectSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000a100000000000000' -> (Import Result ID: 'ccfbcdf02dc745f916046a7dd3000df3') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=a2c5944bc70168a38041609ba26dc022 DependenciesID=16628efba34cb190d4b39ded765831df StaticDependenciesID=d7d7e6a0191d04e9669a446c6be8239d 
+Refreshing native plugins compatible for Editor in 6.40 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.111 seconds
+Domain Reload Profiling: 2658ms
+	BeginReloadAssembly (408ms)
+		DisableScriptedObjects (24ms)
+		CreateAndSetChildDomain (181ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (1011ms)
+		LoadAssemblies (662ms)
+		TypeCache.Refresh (204ms)
+			TypeCache.ScanAssembly (186ms)
+		AnalyzeDomain (88ms)
+			BuildScriptInfoCaches (77ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1112ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (383ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (12ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Starting new worker id: 0 with log in C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-JungleFinal-20261007/Logs/AssetImportWorkerHW0.log
+Importing 'GUID: 18dc0cd2c080841dea60987a38ce93fa - Path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 18dc0cd2c080841dea60987a38ce93fa' -> (Import Result ID: 'c84af68db1c13e8a5d09738d471ce4e4') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=ac92a3253360087966dd104547753906 DependenciesID=8b0f946a22e04e5053f8ba81852d9a96 StaticDependenciesID=c88a0fd0ff6b1f24024063400b971410 
+Importing 'GUID: 4b83569d67af61e458304325a23e5dfd - Path: Assets/Settings/PC_RPAsset.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 4b83569d67af61e458304325a23e5dfd' -> (Import Result ID: '8df36ec1de72604d7467c918f93720c6') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=eae66dc0e7a749d738136f6c7279b2f0 DependenciesID=6ce4d5acc7a81ffda8d1bc2dc24d1632 StaticDependenciesID=1f767f18321d00885fdd2d5a3fd06d23 
+Importing 'GUID: ab09877e2e707104187f6f83e2f62510 - Path: Assets/Settings/DefaultVolumeProfile.asset' with importer (NativeFormatImporter)
+Imported 'GUID: ab09877e2e707104187f6f83e2f62510' -> (Import Result ID: '5afecd13fe0115452a314d3ad5076eb6') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=95ddd45e397c958331e78c27f61bae0a DependenciesID=7b759e83623d24bf9231804059932884 StaticDependenciesID=3c85822d288bfc9b0d802a48d24ed600 
+Refreshing native plugins compatible for Editor in 3.64 ms, found 4 plugins.
+
+Asset Pipeline Refresh (id=8174ed344e8be9b4f97c23702c294673): Total: 10.807 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=5 (actual=5, local cache=0, cache server=0)
+		Asset DB Process Time: managed=3 ms, native=2397 ms
+		Asset DB Callback time: managed=636 ms, native=35 ms
+		Scripting: domain reloads=1, domain reload time=1685 ms, compile time=5922 ms, other=126 ms
+		Project Asset Count: scripts=1433, non-scripts=2458
+		Asset File Changes: new=1, changed=6, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 22.453ms
+	ApplyChangesToAssetFolders: 1.191ms
+	Scan: 528.527ms
+	Collect global state as custom dependencies: 23.808ms
+	OnSourceAssetsModified: 1.277ms
+	CategorizeScriptCompilationAssets: 79.606ms
+	ProcessAssetsWithTransientArtifactChanges: 82.463ms
+	CategorizeAssets: 127.859ms
+	CompileScripts: 5922.420ms
+	ImportOutOfDateAssets: 1235.578ms (1128.804ms without children)
+		ImportManagerImport: 46.479ms (4.112ms without children)
+			UpdateCategorizedAssets: 0.084ms
+		ReloadNativeAssets: 7.974ms
+		UnloadImportedAssets: 1.021ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.713ms
+		ImportSchedulerStart: 50.571ms
+	PostProcessAllAssets: 644.389ms
+		VCAutoAddAssetPostprocess 3.264ms
+		XRBuildSystem.XRAssetImported 2.589ms
+		VersionControlSettings.HiddenFilePostprocess 0.329ms
+		WindowTitlePostprocess 0.177ms
+		PostProcessCallbackCreateDeferredMaterials 0.083ms
+		MonoPostProcessAllAssets: 634.392ms
+			SyncVS.PostprocessSyncProject 350.149ms
+			AssetPostprocessor.OnPostprocessAllAssets 199.817ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 29.490ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 13.977ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 7.356ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.619ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.919ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.699ms
+			AssetChangedListener.OnPostprocessAllAssets 1.693ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.571ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.312ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.144ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.772ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.733ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.654ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.505ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.501ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.433ms
+			PostProcessor.OnPostprocessAllAssets 0.417ms
+			AssetEvents.OnPostprocessAllAssets 0.408ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.340ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.330ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.276ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.263ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.214ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.206ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.183ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.182ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.171ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.149ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.137ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.136ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.119ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.112ms
+	PostAssetChangesProfiler: 7.291ms
+	UnloadStreamsBegin: 1.873ms
+	PersistCurrentRevisions: 0.421ms
+	GenerateScriptTypeHashes: 2.784ms
+	GenerateScriptTypeSerializationHashes: 5.084ms
+	Untracked: 2119.666ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Scanning for USB devices : 2.036ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Lost Worlds
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6652 unused Assets / (7.6 MB). Loaded Objects now: 7657.
+Memory consumption went from 412.2 MB to 404.6 MB.
+Total: 13.985600 ms (FindLiveObjects: 0.719900 ms CreateObjectMapping: 0.430600 ms MarkObjects: 7.826400 ms  DeleteObjects: 4.692200 ms)
+
+[Project] Loading completed in 17.127 seconds
+	Project init time: 				16.641 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.234 seconds
+		Asset Database init time: 		1.069 seconds
+		Global illumination init time: 	0.003 seconds
+		Assemblies load time: 			1.572 seconds
+		Unity extensions init time: 	0.042 seconds
+		Asset Database refresh time: 	10.808 seconds
+	Scene opening time: 			0.190 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1792028884538,"processId":50444,"projectLoad":17.126648000000003,"projectInit":16.6408206,"templateInit":0.0,"packageManagerInit":0.2340486,"assetDatabaseInit":1.0694365,"globalIlluminationInit":0.0032248,"assembliesLoad":1.572194,"unityExtensionsInit":0.0423133,"assetDatabaseRefresh":10.8075766,"sceneOpening":0.1904667}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1792028884539,"processId":50444,"editorVersion":"6000.6.1f1 (7efac9f6c10e)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+[Licensing::Client] Successfully resolved entitlement details
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Opening scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            62.357 ms
+	Integration:            114.320 ms
+	Integration of assets:  6.228 ms
+	Thread Wait Time:       0.309 ms
+	Total Operation Time:   183.213 ms
+Unloading 16 unused Assets / (67.4 KB). Loaded Objects now: 15812.
+Memory consumption went from 421.1 MB to 421.0 MB.
+Total: 13.516300 ms (FindLiveObjects: 1.071500 ms CreateObjectMapping: 0.492900 ms MarkObjects: 11.169000 ms  DeleteObjects: 0.333200 ms)
+
+Importing 'GUID: f848f0ab247d6d3498bca1b26359ad9c - Path: Assets/Art/Environments/Jungle/NaturalVisuals' with importer (DefaultImporter)
+Imported 'GUID: f848f0ab247d6d3498bca1b26359ad9c' -> (Import Result ID: '2aae395ecb527a8fab1675787cf4c872') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=3aff6bdfbc2f5e4a9beba46cfd1e96bd DependenciesID=f1184fb0d9001fe09a0d158559230219 StaticDependenciesID=1801253a04f16161a44bbca6bd0ca367 
+Refreshing native plugins compatible for Editor in 4.30 ms, found 4 plugins.
+Asset Pipeline Refresh (id=8e8117f37ccbac84db347885b63418e2): Total: 0.175 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Importing 'GUID: e89d47285517a9e45a7ce984e3696fe4 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/ForestFloor_Color.png' with importer (TextureImporter)
+Imported 'GUID: e89d47285517a9e45a7ce984e3696fe4' -> (Import Result ID: '9446ae59524b3af52d8a78076a6d4aa2') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3e0c802779bf0f5307e32baf49fe5ae3 DependenciesID=5edfb8cb370cae044065abf098e9619a StaticDependenciesID=94c65b55005b2314d853abe67e2a647e 
+Refreshing native plugins compatible for Editor in 3.41 ms, found 4 plugins.
+Asset Pipeline Refresh (id=e3f821e0cdfe89042a440fffed4a1165): Total: 0.083 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 10d46bea5983a714c8a315492bb270a6 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/ForestFloor_Normal.png' with importer (TextureImporter)
+Imported 'GUID: 10d46bea5983a714c8a315492bb270a6' -> (Import Result ID: 'b94ad3b8c531780919c5c916fe9f6764') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6af4228c18e9f039c232b592434600fd DependenciesID=c2ad87ae7d6489503c7bb9edb48b2c3f StaticDependenciesID=0fa1af64665ad07de891071b26708548 
+Refreshing native plugins compatible for Editor in 2.89 ms, found 4 plugins.
+Asset Pipeline Refresh (id=102ecd7b1d321ed4997858285f470d54): Total: 0.052 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: e89d47285517a9e45a7ce984e3696fe4 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/ForestFloor_Color.png' with importer (TextureImporter)
+Imported 'GUID: e89d47285517a9e45a7ce984e3696fe4' -> (Import Result ID: '46cf0874f5bd0b3a6d24c543b30f25bf') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1daa7f5e51773c16159aa802707b28e2 DependenciesID=901a69f9f7b621377878eb8545fdb73d StaticDependenciesID=cf8e9adb9926d9d089b17de5c1c5de2f 
+Refreshing native plugins compatible for Editor in 2.88 ms, found 4 plugins.
+Asset Pipeline Refresh (id=c2bba2c4d41f7f344adcb9b628f6c128): Total: 0.063 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 10d46bea5983a714c8a315492bb270a6 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/ForestFloor_Normal.png' with importer (TextureImporter)
+Imported 'GUID: 10d46bea5983a714c8a315492bb270a6' -> (Import Result ID: 'dfe2cd0efd3cc36a9661d53d8817aecb') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f4def6379bd55832941f7a73e73131f6 DependenciesID=dfa68fcca7ceff5d6c5ad2f4eaeecd3d StaticDependenciesID=117c06cffa7553dd67c45a100f4b45c2 
+Refreshing native plugins compatible for Editor in 3.46 ms, found 4 plugins.
+Asset Pipeline Refresh (id=85fbec76000e8a8448936943f4a7546a): Total: 0.059 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 3f9b6980f56a9354b9be4d1a981b03bc - Path: Assets/Art/Environments/Jungle/NaturalVisuals/ForestFloor.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 3f9b6980f56a9354b9be4d1a981b03bc' -> (Import Result ID: '3e99688cb774f02f831c3d705bb3c06f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d02bf0a09d7c76715b656939a3a1835c DependenciesID=eb9b5845e90f30f2f92b3956e2ab57b9 StaticDependenciesID=778460c229bc6964aede46d436d52702 
+Refreshing native plugins compatible for Editor in 3.02 ms, found 4 plugins.
+Asset Pipeline Refresh (id=ca5b6e75c47307444ab64597cfbe127f): Total: 0.066 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: f90f0a47c4a84d04896d5ffda0d60bcd - Path: Assets/Art/Environments/Jungle/NaturalVisuals/WeatheredEarth_Color.png' with importer (TextureImporter)
+Imported 'GUID: f90f0a47c4a84d04896d5ffda0d60bcd' -> (Import Result ID: '4010dd967e1ac17dd8dae1d6c4338208') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=04e70bb96fb5adcdf712a416d1938db9 DependenciesID=7f82316f0d55c61f3eb69086a6a0a9d5 StaticDependenciesID=1dff7e1ca95cab8165a6384845d392e5 
+Refreshing native plugins compatible for Editor in 3.89 ms, found 4 plugins.
+Asset Pipeline Refresh (id=e0b4c88cfe8c99d459e3dce0b3aec5dc): Total: 0.059 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: e743062e0320f3443b07fc7bd0425e17 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/WeatheredEarth_Normal.png' with importer (TextureImporter)
+Imported 'GUID: e743062e0320f3443b07fc7bd0425e17' -> (Import Result ID: '5f4c868583a325c2e597629dee9f9318') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7e7e882d1dc48c257469de7c320ec19e DependenciesID=d031106561c95080badd52b207613428 StaticDependenciesID=754a046a95e9ff16a34ea1c95af71036 
+Refreshing native plugins compatible for Editor in 3.33 ms, found 4 plugins.
+Asset Pipeline Refresh (id=d4c2eaf29225ae24486310df16519925): Total: 0.060 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: f90f0a47c4a84d04896d5ffda0d60bcd - Path: Assets/Art/Environments/Jungle/NaturalVisuals/WeatheredEarth_Color.png' with importer (TextureImporter)
+Imported 'GUID: f90f0a47c4a84d04896d5ffda0d60bcd' -> (Import Result ID: '07e185a822e5890c4696fa5eb932d799') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=23e4261cb70df4de4617f0fcf9bef178 DependenciesID=25b7f4d72dcf28160a88b6febf843e9e StaticDependenciesID=3b54ccf21bd47b57a3aff64ba0a1f1a6 
+Refreshing native plugins compatible for Editor in 2.99 ms, found 4 plugins.
+Asset Pipeline Refresh (id=b89ad6836527c8a4c80238cf3f6cd655): Total: 0.068 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: e743062e0320f3443b07fc7bd0425e17 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/WeatheredEarth_Normal.png' with importer (TextureImporter)
+Imported 'GUID: e743062e0320f3443b07fc7bd0425e17' -> (Import Result ID: '4ee6f2f2b7958d39dfbdcac9cabbc0d7') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c1420da4c0c3b0f75b270312c76826cd DependenciesID=a78876528a896f669b45375e7c1200e5 StaticDependenciesID=3803c92dc2ffb14e33b3c19d5e087cac 
+Refreshing native plugins compatible for Editor in 4.36 ms, found 4 plugins.
+Asset Pipeline Refresh (id=d3a4810cebd889a4ba39d8dba7505c45): Total: 0.065 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Worker ready: AssetImportWorkerHW0 0
+Importing 'GUID: e6305590c4daf0a45afa0d39b461572f - Path: Assets/Art/Environments/Jungle/NaturalVisuals/WeatheredEarth.mat' with importer (NativeFormatImporter)
+Imported 'GUID: e6305590c4daf0a45afa0d39b461572f' -> (Import Result ID: 'ec8b1c117e91ffc913b33b050226984e') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=80e4b8deb17cc71faf8ed39ca3bacc06 DependenciesID=272d66626705e1e6e63dba0fd136627e StaticDependenciesID=61d6355c187f098f6fa7602aa099d6a4 
+Refreshing native plugins compatible for Editor in 4.48 ms, found 4 plugins.
+Asset Pipeline Refresh (id=10b8ddabbf4ba9a4cab226bc8c53905b): Total: 0.071 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 61c49f0dca5f93f43a0a93ad7d45a748 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/RoughBark_Color.png' with importer (TextureImporter)
+Imported 'GUID: 61c49f0dca5f93f43a0a93ad7d45a748' -> (Import Result ID: 'faaec25f640db1ffb43ccda525ddf6f6') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d8bcdb2923a1082eefdd23c5134b9936 DependenciesID=0cc7ef9ff5b32a8ce3062873e2fe3a9a StaticDependenciesID=0a94658b6820edaddf3e2abc9fa513f0 
+Refreshing native plugins compatible for Editor in 2.83 ms, found 4 plugins.
+Asset Pipeline Refresh (id=cc42fe665c700f944bf6930002fc138a): Total: 0.055 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: aa6fab9eaf2e38b4b849437c0b6bccd3 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/RoughBark_Normal.png' with importer (TextureImporter)
+Imported 'GUID: aa6fab9eaf2e38b4b849437c0b6bccd3' -> (Import Result ID: '9db18c3679bffb89b82d2dbde0804bad') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e22cbd68fbd6a15a421a7232d124e32b DependenciesID=724fd4f79b5a2505cdfda3f84803bd97 StaticDependenciesID=6ccfa2a57809c8b78a3f21d3cca368cd 
+Refreshing native plugins compatible for Editor in 4.07 ms, found 4 plugins.
+Asset Pipeline Refresh (id=6ca6b00f6af0adb4380725723c1b4e85): Total: 0.062 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 61c49f0dca5f93f43a0a93ad7d45a748 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/RoughBark_Color.png' with importer (TextureImporter)
+Imported 'GUID: 61c49f0dca5f93f43a0a93ad7d45a748' -> (Import Result ID: 'be96d10594f35ca575bd753821fc10d2') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae127aacadca55af64ddd9f132deb63d DependenciesID=342615f2795e91f9a1468c22e93d822f StaticDependenciesID=0635c8dcebd3395bf9fb62321f3b7521 
+Refreshing native plugins compatible for Editor in 4.54 ms, found 4 plugins.
+Asset Pipeline Refresh (id=54669620b5d45d64da708030471e069e): Total: 0.067 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: aa6fab9eaf2e38b4b849437c0b6bccd3 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/RoughBark_Normal.png' with importer (TextureImporter)
+Imported 'GUID: aa6fab9eaf2e38b4b849437c0b6bccd3' -> (Import Result ID: '711d7245e515ad41f4423c406b8659a2') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=25cfa2793c7d98b9e15e038da2e5e71a DependenciesID=b29b234ee057da2ab5cd8eb31f9708d5 StaticDependenciesID=5fb7bd29e6146c72e72a2d421cf70348 
+Refreshing native plugins compatible for Editor in 3.42 ms, found 4 plugins.
+Asset Pipeline Refresh (id=f2890d3f01175b24283e43c59871a960): Total: 0.064 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: f8b75cec4baa3fd4ab17b31b66dd5362 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/RoughBark.mat' with importer (NativeFormatImporter)
+Imported 'GUID: f8b75cec4baa3fd4ab17b31b66dd5362' -> (Import Result ID: '862c2205284f8a2fbe36b5d43cd01e70') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=96a848b40509982450ac9541a2a29476 DependenciesID=e5b5305c9d47fa2068efd6839c365a6b StaticDependenciesID=ceb6e067502917970f7730bcd3060f6d 
+Refreshing native plugins compatible for Editor in 3.30 ms, found 4 plugins.
+Asset Pipeline Refresh (id=dca03d576a0ce354791288a5b2256985): Total: 0.048 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: a010820eb88b922479cdd7b39a39d0a0 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/DeepFoliage_Color.png' with importer (TextureImporter)
+Imported 'GUID: a010820eb88b922479cdd7b39a39d0a0' -> (Import Result ID: '7236fca0b3755b0b4f6501decff34821') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=63825dd1ba7cbfe400b8d86677c17e5f DependenciesID=6fc8ea77f232863a3d72edca3ca0c7e6 StaticDependenciesID=7637751f7c82406d0fccf5beabca3d21 
+Refreshing native plugins compatible for Editor in 3.90 ms, found 4 plugins.
+Asset Pipeline Refresh (id=92017678e4c16f9468d43e78ad5d3585): Total: 0.055 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: ed086faa40d35bf4bba8ef6ca00b9e71 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/DeepFoliage_Normal.png' with importer (TextureImporter)
+Imported 'GUID: ed086faa40d35bf4bba8ef6ca00b9e71' -> (Import Result ID: '78d5a92c10caff73c5bb3082b2a17a8d') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e25e4618d68fc80a8a10dd51772fa2df DependenciesID=2dcd61fbf836facb3954f997fcd417ba StaticDependenciesID=9b7a520cea242b505f07955b87c3f0f1 
+Refreshing native plugins compatible for Editor in 2.64 ms, found 4 plugins.
+Asset Pipeline Refresh (id=e3b2c4a8005aa374abebd5b0e3e2809d): Total: 0.054 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: a010820eb88b922479cdd7b39a39d0a0 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/DeepFoliage_Color.png' with importer (TextureImporter)
+Imported 'GUID: a010820eb88b922479cdd7b39a39d0a0' -> (Import Result ID: '5f8e9298272840fd3905b074168e3c06') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8da5a23ffbd7cab914b791c59a8e996e DependenciesID=d422bf84a5785af2c7ac182606e3fba6 StaticDependenciesID=d7fe214001e5aebb04db7fdc8aa82666 
+Refreshing native plugins compatible for Editor in 3.78 ms, found 4 plugins.
+Asset Pipeline Refresh (id=17e4bffd7a60f76448b8d8bd0166e895): Total: 0.063 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: ed086faa40d35bf4bba8ef6ca00b9e71 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/DeepFoliage_Normal.png' with importer (TextureImporter)
+Imported 'GUID: ed086faa40d35bf4bba8ef6ca00b9e71' -> (Import Result ID: '613a6276ae490b1374f8c9dcc3306186') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b9b135979079c070dff9d13a2654ab55 DependenciesID=e89ca49ec36f026fed9bd363758e986b StaticDependenciesID=8e8af4f9ca4d75e8765916cf046fd7a1 
+Refreshing native plugins compatible for Editor in 3.78 ms, found 4 plugins.
+Asset Pipeline Refresh (id=4842b441233b96146873a4601a8f1e30): Total: 0.075 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 50c5bf77339b8064aa8b15d879e7b13b - Path: Assets/Art/Environments/Jungle/NaturalVisuals/DeepFoliage.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 50c5bf77339b8064aa8b15d879e7b13b' -> (Import Result ID: 'fa5c3c2e4b2ef81f33a0639b6c4157d5') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=091ecfc24ba244960154cb1b3b26a3ba DependenciesID=5b3adb89fb2324ba5f9c68803cf174fb StaticDependenciesID=8dc2acd4ca78ec6103155f0fbc97d4db 
+Refreshing native plugins compatible for Editor in 3.72 ms, found 4 plugins.
+Asset Pipeline Refresh (id=012e6cbf2efac9549b5db3525280cf44): Total: 0.053 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 0a1ea990f218e624bae0ef107662270c - Path: Assets/Art/Environments/Jungle/NaturalVisuals/SunlitFoliage_Color.png' with importer (TextureImporter)
+Imported 'GUID: 0a1ea990f218e624bae0ef107662270c' -> (Import Result ID: '5eb9c2d87b73d69fbb665ffeb896936d') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2237e3ae4d6df2ca2d027cb3b9907620 DependenciesID=d870e8c8e58c76ebc87710b0fc328998 StaticDependenciesID=99865b095d67a03f610b5d8b6b3f5611 
+Refreshing native plugins compatible for Editor in 3.68 ms, found 4 plugins.
+Asset Pipeline Refresh (id=b7bd2150cb731064597ef3bf313b8f83): Total: 0.058 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 1db303fd9a889b843924d80f37e8dabc - Path: Assets/Art/Environments/Jungle/NaturalVisuals/SunlitFoliage_Normal.png' with importer (TextureImporter)
+Imported 'GUID: 1db303fd9a889b843924d80f37e8dabc' -> (Import Result ID: 'a1a957d1ce90ba15113ca8b91e8de9d8') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c6420451fc858335311dff510e71c5b DependenciesID=7e530a6da97a59db8dc26727c3e227db StaticDependenciesID=97b2d521669f908b0872716c440e41ce 
+Refreshing native plugins compatible for Editor in 2.73 ms, found 4 plugins.
+Asset Pipeline Refresh (id=16c8c4e7582632e409201467d06ff493): Total: 0.055 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 0a1ea990f218e624bae0ef107662270c - Path: Assets/Art/Environments/Jungle/NaturalVisuals/SunlitFoliage_Color.png' with importer (TextureImporter)
+Imported 'GUID: 0a1ea990f218e624bae0ef107662270c' -> (Import Result ID: '02fad362def10d6994101aa55871312d') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c0bbcec97c986265ef1d16c06b613591 DependenciesID=76354f059ef4997d2fa8fcf5ce530472 StaticDependenciesID=6becee516ddf7e551015cf2166385ba5 
+Refreshing native plugins compatible for Editor in 2.90 ms, found 4 plugins.
+Asset Pipeline Refresh (id=a039ebc20a6f8484b82ac608f4bf4250): Total: 0.063 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 1db303fd9a889b843924d80f37e8dabc - Path: Assets/Art/Environments/Jungle/NaturalVisuals/SunlitFoliage_Normal.png' with importer (TextureImporter)
+Imported 'GUID: 1db303fd9a889b843924d80f37e8dabc' -> (Import Result ID: '72e8273c931cf186f07b7789e26f4980') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bab4553e5a24e3c22cb969b654d7896a DependenciesID=55f9638c8c0ab30cac21eb07ffe30872 StaticDependenciesID=59214ffb55b344a01b52b7a46bbfc725 
+Refreshing native plugins compatible for Editor in 3.43 ms, found 4 plugins.
+Asset Pipeline Refresh (id=c111c1b9f1b3d5f46838700ef5a8f9dc): Total: 0.065 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: fc39f094983b4b54cb30ce49b8fa0940 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/SunlitFoliage.mat' with importer (NativeFormatImporter)
+Imported 'GUID: fc39f094983b4b54cb30ce49b8fa0940' -> (Import Result ID: 'ad53f07f28d818ad9826f1fcf3f6c33f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=2300a1ad5a3510807330db8572f040c1 DependenciesID=0d4d27b0b552dcda85f94103d40c809c StaticDependenciesID=d2d3967c055e07421e8a911acd0bb2d6 
+Refreshing native plugins compatible for Editor in 2.91 ms, found 4 plugins.
+Asset Pipeline Refresh (id=6e55cf451956d0d49b10d2209f81e14b): Total: 0.052 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 2b9d41d2b2b67d14587a88890f45ae6f - Path: Assets/Art/Environments/Jungle/NaturalVisuals/Understory_Color.png' with importer (TextureImporter)
+Imported 'GUID: 2b9d41d2b2b67d14587a88890f45ae6f' -> (Import Result ID: '93b7737ce35cf5858e8bc3d53b3c1392') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af72347e88cadcf7585cdda476a76f84 DependenciesID=98ec8fc3778931fd7872877dc444c035 StaticDependenciesID=c3b6e50cd6bf5129a19ad106f291e76c 
+Refreshing native plugins compatible for Editor in 4.01 ms, found 4 plugins.
+Asset Pipeline Refresh (id=e4ed8708aa2a15b43a95aac2bd96dfad): Total: 0.066 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: a095625494604d047a63adfe21b95a44 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/Understory_Normal.png' with importer (TextureImporter)
+Imported 'GUID: a095625494604d047a63adfe21b95a44' -> (Import Result ID: '3ddfbd2dbd7cb928a00a52211d0388a2') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a176ff8d9055eba5ce3f74d6d7f5a752 DependenciesID=721addace554ac7db4a62c4a8f48a92f StaticDependenciesID=5aa0a94a74b5663572226690fb9002f2 
+Refreshing native plugins compatible for Editor in 2.76 ms, found 4 plugins.
+Asset Pipeline Refresh (id=9a2a4e0d8ca81a04aad9ae756908602b): Total: 0.060 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 2b9d41d2b2b67d14587a88890f45ae6f - Path: Assets/Art/Environments/Jungle/NaturalVisuals/Understory_Color.png' with importer (TextureImporter)
+Imported 'GUID: 2b9d41d2b2b67d14587a88890f45ae6f' -> (Import Result ID: '3b60f848285ae17d6400ddd6534b7f58') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0e13fc5f2e69e222f364cfd8284fa73f DependenciesID=462dec4bc1bd7bc453ab86ba81da868c StaticDependenciesID=e7e236e035a9cc916a9051a0c0198002 
+Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
+Asset Pipeline Refresh (id=b3f032ae844e10b41b83c15537715576): Total: 0.058 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: a095625494604d047a63adfe21b95a44 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/Understory_Normal.png' with importer (TextureImporter)
+Imported 'GUID: a095625494604d047a63adfe21b95a44' -> (Import Result ID: '5331b4ab9bf28ab0c6c96e428df02c9e') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a377ef587c766c22cbf7cd278a2d931 DependenciesID=9ed1506fcf5ed8c4334143296109215c StaticDependenciesID=643124411015d5c910cb909129b6f148 
+Refreshing native plugins compatible for Editor in 3.50 ms, found 4 plugins.
+Asset Pipeline Refresh (id=f8acc6f063eddc84982a3743a133bdf9): Total: 0.073 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 00c89000b21d37547a21019814ef1e9c - Path: Assets/Art/Environments/Jungle/NaturalVisuals/Understory.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 00c89000b21d37547a21019814ef1e9c' -> (Import Result ID: '1ad8e818721810bc12a12ae2cbc59886') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=ca34ff7075964204e5acbb0e1a48a7c6 DependenciesID=1a9de90650fe31f0fdb354a4aed145fc StaticDependenciesID=7b680384ffab0dff311e15f27b6f1610 
+Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
+Asset Pipeline Refresh (id=a0c0e675610fc5b4b8b1aeb2e972691d): Total: 0.050 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: b2c117092a328be4b98044470effa640 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/WeatheredRock_Color.png' with importer (TextureImporter)
+Imported 'GUID: b2c117092a328be4b98044470effa640' -> (Import Result ID: 'd5102bc786acf90b141e78c02e76a926') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41b25c9306bd234097e5b44a13143cac DependenciesID=e71d692a269b06d598e0628dcada3844 StaticDependenciesID=ee5c49766716164d7dd2a871b8e20de5 
+Refreshing native plugins compatible for Editor in 2.70 ms, found 4 plugins.
+Asset Pipeline Refresh (id=3b665174a93a392468b0e0057bddd576): Total: 0.054 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 3a229436216bca649b0d8e4542314e14 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/WeatheredRock_Normal.png' with importer (TextureImporter)
+Imported 'GUID: 3a229436216bca649b0d8e4542314e14' -> (Import Result ID: '1404b204e8d3c3fcbb060a18dacae481') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14a89bd964fdbe419094addb3c054059 DependenciesID=b00d571c9c254aed666bd1277b81868a StaticDependenciesID=7d95eb9e7d82b62b9656fdf38bb31c9a 
+Refreshing native plugins compatible for Editor in 3.28 ms, found 4 plugins.
+Asset Pipeline Refresh (id=808ab1565d5fff44f8e1c87f7499a0d2): Total: 0.055 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: b2c117092a328be4b98044470effa640 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/WeatheredRock_Color.png' with importer (TextureImporter)
+Imported 'GUID: b2c117092a328be4b98044470effa640' -> (Import Result ID: 'c32f5b47e6516f0039c98d59f72c71af') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=61a0a2ac969fd5e451faaae0709e0eee DependenciesID=05b74fadfe777d6e15808c7769a1d6dd StaticDependenciesID=19b03406c9b218fb046826faca21d1ba 
+Refreshing native plugins compatible for Editor in 2.93 ms, found 4 plugins.
+Asset Pipeline Refresh (id=2b6c0277777f6ae49a18b3a3d5d4da91): Total: 0.065 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 3a229436216bca649b0d8e4542314e14 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/WeatheredRock_Normal.png' with importer (TextureImporter)
+Imported 'GUID: 3a229436216bca649b0d8e4542314e14' -> (Import Result ID: 'ea28fcaec0707a3bfd2d3e835ac9eae2') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=43684b3020df8890fc051683e52566fb DependenciesID=893bd28e72712d34f340fd9b6991ec81 StaticDependenciesID=0b990ec92673e532749cf0c92ae82d52 
+Refreshing native plugins compatible for Editor in 2.52 ms, found 4 plugins.
+Asset Pipeline Refresh (id=e0f512ebf4cd0b64eaece268c1ac3681): Total: 0.065 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: d1f78bfe36ffcad4fae068997ea58c2e - Path: Assets/Art/Environments/Jungle/NaturalVisuals/WeatheredRock.mat' with importer (NativeFormatImporter)
+Imported 'GUID: d1f78bfe36ffcad4fae068997ea58c2e' -> (Import Result ID: 'dfd2f96f373ec4dd8cb64c98d0fc1607') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=b394897ea3495dc050d99343598368f5 DependenciesID=de68656d5d6fe95fc20119d0499d7beb StaticDependenciesID=97792ee8c4ae7ad819606772f58b1e99 
+Refreshing native plugins compatible for Editor in 2.98 ms, found 4 plugins.
+Asset Pipeline Refresh (id=efce6a61c65495a47a1bccf704ff54b5): Total: 0.047 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 4acf95ac299dd914ca51b529d10995fd - Path: Assets/Art/Environments/Jungle/NaturalVisuals/SoftMoss_Color.png' with importer (TextureImporter)
+Imported 'GUID: 4acf95ac299dd914ca51b529d10995fd' -> (Import Result ID: 'df24cca2c517d6267674d0d4a0d620ff') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f72bd5d4db0bcc21f0982bff9e8ec704 DependenciesID=bc3526c29443dbebc067ed1f46be7ca4 StaticDependenciesID=7b8272f452eccc396c1128ede28f307a 
+Refreshing native plugins compatible for Editor in 3.36 ms, found 4 plugins.
+Asset Pipeline Refresh (id=b9868c405e123de408b104faf6791e8d): Total: 0.060 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 93c965ba9d4a9b546aebe22578a0eb4b - Path: Assets/Art/Environments/Jungle/NaturalVisuals/SoftMoss_Normal.png' with importer (TextureImporter)
+Imported 'GUID: 93c965ba9d4a9b546aebe22578a0eb4b' -> (Import Result ID: 'b6285ea753c6feea038a2358e4f6a1e4') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c5dd094cfc066d33d82e4b72fe35172 DependenciesID=92cc1ee616c6fb2405bd0178a7d40818 StaticDependenciesID=db061c6013252c5053c46bfb0d939c7c 
+Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
+Asset Pipeline Refresh (id=6350f734d272698419ff2f8a343c3b21): Total: 0.058 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 4acf95ac299dd914ca51b529d10995fd - Path: Assets/Art/Environments/Jungle/NaturalVisuals/SoftMoss_Color.png' with importer (TextureImporter)
+Imported 'GUID: 4acf95ac299dd914ca51b529d10995fd' -> (Import Result ID: 'c75ae8f87a353a5497c7acd5d121962f') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8ac9633c00bf3d3da8b03127b98e1303 DependenciesID=8b19da65b1ec6bc56dc8cfd6f751c71c StaticDependenciesID=ebc18a153b672cb027cef5ef2d968c7d 
+Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+Asset Pipeline Refresh (id=47cd699455e77ee4eb052b31a4d22e8a): Total: 0.064 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 93c965ba9d4a9b546aebe22578a0eb4b - Path: Assets/Art/Environments/Jungle/NaturalVisuals/SoftMoss_Normal.png' with importer (TextureImporter)
+Imported 'GUID: 93c965ba9d4a9b546aebe22578a0eb4b' -> (Import Result ID: '97720af1405a0e5f6a8c221803d8c3fc') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bbb852e661287a3b180f5edef0b54b33 DependenciesID=3bfc4b14fc49398e8edd0a10648df652 StaticDependenciesID=c39907463a442c41515ae591bc2273a6 
+Refreshing native plugins compatible for Editor in 2.94 ms, found 4 plugins.
+Asset Pipeline Refresh (id=7ac50c8635b0b9a459d8844b78d6de22): Total: 0.060 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 80c80e24820827c41aa4390ae7c3f91b - Path: Assets/Art/Environments/Jungle/NaturalVisuals/SoftMoss.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 80c80e24820827c41aa4390ae7c3f91b' -> (Import Result ID: '4cf795ce8598ea85d49b91e70983022b') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=b418822deb863d4b0534f17118c4acdf DependenciesID=67a47c07ec498519ef2cc88e40a563be StaticDependenciesID=6e31145e5346c554aa2f17d17e07191b 
+Refreshing native plugins compatible for Editor in 3.44 ms, found 4 plugins.
+Asset Pipeline Refresh (id=7451774236aadaa4eadab4f9dd737fed): Total: 0.048 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: fcc1fe01de5946440827084152f80e10 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/AgedLimestone_Color.png' with importer (TextureImporter)
+Imported 'GUID: fcc1fe01de5946440827084152f80e10' -> (Import Result ID: 'ffb25ade649d34b1b1b3f28ebdb0ad95') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cf7b5c5eb9c43c11cb46c1d1f18bbcc5 DependenciesID=461431ef5a44d5b4c7815b0ccbca18f8 StaticDependenciesID=1399097574ff6bd1595f97e242169dbb 
+Refreshing native plugins compatible for Editor in 2.78 ms, found 4 plugins.
+Asset Pipeline Refresh (id=bfa7cd954b85dff41947dbb77a46b5f7): Total: 0.049 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 3823739508a96f44388b80243e0449e2 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/AgedLimestone_Normal.png' with importer (TextureImporter)
+Imported 'GUID: 3823739508a96f44388b80243e0449e2' -> (Import Result ID: '6a306307ab5df8eb7bc521692545231b') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c52310e9ae4914fe3517c659f3ab455 DependenciesID=920258a9b85187235387df213fdd77a9 StaticDependenciesID=f2e8e234b47728afa528b9d86c03569a 
+Refreshing native plugins compatible for Editor in 2.37 ms, found 4 plugins.
+Asset Pipeline Refresh (id=e4eb0669d8280954aa37c416319f956c): Total: 0.050 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: fcc1fe01de5946440827084152f80e10 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/AgedLimestone_Color.png' with importer (TextureImporter)
+Imported 'GUID: fcc1fe01de5946440827084152f80e10' -> (Import Result ID: '86cc8e9bcf3321aad6fb6f782eaabee5') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7dc941bf3626e60ea7a6934854a9d249 DependenciesID=9a8f3d66210836424963dfb79dbbf46a StaticDependenciesID=113556984f80adcd1b416bdef9049c8b 
+Refreshing native plugins compatible for Editor in 2.59 ms, found 4 plugins.
+Asset Pipeline Refresh (id=e9812471053011640a5e491a82f980d9): Total: 0.054 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 3823739508a96f44388b80243e0449e2 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/AgedLimestone_Normal.png' with importer (TextureImporter)
+Imported 'GUID: 3823739508a96f44388b80243e0449e2' -> (Import Result ID: '40ed9011d68159c0c8d2c3eb3c56afd9') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c8a6f9be3fbe1d8a525806346e1408d DependenciesID=018a424e35fcf25c1304e3f71f54c73b StaticDependenciesID=9040f7efa4e049ebc70d1c4af42f7702 
+Refreshing native plugins compatible for Editor in 2.91 ms, found 4 plugins.
+Asset Pipeline Refresh (id=ceacd40de2a1d5f489e1b1cd92f67d52): Total: 0.068 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: cb3103e5dac5911439ae399dd9406eb8 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/AgedLimestone.mat' with importer (NativeFormatImporter)
+Imported 'GUID: cb3103e5dac5911439ae399dd9406eb8' -> (Import Result ID: 'f9651adb689a0dce99f0ee86a574b093') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=6df56a0f538fbc8bb152fbae77da0395 DependenciesID=20d9d4528efb842322033122e2458cff StaticDependenciesID=4dc530e221686df281d55d662d4cd47f 
+Refreshing native plugins compatible for Editor in 3.00 ms, found 4 plugins.
+Asset Pipeline Refresh (id=058b467af4ef93c409b274bc23a5a82c): Total: 0.057 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: fd636440b32c6c14984c329b4fbe4ece - Path: Assets/Art/Environments/Jungle/NaturalVisuals/Surface_RuinClearingApproach.asset' with importer (NativeFormatImporter)
+Imported 'GUID: fd636440b32c6c14984c329b4fbe4ece' -> (Import Result ID: '52053bba054257a5daccefe13462ae91') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=4c548adf544807f238b9b98fdf44ea14 DependenciesID=d18342df91ea8b0da26cb0c26deea73b StaticDependenciesID=d434159ff7db4cbe2a64b3d3a55513ac 
+Refreshing native plugins compatible for Editor in 3.12 ms, found 4 plugins.
+Asset Pipeline Refresh (id=189e2bef33e07024d842f97c7aa69ecc): Total: 0.066 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: ccf227ecbf04a6d4984cd0a903a709d3 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/Surface_RuinClearingApproach_Junction0.asset' with importer (NativeFormatImporter)
+Imported 'GUID: ccf227ecbf04a6d4984cd0a903a709d3' -> (Import Result ID: 'e2c050d4edabab66d546cc9fa11e0ba7') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a6a9e87460d07b3aa447240a0e3f4933 DependenciesID=2a63eb59184244d3ad938ffc18105a47 StaticDependenciesID=0647cc9fb8ba9e347ac593e61cfbd4c7 
+Refreshing native plugins compatible for Editor in 2.91 ms, found 4 plugins.
+Asset Pipeline Refresh (id=fde3bba19fc69e740a3ded56e5fd08e9): Total: 0.046 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 96a8d47ba6e257f41a93866b6945ace5 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/Surface_RuinClearingApproach_Junction1.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 96a8d47ba6e257f41a93866b6945ace5' -> (Import Result ID: 'd7d5c93ae15759285a51d18e5562f7cb') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=fc15d1e92aa523229892738d23e89e24 DependenciesID=30a8b621c4b26603737e5191b5aef728 StaticDependenciesID=cd2a507ce6cc18117136fe46391cb68d 
+Refreshing native plugins compatible for Editor in 2.63 ms, found 4 plugins.
+Asset Pipeline Refresh (id=733f88f0ff1f13545b10e736a7148d44): Total: 0.045 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 697c4ac8358821a4f848cd5c1828b578 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/Surface_StartClearing.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 697c4ac8358821a4f848cd5c1828b578' -> (Import Result ID: '95918a8429ab110f1617ab128655b38f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=84d1330dda0c0ff3ca4b3a5fab9576e5 DependenciesID=a35e06e2a8ac405c9f57475d2308cd09 StaticDependenciesID=c7ba14cefbf5f7eeeb91fa41540f44cd 
+Refreshing native plugins compatible for Editor in 2.97 ms, found 4 plugins.
+Asset Pipeline Refresh (id=0ba41761671ec2e43a1fd96f7713ed57): Total: 0.050 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: ce334e64e1e42ca4fb25d41abff95e54 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/Surface_ExplorationGlade.asset' with importer (NativeFormatImporter)
+Imported 'GUID: ce334e64e1e42ca4fb25d41abff95e54' -> (Import Result ID: '4e3564df83e4d0c6d156dac4779fdc2a') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=a29aa74da6a35b3872e731706d1e3203 DependenciesID=048abbdaebebd678c5e4ba122d8117d0 StaticDependenciesID=1c8d4dac14c21c3df24dec91b015770c 
+Refreshing native plugins compatible for Editor in 2.66 ms, found 4 plugins.
+Asset Pipeline Refresh (id=7024c78cfb0a03e479c15e95cec23205): Total: 0.046 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: b4f2fd5db27251f4c9c66afb01e471c9 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/Surface_GladeApproach.asset' with importer (NativeFormatImporter)
+Imported 'GUID: b4f2fd5db27251f4c9c66afb01e471c9' -> (Import Result ID: 'e871b506116f26cac4aec1bdf5aafafc') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=5590b4c11c4c809f370658d7c2bc90cb DependenciesID=b0bae63012ab18571d57e4eca7b75eb2 StaticDependenciesID=b55cf38d94e726d0696e5368106fecd2 
+Refreshing native plugins compatible for Editor in 2.98 ms, found 4 plugins.
+Asset Pipeline Refresh (id=eb25682364546d44a82a33c4f0dddaf6): Total: 0.053 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: e087f6c583775554188ccb5a5b3efe77 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/Surface_GladeApproach_Junction0.asset' with importer (NativeFormatImporter)
+Imported 'GUID: e087f6c583775554188ccb5a5b3efe77' -> (Import Result ID: 'cd039e72aa8213f5dace0e73c11f1df6') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=be9d63b47d24efe0b925b76a861719e9 DependenciesID=bae4021a94b68ae3203f29fbc5e1e2aa StaticDependenciesID=5921918718f92d346eb9e1a606d3e44f 
+Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
+Asset Pipeline Refresh (id=7a9d41d368144d54197b1215334fb4f5): Total: 0.051 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: be3f0aaebba28a54eb4732ca8bd423db - Path: Assets/Art/Environments/Jungle/NaturalVisuals/Surface_GladeApproach_Junction1.asset' with importer (NativeFormatImporter)
+Imported 'GUID: be3f0aaebba28a54eb4732ca8bd423db' -> (Import Result ID: '675e6e732eb93ef5741cce6ec735ba0c') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=3dd4c39d3c735c108378407470fb0577 DependenciesID=6790f4f18017dc423d657cc64137e82b StaticDependenciesID=f76627ea1fba53d9360945096cad2e65 
+Refreshing native plugins compatible for Editor in 2.72 ms, found 4 plugins.
+Asset Pipeline Refresh (id=1f5ae6380bd364a48b57844d4e8e12d0): Total: 0.051 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: b341d9b034cec7b4ab820405f5516a1e - Path: Assets/Art/Environments/Jungle/NaturalVisuals/Surface_RuinCourtyard.asset' with importer (NativeFormatImporter)
+Imported 'GUID: b341d9b034cec7b4ab820405f5516a1e' -> (Import Result ID: 'df9d3542114a41c3d99ccacbbbab7a29') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=2e01b189d914a57e1c4d9b2ce76bfad1 DependenciesID=26133c5c13b57ffce59b2a05b5019e20 StaticDependenciesID=332d220ca74c95632e11ad5d85b415ec 
+Refreshing native plugins compatible for Editor in 3.11 ms, found 4 plugins.
+Asset Pipeline Refresh (id=a0617bc0f4adce64e8470029b3b8fc57): Total: 0.055 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: baa91064cc451854d8abde5a2541df80 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/Surface_ContinuousMainRoad.asset' with importer (NativeFormatImporter)
+Imported 'GUID: baa91064cc451854d8abde5a2541df80' -> (Import Result ID: '822c166cbf8f6a9e98e6355dec4a3e42') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=d9de16e7176aa335f9d9e8e36fa882b2 DependenciesID=700fe47acdef61a42b6859bbfd67d681 StaticDependenciesID=daae1f54025c5952140056c015581322 
+Refreshing native plugins compatible for Editor in 2.98 ms, found 4 plugins.
+Asset Pipeline Refresh (id=fc1784d3315a2d141a503eaef8364fb6): Total: 0.052 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: f98ed4727a4afc34084b406c1bc81116 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/Surface_JungleGround.asset' with importer (NativeFormatImporter)
+Imported 'GUID: f98ed4727a4afc34084b406c1bc81116' -> (Import Result ID: '7a56a195ff70a2d3b3a243310c709dab') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=05f8102de71c10cd483445ca570cdaee DependenciesID=9a8455102b57733c432a9eef7b86ffe9 StaticDependenciesID=1b698b7106524ffa790c97f3357ced36 
+Refreshing native plugins compatible for Editor in 4.41 ms, found 4 plugins.
+Asset Pipeline Refresh (id=5eb6f5915114cd94c8273d81ccba00f7): Total: 0.062 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: f007e76ee6bf9c644a48892bb11f6cec - Path: Assets/Art/Environments/Jungle/NaturalVisuals/OrganicCanopy.asset' with importer (NativeFormatImporter)
+Imported 'GUID: f007e76ee6bf9c644a48892bb11f6cec' -> (Import Result ID: '71ce08cbc4684d52b500feb619ec4e05') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=6d14a2e6dbe1050e04b9e175a93669ba DependenciesID=2255520564f7174dcddce137fbe20f66 StaticDependenciesID=8223f3a7774ecf2f3611a9ac4a0639a8 
+Refreshing native plugins compatible for Editor in 3.32 ms, found 4 plugins.
+Asset Pipeline Refresh (id=5d1ab712b49bdf4429ee6c8176b1a12a): Total: 0.050 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: a2ceea1fe12a9e34493dced8e96aa03a - Path: Assets/Art/Environments/Jungle/NaturalVisuals/JungleNaturalGrade.asset' with importer (NativeFormatImporter)
+Imported 'GUID: a2ceea1fe12a9e34493dced8e96aa03a' -> (Import Result ID: 'a6feab402d6521b2be5d661c27c5a218') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9aef703fe6a9afbc8c4875b303a66a47 DependenciesID=3662ccc8b5b6eff4dbd6f7470a5de7bf StaticDependenciesID=d7775b99f27792270ecd950f719c0b53 
+Refreshing native plugins compatible for Editor in 2.64 ms, found 4 plugins.
+Asset Pipeline Refresh (id=28825a547c9218840b097210b0f717c7): Total: 0.049 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 00c89000b21d37547a21019814ef1e9c - Path: Assets/Art/Environments/Jungle/NaturalVisuals/Understory.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 00c89000b21d37547a21019814ef1e9c' -> (Import Result ID: '5d1f512bc877852cab010ad831323a47') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=ca34ff7075964204e5acbb0e1a48a7c6 DependenciesID=bf76ccb93446ac2314c1caa96f9e1fed StaticDependenciesID=8ba7b6fb1d32c12ddb9a2514d8190838 
+Importing 'GUID: 50c5bf77339b8064aa8b15d879e7b13b - Path: Assets/Art/Environments/Jungle/NaturalVisuals/DeepFoliage.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 50c5bf77339b8064aa8b15d879e7b13b' -> (Import Result ID: '18be3858fe7ea36ae2452d14f4bf7d77') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=091ecfc24ba244960154cb1b3b26a3ba DependenciesID=b26cc7077b88ffef1d00fa99427c7214 StaticDependenciesID=9d4820848ce5e3008cc1b9445c4d9664 
+Importing 'GUID: 80c80e24820827c41aa4390ae7c3f91b - Path: Assets/Art/Environments/Jungle/NaturalVisuals/SoftMoss.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 80c80e24820827c41aa4390ae7c3f91b' -> (Import Result ID: 'e427f7bb5e670dce1882a22517c8d6b0') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=b418822deb863d4b0534f17118c4acdf DependenciesID=b117dfdec67d3cff451dfc901d5b2044 StaticDependenciesID=2927666d54a2e629b794219b13e9ccb2 
+Importing 'GUID: d1f78bfe36ffcad4fae068997ea58c2e - Path: Assets/Art/Environments/Jungle/NaturalVisuals/WeatheredRock.mat' with importer (NativeFormatImporter)
+Imported 'GUID: d1f78bfe36ffcad4fae068997ea58c2e' -> (Import Result ID: 'f20da13d0e3efbe5c17aca2aca1e9389') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=b394897ea3495dc050d99343598368f5 DependenciesID=732e23182f410feea6a213df2bd653db StaticDependenciesID=3fd7220a2aa056fe60d5603b3b42a219 
+Importing 'GUID: e6305590c4daf0a45afa0d39b461572f - Path: Assets/Art/Environments/Jungle/NaturalVisuals/WeatheredEarth.mat' with importer (NativeFormatImporter)
+Imported 'GUID: e6305590c4daf0a45afa0d39b461572f' -> (Import Result ID: '157b381cc8cae7cb701f63574a7a8e71') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=80e4b8deb17cc71faf8ed39ca3bacc06 DependenciesID=8f70e594f31917ad90233774d849338f StaticDependenciesID=ae95d17a712d4f92e7c7457d4ab4885b 
+Importing 'GUID: f8b75cec4baa3fd4ab17b31b66dd5362 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/RoughBark.mat' with importer (NativeFormatImporter)
+Imported 'GUID: f8b75cec4baa3fd4ab17b31b66dd5362' -> (Import Result ID: '37fd98bebe767feaf7e83a4140caf6ba') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=96a848b40509982450ac9541a2a29476 DependenciesID=5509ca46de1c8b64f6b85879ac5c41f7 StaticDependenciesID=cb45bf304af62e93c06f196eb2c29f49 
+Importing 'GUID: cb3103e5dac5911439ae399dd9406eb8 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/AgedLimestone.mat' with importer (NativeFormatImporter)
+Imported 'GUID: cb3103e5dac5911439ae399dd9406eb8' -> (Import Result ID: '6521a5ebf9abc0718f5500bfab185c54') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=6df56a0f538fbc8bb152fbae77da0395 DependenciesID=f989681bebdb92c647ebe7b50603c9f9 StaticDependenciesID=71190657aefd8972f771e5c70e25745c 
+Importing 'GUID: fc39f094983b4b54cb30ce49b8fa0940 - Path: Assets/Art/Environments/Jungle/NaturalVisuals/SunlitFoliage.mat' with importer (NativeFormatImporter)
+Imported 'GUID: fc39f094983b4b54cb30ce49b8fa0940' -> (Import Result ID: '32dcea1cce11f44e34d27276bc56d51c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=2300a1ad5a3510807330db8572f040c1 DependenciesID=96d4b864a38c1997df97d10e97ce89b9 StaticDependenciesID=efef8d8cf9a7450f4c187359d987bd17 
+Importing 'GUID: 3f9b6980f56a9354b9be4d1a981b03bc - Path: Assets/Art/Environments/Jungle/NaturalVisuals/ForestFloor.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 3f9b6980f56a9354b9be4d1a981b03bc' -> (Import Result ID: '829c8f4573602fc733345145dda41fc4') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d02bf0a09d7c76715b656939a3a1835c DependenciesID=950a93908e4dd6421f44c3feca479a3b StaticDependenciesID=2b671138446252c9feab9548434e413e 
+Refreshing native plugins compatible for Editor in 4.36 ms, found 4 plugins.
+Asset Pipeline Refresh (id=f00b7cdf985100f4991f7c6af096a611): Total: 0.084 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 280e861fa0b0f74488e9b1f5fd920075 - Path: Assets/Scenes/Person2/Jungle_Prototype.unity' with importer (DefaultImporter)
+Imported 'GUID: 280e861fa0b0f74488e9b1f5fd920075' -> (Import Result ID: 'a05f0c90848466f73fcd2e7e717812e1') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=4c6cc8af1f71e23a13df5be976290e01 DependenciesID=f09a05673d502405e02536155c90d00e StaticDependenciesID=8c5a2ed004073a4a000487d5118836c7 
+Refreshing native plugins compatible for Editor in 4.44 ms, found 4 plugins.
+Asset Pipeline Refresh (id=336a14a751f76614b97fea59d2dd312f): Total: 0.055 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            30.493 ms
+	Integration:            72.202 ms
+	Integration of assets:  0.011 ms
+	Thread Wait Time:       0.069 ms
+	Total Operation Time:   102.775 ms
+Unloading 221 unused Assets / (197.9 KB). Loaded Objects now: 16321.
+Memory consumption went from 431.9 MB to 431.7 MB.
+Total: 10.393700 ms (FindLiveObjects: 1.017800 ms CreateObjectMapping: 0.293900 ms MarkObjects: 8.264200 ms  DeleteObjects: 0.449100 ms)
+
+Jungle continuous road PASS: 5725 grounded vertices, no route zone/branch, straight integration path, 327 body-clearance samples and 10 unique tokens.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.JungleRoadRefinement:Validate () (at Assets/Editor/JungleRoadRefinement.cs:94)
+LostWorlds.Person2.Editor.JungleVisualUpgrade:Validate () (at Assets/Editor/JungleVisualUpgrade.cs:143)
+LostWorlds.Person2.Editor.JungleVisualUpgrade:Apply () (at Assets/Editor/JungleVisualUpgrade.cs:138)
+LostWorlds.Person2.Editor.JungleVisualUpgrade/<>c:<ApplyBatch>b__10_0 () (at Assets/Editor/JungleVisualUpgrade.cs:152)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/JungleRoadRefinement.cs Line: 94)
+
+JUNGLE VISUAL VALIDATION PASS: road, 10 tokens, references, no fork, no new colliders; particles 4/76; LODs=84
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.JungleVisualUpgrade:Validate () (at Assets/Editor/JungleVisualUpgrade.cs:150)
+LostWorlds.Person2.Editor.JungleVisualUpgrade:Apply () (at Assets/Editor/JungleVisualUpgrade.cs:138)
+LostWorlds.Person2.Editor.JungleVisualUpgrade/<>c:<ApplyBatch>b__10_0 () (at Assets/Editor/JungleVisualUpgrade.cs:152)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/JungleVisualUpgrade.cs Line: 150)
+
+JUNGLE NATURAL VISUALS APPLIED; trees=84
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.JungleVisualUpgrade:Apply () (at Assets/Editor/JungleVisualUpgrade.cs:138)
+LostWorlds.Person2.Editor.JungleVisualUpgrade/<>c:<ApplyBatch>b__10_0 () (at Assets/Editor/JungleVisualUpgrade.cs:152)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/JungleVisualUpgrade.cs Line: 138)
+
+MonoPathRemapper: Attempts to remap: 37892; Successful remaps: 25174
+Serialized file version minimum: 22, current 23
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Ryan Dhiman-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Ryan Dhiman channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792028893133,"processId":50444,"allocatedMemory":15683713,"memoryLabels":[{"Default":199289},{"Permanent":15516},{"NewDelete":70175},{"Thread":4198064},{"Manager":34717},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":851250},{"Material":68},{"GfxDevice":55968},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":37952},{"Input":42840},{"JobScheduler":256},{"TextLib":336},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1259880},{"BaseObject":49168},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":16300},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":761716},{"StaticString":3808},{"Utility":2674806},{"Curl":2559},{"PoolAlloc":2264},{"AI":80},{"TypeTree":17165},{"ScriptManager":12640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7296},{"WebRequest":672},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":729},{"Secure":2377},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":128},{"EditorUtility":186350},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4639784},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":40465},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":272},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3606},{"Windowing":456},{"Licensing":12763},{"AssetReference":32},{"IPCStream":32}]}

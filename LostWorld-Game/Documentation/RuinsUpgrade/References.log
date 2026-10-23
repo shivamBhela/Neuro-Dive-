@@ -1,0 +1,1313 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 53500)
+VBCSCompiler prewarm took 23.53 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.1f1 (7efac9f6c10e) revision 8321737'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Ryan Dhiman" at "2026-10-15T12:04:19.5708195Z"
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 16068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-15T12:04:19Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 73700, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              2ad21a09d2d14015accbdb2fd611e0f7
+  Correlation Id:          98b9fc42efec2b4562b3afdadc9a76a2
+  External correlation Id: 4000069814015713574
+  Machine Id:              31n885ZKCdDnSsyGVgHSG2ufeGg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Ryan Dhiman" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Ryan Dhiman-notifications" at "2026-10-15T12:04:19.6159766Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469972738122-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Unity.exe
+-batchmode
+-projectPath
+C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015
+-executeMethod
+LostWorlds.Person2.Editor.RelicRemovalValidation.ValidateBatch
+-logFile
+C:\UnityProjects\Lost Worlds\Documentation\RuinsUpgrade\References.log
+Successfully changed project path to: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015
+C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [96940]  Target information:
+
+Player connection [96940]  * "[IP] 192.168.56.1 [Port] 55505 [Flags] 2 [Guid] 4210812123 [EditorId] 4210812123 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QH19IDG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [96940]  * "[IP] 192.168.29.159 [Port] 55505 [Flags] 2 [Guid] 4210812123 [EditorId] 4210812123 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QH19IDG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [96940] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [96940] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-51772" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Initialize engine version: 6000.6.1f1 (7efac9f6c10e)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   NVIDIA
+    VRAM:     6001 MB
+    Driver:   32.0.16.1060
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003679 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.677 seconds
+Domain Reload Profiling: 1220ms
+	BeginReloadAssembly (127ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (324ms)
+		LoadAssemblies (121ms)
+		TypeCache.Refresh (219ms)
+			TypeCache.ScanAssembly (205ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (678ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (243ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 59 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.searcher@4.9.5 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.render-pipelines.universal@e178ec6338de)
+    com.unity.test-framework@1.8.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.timeline@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.timeline@c56d56b0070b)
+    com.unity.ugui@2.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ugui@fa62679cc16a)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.shadergraph@7e60a14be593)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.test-framework.performance@0a60b857a52e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s474ms
+[ 812/1050  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.39 seconds), 1 items updated, 1050 evaluated
+AssetDatabase: script compilation time: 1.079262s
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.39 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.970 seconds
+Domain Reload Profiling: 2325ms
+	BeginReloadAssembly (408ms)
+		DisableScriptedObjects (70ms)
+		CreateAndSetChildDomain (164ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (841ms)
+		LoadAssemblies (521ms)
+		TypeCache.Refresh (167ms)
+			TypeCache.ScanAssembly (155ms)
+		AnalyzeDomain (89ms)
+			BuildScriptInfoCaches (80ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (971ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (12ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Starting new worker id: 0 with log in C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=82ca106de4589a943a67e347b9a80e36): Total: 4.359 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1637 ms
+		Asset DB Callback time: managed=62 ms, native=11 ms
+		Scripting: domain reloads=1, domain reload time=1457 ms, compile time=1082 ms, other=106 ms
+		Project Asset Count: scripts=1438, non-scripts=2521
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 15.304ms
+	ApplyChangesToAssetFolders: 0.820ms
+	Scan: 208.277ms
+	Collect global state as custom dependencies: 22.026ms
+	CategorizeScriptCompilationAssets: 50.014ms
+	ProcessAssetsWithTransientArtifactChanges: 83.424ms
+	CategorizeAssets: 61.218ms
+	CompileScripts: 1082.345ms
+	ImportOutOfDateAssets: 1028.635ms (984.367ms without children)
+		UnloadImportedAssets: 0.593ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.642ms
+		ImportSchedulerStart: 42.981ms
+	PostProcessAllAssets: 63.051ms
+		MonoPostProcessAllAssets: 62.931ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 19.674ms
+			SyncVS.PostprocessSyncProject 14.761ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.778ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.773ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.370ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.219ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.866ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.425ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.375ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.301ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.260ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.227ms
+	UnloadStreamsBegin: 1.527ms
+	PersistCurrentRevisions: 0.248ms
+	GenerateScriptTypeHashes: 2.280ms
+	GenerateScriptTypeSerializationHashes: 4.039ms
+	Untracked: 1733.694ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 0.973ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Lost Worlds
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6662 unused Assets / (8.5 MB). Loaded Objects now: 7665.
+Memory consumption went from 406.9 MB to 398.5 MB.
+Total: 11.522200 ms (FindLiveObjects: 0.637600 ms CreateObjectMapping: 0.460100 ms MarkObjects: 6.314200 ms  DeleteObjects: 3.847600 ms)
+
+[Project] Loading completed in 9.026 seconds
+	Project init time: 				8.473 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.243 seconds
+		Asset Database init time: 		0.361 seconds
+		Global illumination init time: 	0.002 seconds
+		Assemblies load time: 			1.273 seconds
+		Unity extensions init time: 	0.039 seconds
+		Asset Database refresh time: 	4.359 seconds
+	Scene opening time: 			0.223 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1792065868475,"processId":51772,"projectLoad":9.025879,"projectInit":8.4726014,"templateInit":0.0,"packageManagerInit":0.2429562,"assetDatabaseInit":0.3605891,"globalIlluminationInit":0.0024568,"assembliesLoad":1.2732162,"unityExtensionsInit":0.0387367,"assetDatabaseRefresh":4.3587789,"sceneOpening":0.2227748}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1792065868475,"processId":51772,"editorVersion":"6000.6.1f1 (7efac9f6c10e)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+[Licensing::Client] Successfully resolved entitlement details
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Opening scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            57.498 ms
+	Integration:            242.457 ms
+	Integration of assets:  2.620 ms
+	Thread Wait Time:       0.118 ms
+	Total Operation Time:   302.693 ms
+Unloading 15 unused Assets / (144.7 KB). Loaded Objects now: 17067.
+Memory consumption went from 426.9 MB to 426.7 MB.
+Total: 10.118200 ms (FindLiveObjects: 1.133800 ms CreateObjectMapping: 0.403500 ms MarkObjects: 8.048900 ms  DeleteObjects: 0.081800 ms)
+
+Opening scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+	Deserialize:            10.455 ms
+	Integration:            14.476 ms
+	Integration of assets:  0.021 ms
+	Thread Wait Time:       0.014 ms
+	Total Operation Time:   24.966 ms
+Unloading 316 unused Assets / (3.4 MB). Loaded Objects now: 9308.
+Memory consumption went from 417.9 MB to 414.5 MB.
+Total: 8.196900 ms (FindLiveObjects: 0.522500 ms CreateObjectMapping: 0.169300 ms MarkObjects: 6.743400 ms  DeleteObjects: 0.375000 ms)
+
+Opening scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+	Deserialize:            7.495 ms
+	Integration:            14.589 ms
+	Integration of assets:  0.023 ms
+	Thread Wait Time:       0.029 ms
+	Total Operation Time:   22.136 ms
+Unloading 78 unused Assets / (5.2 MB). Loaded Objects now: 9841.
+Memory consumption went from 420.5 MB to 415.3 MB.
+Total: 11.050100 ms (FindLiveObjects: 0.672200 ms CreateObjectMapping: 0.209700 ms MarkObjects: 8.264200 ms  DeleteObjects: 1.542700 ms)
+
+Opening scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            48.103 ms
+	Integration:            156.470 ms
+	Integration of assets:  0.040 ms
+	Thread Wait Time:       0.020 ms
+	Total Operation Time:   204.632 ms
+Unloading 120 unused Assets / (99.8 KB). Loaded Objects now: 17076.
+Memory consumption went from 427.3 MB to 427.2 MB.
+Total: 9.085100 ms (FindLiveObjects: 0.958800 ms CreateObjectMapping: 0.261100 ms MarkObjects: 7.312600 ms  DeleteObjects: 0.172500 ms)
+
+Opening scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+	Deserialize:            20.128 ms
+	Integration:            14.566 ms
+	Integration of assets:  0.026 ms
+	Thread Wait Time:       0.062 ms
+	Total Operation Time:   34.783 ms
+Unloading 320 unused Assets / (269.9 KB). Loaded Objects now: 10344.
+Memory consumption went from 419.8 MB to 419.5 MB.
+Total: 8.121800 ms (FindLiveObjects: 0.734000 ms CreateObjectMapping: 0.145500 ms MarkObjects: 6.562900 ms  DeleteObjects: 0.386000 ms)
+
+Opening scene 'Assets/Scenes/Test/P10_HardwareAdapterDemo.unity'
+Worker ready: AssetImportWorkerHW0 0
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Test/P10_HardwareAdapterDemo.unity'
+	Deserialize:            18.076 ms
+	Integration:            34.247 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.123 ms
+	Total Operation Time:   52.454 ms
+Unloading 244 unused Assets / (3.1 MB). Loaded Objects now: 8257.
+Memory consumption went from 419.2 MB to 416.1 MB.
+Total: 8.064900 ms (FindLiveObjects: 0.503500 ms CreateObjectMapping: 0.162500 ms MarkObjects: 6.820500 ms  DeleteObjects: 0.307600 ms)
+
+Opening scene 'Assets/Scenes/Test/P7_HudDemo.unity'
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Test/P7_HudDemo.unity'
+	Deserialize:            1.540 ms
+	Integration:            8.340 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.015 ms
+	Total Operation Time:   9.897 ms
+Unloading 35 unused Assets / (0.6 MB). Loaded Objects now: 8169.
+Memory consumption went from 415.1 MB to 414.4 MB.
+Total: 9.189900 ms (FindLiveObjects: 0.486000 ms CreateObjectMapping: 0.186300 ms MarkObjects: 7.394200 ms  DeleteObjects: 0.846500 ms)
+
+Opening scene 'Assets/Scenes/Test/P8_EffortDemo.unity'
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Test/P8_EffortDemo.unity'
+	Deserialize:            1.804 ms
+	Integration:            8.083 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.017 ms
+	Total Operation Time:   9.907 ms
+Unloading 6 unused Assets / (427.8 KB). Loaded Objects now: 8212.
+Memory consumption went from 414.9 MB to 414.5 MB.
+Total: 7.683100 ms (FindLiveObjects: 0.451800 ms CreateObjectMapping: 0.156300 ms MarkObjects: 6.707600 ms  DeleteObjects: 0.056900 ms)
+
+Opening scene 'Assets/Scenes/Test/P9_HardwareSimulatorDemo.unity'
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Test/P9_HardwareSimulatorDemo.unity'
+	Deserialize:            1.677 ms
+	Integration:            7.162 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.034 ms
+	Total Operation Time:   8.877 ms
+Unloading 7 unused Assets / (445.7 KB). Loaded Objects now: 8236.
+Memory consumption went from 415.0 MB to 414.6 MB.
+Total: 7.714900 ms (FindLiveObjects: 0.440000 ms CreateObjectMapping: 0.130400 ms MarkObjects: 6.800100 ms  DeleteObjects: 0.053700 ms)
+
+Loaded scene 'Library/Unused/051a138912834e9468adc286a04bbdcb'
+	Deserialize:            0.373 ms
+	Integration:            0.215 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.030 ms
+	Total Operation Time:   0.621 ms
+Loaded scene 'Library/Unused/fb9f9e00d85970742a8ca4406776c22f'
+	Deserialize:            0.194 ms
+	Integration:            0.156 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   0.362 ms
+Loaded scene 'Library/Unused/0ec42911a30b6b54eb1ed377644e45da'
+	Deserialize:            0.710 ms
+	Integration:            1.025 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   1.748 ms
+Loaded scene 'Library/Unused/c77a561c6980ace4db3134354c468f2d'
+	Deserialize:            0.564 ms
+	Integration:            0.284 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   0.862 ms
+Loaded scene 'Library/Unused/a9c41920f23f97341982cca6472f3f77'
+	Deserialize:            0.568 ms
+	Integration:            0.128 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.040 ms
+	Total Operation Time:   0.738 ms
+Loaded scene 'Library/Unused/67dcebd11c6c4104aae60e12f3036526'
+	Deserialize:            0.971 ms
+	Integration:            0.224 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   1.210 ms
+Loaded scene 'Library/Unused/d9c9c31f665a69942af3d700ad87d59f'
+	Deserialize:            0.409 ms
+	Integration:            0.143 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   0.566 ms
+Loaded scene 'Library/Unused/d6c17380672f3024eb818f9a25a8ca6c'
+	Deserialize:            0.867 ms
+	Integration:            0.287 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.047 ms
+	Total Operation Time:   1.204 ms
+Loaded scene 'Library/Unused/2d4fb70d6f7522b419d2ce89a4880d8f'
+	Deserialize:            0.530 ms
+	Integration:            0.324 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   0.867 ms
+Loaded scene 'Library/Unused/92898512c90574b44b2ef6cf585a6fe8'
+	Deserialize:            0.397 ms
+	Integration:            0.185 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.026 ms
+	Total Operation Time:   0.611 ms
+Loaded scene 'Library/Unused/4c867cb1f67a2b949afdc6e2483cef97'
+	Deserialize:            0.236 ms
+	Integration:            0.249 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.009 ms
+	Total Operation Time:   0.495 ms
+Loaded scene 'Library/Unused/f8b81baff8ffd5f4c898da08418ea1ce'
+	Deserialize:            0.426 ms
+	Integration:            0.191 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.023 ms
+	Total Operation Time:   0.643 ms
+Loaded scene 'Library/Unused/56a9e65cf08623f4199b3750e4cbba51'
+	Deserialize:            2.282 ms
+	Integration:            1.529 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   3.826 ms
+Loaded scene 'Library/Unused/658ab28eed438f44a95a3ea5d5a1cc84'
+	Deserialize:            0.275 ms
+	Integration:            0.817 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   1.104 ms
+Loaded scene 'Library/Unused/5d6670534e9985442a129380313ae9f4'
+	Deserialize:            0.192 ms
+	Integration:            0.139 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.016 ms
+	Total Operation Time:   0.347 ms
+Loaded scene 'Library/Unused/bcfb8977c09b3014ca902990561b8e31'
+	Deserialize:            0.198 ms
+	Integration:            0.107 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.008 ms
+	Total Operation Time:   0.313 ms
+Loaded scene 'Library/Unused/8213517d9492fe542a84abd5ea572f83'
+	Deserialize:            0.206 ms
+	Integration:            0.095 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   0.315 ms
+Loaded scene 'Library/Unused/9b180d8a7e084bc4e9891588f235ce5f'
+	Deserialize:            0.199 ms
+	Integration:            0.095 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.008 ms
+	Total Operation Time:   0.303 ms
+Loaded scene 'Library/Unused/8bec2cb71b47a8e4898eb363c3a22d24'
+	Deserialize:            0.252 ms
+	Integration:            0.134 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   0.399 ms
+Loaded scene 'Library/Unused/c209588edaba9044eb75628511aa6f71'
+	Deserialize:            0.228 ms
+	Integration:            0.136 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.009 ms
+	Total Operation Time:   0.373 ms
+Loaded scene 'Library/Unused/9d0e33b597f2fdc4188fff14e42a2537'
+	Deserialize:            0.257 ms
+	Integration:            0.135 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.016 ms
+	Total Operation Time:   0.410 ms
+Loaded scene 'Library/Unused/9effac6c6d59e4545a186ba98d0279fb'
+	Deserialize:            0.324 ms
+	Integration:            0.139 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.033 ms
+	Total Operation Time:   0.498 ms
+Loaded scene 'Library/Unused/70f96de90dbcf494f8a501ae6e6c1d14'
+	Deserialize:            0.797 ms
+	Integration:            1.346 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   2.151 ms
+Loaded scene 'Library/Unused/c12939d0ca5256741b1de35b7abfb001'
+	Deserialize:            0.824 ms
+	Integration:            0.826 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.031 ms
+	Total Operation Time:   1.684 ms
+Loaded scene 'Library/Unused/34309b3c156be3f4aad881013735f194'
+	Deserialize:            0.286 ms
+	Integration:            0.126 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   0.423 ms
+Loaded scene 'Library/Unused/82a75259f23185841ab0c86e9bcba00e'
+	Deserialize:            0.554 ms
+	Integration:            0.237 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   0.802 ms
+Loaded scene 'Library/Unused/3fbf478d623244645969733c1157afbc'
+	Deserialize:            0.322 ms
+	Integration:            0.544 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.040 ms
+	Total Operation Time:   0.910 ms
+Loaded scene 'Library/Unused/fc4856d38806351489898d5a579fe953'
+	Deserialize:            0.308 ms
+	Integration:            0.235 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.018 ms
+	Total Operation Time:   0.562 ms
+Loaded scene 'Library/Unused/8171be5ffceac8146aca8755c3a6e7f1'
+	Deserialize:            0.333 ms
+	Integration:            0.193 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.035 ms
+	Total Operation Time:   0.564 ms
+Loaded scene 'Library/Unused/15f259832d26f09489db0ba4570446b9'
+	Deserialize:            0.281 ms
+	Integration:            0.147 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.017 ms
+	Total Operation Time:   0.445 ms
+REMOVAL VALIDATION PASS: 8 scenes and all prefabs; no retired objects/UI/scripts or missing references; 36 tokens and 4 portals.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.RelicRemovalValidation:Validate () (at Assets/Editor/RelicRemovalValidation.cs:92)
+LostWorlds.Person2.Editor.RelicRemovalValidation/<>c:<ValidateBatch>b__9_0 () (at Assets/Editor/RelicRemovalValidation.cs:96)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/RelicRemovalValidation.cs Line: 92)
+
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            52.603 ms
+	Integration:            140.826 ms
+	Integration of assets:  0.176 ms
+	Thread Wait Time:       0.019 ms
+	Total Operation Time:   193.625 ms
+Unloading 128 unused Assets / (136.7 KB). Loaded Objects now: 17145.
+Memory consumption went from 429.3 MB to 429.1 MB.
+Total: 9.701900 ms (FindLiveObjects: 1.170100 ms CreateObjectMapping: 0.264700 ms MarkObjects: 7.430900 ms  DeleteObjects: 0.373000 ms)
+
+Opening scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            36.628 ms
+	Integration:            115.677 ms
+	Integration of assets:  0.013 ms
+	Thread Wait Time:       0.008 ms
+	Total Operation Time:   152.327 ms
+Unloading 13 unused Assets / (30.5 KB). Loaded Objects now: 17145.
+Memory consumption went from 428.4 MB to 428.3 MB.
+Total: 9.149900 ms (FindLiveObjects: 1.132800 ms CreateObjectMapping: 0.249500 ms MarkObjects: 7.338900 ms  DeleteObjects: 0.053800 ms)
+
+BRIDGE GAP PASS: 1.2m opening; 252 no-floor rays; 30 supported landing/clearance samples; log removed.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.JungleBridgeGap:ValidateGeometry (UnityEngine.Transform) (at Assets/Editor/JungleBridgeGap.cs:70)
+LostWorlds.Person2.Editor.JungleRoadRefinement:Validate () (at Assets/Editor/JungleRoadRefinement.cs:96)
+LostWorlds.Person2.Editor.RelicRemovalValidation/<>c:<ValidateBatch>b__9_0 () (at Assets/Editor/RelicRemovalValidation.cs:96)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/JungleBridgeGap.cs Line: 70)
+
+Jungle road PASS: grounded road outside intentional bridge opening, no route zone/branch, straight integration path, body clearance and 10 unique tokens.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.JungleRoadRefinement:Validate () (at Assets/Editor/JungleRoadRefinement.cs:97)
+LostWorlds.Person2.Editor.RelicRemovalValidation/<>c:<ValidateBatch>b__9_0 () (at Assets/Editor/RelicRemovalValidation.cs:96)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/JungleRoadRefinement.cs Line: 97)
+
+Opening scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+	Deserialize:            5.917 ms
+	Integration:            14.091 ms
+	Integration of assets:  0.024 ms
+	Thread Wait Time:       0.038 ms
+	Total Operation Time:   20.071 ms
+Unloading 326 unused Assets / (231.5 KB). Loaded Objects now: 9376.
+Memory consumption went from 421.0 MB to 420.8 MB.
+Total: 8.241600 ms (FindLiveObjects: 0.569700 ms CreateObjectMapping: 0.150600 ms MarkObjects: 6.828200 ms  DeleteObjects: 0.371900 ms)
+
+Opening scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+	Deserialize:            5.385 ms
+	Integration:            12.137 ms
+	Integration of assets:  0.021 ms
+	Thread Wait Time:       0.030 ms
+	Total Operation Time:   17.574 ms
+Unloading 78 unused Assets / (3.7 MB). Loaded Objects now: 9904.
+Memory consumption went from 422.7 MB to 419.0 MB.
+Total: 7.709500 ms (FindLiveObjects: 0.502400 ms CreateObjectMapping: 0.178700 ms MarkObjects: 6.588900 ms  DeleteObjects: 0.157700 ms)
+
+Opening scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            33.220 ms
+	Integration:            134.450 ms
+	Integration of assets:  0.031 ms
+	Thread Wait Time:       0.037 ms
+	Total Operation Time:   167.738 ms
+Unloading 120 unused Assets / (5.7 MB). Loaded Objects now: 17139.
+Memory consumption went from 435.5 MB to 429.7 MB.
+Total: 9.095200 ms (FindLiveObjects: 0.895400 ms CreateObjectMapping: 0.297100 ms MarkObjects: 7.338500 ms  DeleteObjects: 0.185400 ms)
+
+Opening scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+	Deserialize:            16.213 ms
+	Integration:            15.444 ms
+	Integration of assets:  0.023 ms
+	Thread Wait Time:       0.190 ms
+	Total Operation Time:   31.870 ms
+Unloading 320 unused Assets / (5.3 MB). Loaded Objects now: 10407.
+Memory consumption went from 470.2 MB to 464.9 MB.
+Total: 8.657700 ms (FindLiveObjects: 0.674500 ms CreateObjectMapping: 0.171500 ms MarkObjects: 7.083000 ms  DeleteObjects: 0.418700 ms)
+
+Opening scene 'Assets/Scenes/Test/P10_HardwareAdapterDemo.unity'
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Test/P10_HardwareAdapterDemo.unity'
+	Deserialize:            1.738 ms
+	Integration:            11.513 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.124 ms
+	Total Operation Time:   13.377 ms
+Unloading 244 unused Assets / (7.9 MB). Loaded Objects now: 8257.
+Memory consumption went from 424.3 MB to 416.4 MB.
+Total: 13.689100 ms (FindLiveObjects: 0.525300 ms CreateObjectMapping: 0.168900 ms MarkObjects: 6.830400 ms  DeleteObjects: 5.846100 ms)
+
+Opening scene 'Assets/Scenes/Test/P7_HudDemo.unity'
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Test/P7_HudDemo.unity'
+	Deserialize:            1.187 ms
+	Integration:            7.951 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.061 ms
+	Total Operation Time:   9.201 ms
+Unloading 35 unused Assets / (0.7 MB). Loaded Objects now: 8169.
+Memory consumption went from 416.3 MB to 415.6 MB.
+Total: 9.993500 ms (FindLiveObjects: 0.492900 ms CreateObjectMapping: 0.135500 ms MarkObjects: 9.034000 ms  DeleteObjects: 0.066500 ms)
+
+Opening scene 'Assets/Scenes/Test/P8_EffortDemo.unity'
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Test/P8_EffortDemo.unity'
+	Deserialize:            1.290 ms
+	Integration:            7.206 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.100 ms
+	Total Operation Time:   8.598 ms
+Unloading 6 unused Assets / (234.7 KB). Loaded Objects now: 8212.
+Memory consumption went from 415.9 MB to 415.7 MB.
+Total: 8.844900 ms (FindLiveObjects: 0.451300 ms CreateObjectMapping: 0.122000 ms MarkObjects: 7.973400 ms  DeleteObjects: 0.037200 ms)
+
+Opening scene 'Assets/Scenes/Test/P9_HardwareSimulatorDemo.unity'
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Test/P9_HardwareSimulatorDemo.unity'
+	Deserialize:            1.951 ms
+	Integration:            8.092 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   10.058 ms
+Unloading 7 unused Assets / (265.5 KB). Loaded Objects now: 8236.
+Memory consumption went from 416.0 MB to 415.7 MB.
+Total: 8.399300 ms (FindLiveObjects: 0.584300 ms CreateObjectMapping: 0.187300 ms MarkObjects: 7.190200 ms  DeleteObjects: 0.162800 ms)
+
+Loaded scene 'Library/Unused/2281207ce31a6a142b9df955cc634769'
+	Deserialize:            0.284 ms
+	Integration:            0.083 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   0.380 ms
+Loaded scene 'Library/Unused/ea3e2af23097ec247a62cc545eedd8ba'
+	Deserialize:            0.201 ms
+	Integration:            0.305 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.016 ms
+	Total Operation Time:   0.523 ms
+Loaded scene 'Library/Unused/37fa42e438f01e74cb5b894e24324700'
+	Deserialize:            0.653 ms
+	Integration:            1.029 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.015 ms
+	Total Operation Time:   1.699 ms
+Loaded scene 'Library/Unused/b86ee3c36f3f26b4585f511895e121c7'
+	Deserialize:            0.402 ms
+	Integration:            0.302 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.019 ms
+	Total Operation Time:   0.725 ms
+Loaded scene 'Library/Unused/c006edacb48f54748a13be05927f8e94'
+	Deserialize:            0.324 ms
+	Integration:            0.162 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   0.500 ms
+Loaded scene 'Library/Unused/f7fb31268d8e8104d9518ae8f45055b3'
+	Deserialize:            0.620 ms
+	Integration:            0.227 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.018 ms
+	Total Operation Time:   0.865 ms
+Loaded scene 'Library/Unused/02a7ab7d105519f438d5b27016ef1990'
+	Deserialize:            0.424 ms
+	Integration:            0.185 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.019 ms
+	Total Operation Time:   0.629 ms
+Loaded scene 'Library/Unused/2b7361e0cc4a1d34dac3ad734675fd80'
+	Deserialize:            0.922 ms
+	Integration:            0.400 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.033 ms
+	Total Operation Time:   1.358 ms
+Loaded scene 'Library/Unused/e33c98646c149504f8fee72e882a79eb'
+	Deserialize:            0.512 ms
+	Integration:            0.182 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.044 ms
+	Total Operation Time:   0.742 ms
+Loaded scene 'Library/Unused/8a9b98043a830554b963a4a87a7ace89'
+	Deserialize:            0.401 ms
+	Integration:            0.338 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.017 ms
+	Total Operation Time:   0.757 ms
+Loaded scene 'Library/Unused/9c4229805db60164391f4412f220d6e3'
+	Deserialize:            0.299 ms
+	Integration:            0.264 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   0.576 ms
+Loaded scene 'Library/Unused/0ff5c5bbd19c0f74fb841d35b02c30de'
+	Deserialize:            0.347 ms
+	Integration:            0.157 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   0.516 ms
+Loaded scene 'Library/Unused/cc2cdfe9376b76641aa07bb032810bff'
+	Deserialize:            0.525 ms
+	Integration:            0.156 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.035 ms
+	Total Operation Time:   0.719 ms
+Loaded scene 'Library/Unused/478cc8c9671397648b445be151420267'
+	Deserialize:            0.272 ms
+	Integration:            0.976 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.056 ms
+	Total Operation Time:   1.305 ms
+Loaded scene 'Library/Unused/d3cd87357cde26642bc50236781b2acb'
+	Deserialize:            0.299 ms
+	Integration:            0.186 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.015 ms
+	Total Operation Time:   0.502 ms
+Loaded scene 'Library/Unused/394b6e59662b5704487d984350eab5d6'
+	Deserialize:            0.279 ms
+	Integration:            0.227 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   0.519 ms
+Loaded scene 'Library/Unused/336becd2d80e6f244a00a0b34150ec84'
+	Deserialize:            0.242 ms
+	Integration:            0.293 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.009 ms
+	Total Operation Time:   0.545 ms
+Loaded scene 'Library/Unused/87094f95b706c0240ae5f0853a62872e'
+	Deserialize:            0.191 ms
+	Integration:            0.195 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.027 ms
+	Total Operation Time:   0.414 ms
+Loaded scene 'Library/Unused/c329df26d127c464f86655537accb3ba'
+	Deserialize:            0.213 ms
+	Integration:            0.067 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   0.290 ms
+Loaded scene 'Library/Unused/8da30e756633da146ba6fc952c62eb05'
+	Deserialize:            0.218 ms
+	Integration:            0.228 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   0.458 ms
+Loaded scene 'Library/Unused/5f99942b99f5e8a46928808205f45e7b'
+	Deserialize:            0.220 ms
+	Integration:            0.266 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   0.497 ms
+Loaded scene 'Library/Unused/7c6822cdcb9eb7b4994362de69d7df42'
+	Deserialize:            0.287 ms
+	Integration:            0.085 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.102 ms
+	Total Operation Time:   0.475 ms
+Loaded scene 'Library/Unused/9c82ad42384c14144b5c280e00e27bf3'
+	Deserialize:            0.878 ms
+	Integration:            1.151 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   2.040 ms
+Loaded scene 'Library/Unused/a8822e6dc0739584b9abcc744325080a'
+	Deserialize:            0.804 ms
+	Integration:            0.539 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.050 ms
+	Total Operation Time:   1.396 ms
+Loaded scene 'Library/Unused/a862f3d97a91c1447ac0a1198800d279'
+	Deserialize:            0.239 ms
+	Integration:            0.226 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.060 ms
+	Total Operation Time:   0.528 ms
+Loaded scene 'Library/Unused/543ce8b5d6094d74d9aeb8aecf164f97'
+	Deserialize:            0.599 ms
+	Integration:            0.209 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   0.823 ms
+Loaded scene 'Library/Unused/87d49951a72249a4ea8c2e39bbcc8c7a'
+	Deserialize:            0.284 ms
+	Integration:            0.398 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.016 ms
+	Total Operation Time:   0.698 ms
+Loaded scene 'Library/Unused/1d701ed8e47a5fb409027e4e6d772de0'
+	Deserialize:            0.250 ms
+	Integration:            0.210 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.062 ms
+	Total Operation Time:   0.523 ms
+Loaded scene 'Library/Unused/639d67b6bd016524fb4f1bc94ada3cf0'
+	Deserialize:            0.296 ms
+	Integration:            0.105 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.015 ms
+	Total Operation Time:   0.417 ms
+Loaded scene 'Library/Unused/37da1362aeec1b647b21406e289373b6'
+	Deserialize:            0.256 ms
+	Integration:            0.117 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   0.387 ms
+REMOVAL VALIDATION PASS: 8 scenes and all prefabs; no retired objects/UI/scripts or missing references; 36 tokens and 4 portals.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.RelicRemovalValidation:Validate () (at Assets/Editor/RelicRemovalValidation.cs:92)
+LostWorlds.Person2.Editor.P14DemoBuild:Validate () (at Assets/Editor/P14DemoBuild.cs:22)
+LostWorlds.Person2.Editor.RelicRemovalValidation/<>c:<ValidateBatch>b__9_0 () (at Assets/Editor/RelicRemovalValidation.cs:96)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/RelicRemovalValidation.cs Line: 92)
+
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            34.318 ms
+	Integration:            122.169 ms
+	Integration of assets:  0.159 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   156.658 ms
+Unloading 128 unused Assets / (1.5 MB). Loaded Objects now: 17145.
+Memory consumption went from 431.7 MB to 430.2 MB.
+Total: 11.325000 ms (FindLiveObjects: 1.243300 ms CreateObjectMapping: 0.300400 ms MarkObjects: 9.189000 ms  DeleteObjects: 0.213800 ms)
+
+Opening scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            32.690 ms
+	Integration:            108.271 ms
+	Integration of assets:  0.012 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   140.984 ms
+Unloading 13 unused Assets / (30.5 KB). Loaded Objects now: 17145.
+Memory consumption went from 429.2 MB to 429.2 MB.
+Total: 9.362700 ms (FindLiveObjects: 0.872800 ms CreateObjectMapping: 0.321900 ms MarkObjects: 7.614800 ms  DeleteObjects: 0.113500 ms)
+
+Opening scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+	Deserialize:            16.332 ms
+	Integration:            13.675 ms
+	Integration of assets:  0.017 ms
+	Thread Wait Time:       0.186 ms
+	Total Operation Time:   30.210 ms
+Unloading 312 unused Assets / (227.8 KB). Loaded Objects now: 10408.
+Memory consumption went from 422.6 MB to 422.4 MB.
+Total: 8.217400 ms (FindLiveObjects: 0.691300 ms CreateObjectMapping: 0.221300 ms MarkObjects: 6.659800 ms  DeleteObjects: 0.356200 ms)
+
+Opening scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+	Deserialize:            6.079 ms
+	Integration:            14.668 ms
+	Integration of assets:  0.014 ms
+	Thread Wait Time:       0.104 ms
+	Total Operation Time:   20.864 ms
+Unloading 94 unused Assets / (110.2 KB). Loaded Objects now: 9376.
+Memory consumption went from 418.1 MB to 418.0 MB.
+Total: 7.431300 ms (FindLiveObjects: 0.460800 ms CreateObjectMapping: 0.171600 ms MarkObjects: 6.351700 ms  DeleteObjects: 0.165700 ms)
+
+Opening scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+	Deserialize:            5.674 ms
+	Integration:            11.865 ms
+	Integration of assets:  0.019 ms
+	Thread Wait Time:       0.041 ms
+	Total Operation Time:   17.599 ms
+Unloading 71 unused Assets / (80.0 KB). Loaded Objects now: 9900.
+Memory consumption went from 418.6 MB to 418.5 MB.
+Total: 7.488900 ms (FindLiveObjects: 0.551700 ms CreateObjectMapping: 0.153200 ms MarkObjects: 6.369700 ms  DeleteObjects: 0.131900 ms)
+
+P11 structural validation PASS: four realms, anchors, paths, branches and Build Settings.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationBuilder:Validate () (at Assets/Editor/P11IntegrationBuilder.cs:72)
+LostWorlds.Person2.Editor.P14DemoBuild:Validate () (at Assets/Editor/P14DemoBuild.cs:22)
+LostWorlds.Person2.Editor.RelicRemovalValidation/<>c:<ValidateBatch>b__9_0 () (at Assets/Editor/RelicRemovalValidation.cs:96)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationBuilder.cs Line: 72)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            33.039 ms
+	Integration:            126.121 ms
+	Integration of assets:  0.033 ms
+	Thread Wait Time:       0.022 ms
+	Total Operation Time:   159.216 ms
+Unloading 109 unused Assets / (112.6 KB). Loaded Objects now: 17135.
+Memory consumption went from 430.2 MB to 430.1 MB.
+Total: 8.493300 ms (FindLiveObjects: 0.928900 ms CreateObjectMapping: 0.285100 ms MarkObjects: 6.812100 ms  DeleteObjects: 0.113600 ms)
+
+Opening scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            31.394 ms
+	Integration:            99.772 ms
+	Integration of assets:  0.011 ms
+	Thread Wait Time:       0.037 ms
+	Total Operation Time:   131.213 ms
+Unloading 13 unused Assets / (1.0 KB). Loaded Objects now: 17135.
+Memory consumption went from 431.4 MB to 431.4 MB.
+Total: 9.319200 ms (FindLiveObjects: 1.042700 ms CreateObjectMapping: 0.330800 ms MarkObjects: 7.484800 ms  DeleteObjects: 0.067800 ms)
+
+P12.5 VALID: Jungle_Prototype; 10 unique tokens, non-solid portal at P11 exit, obstacle clearance.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P125JourneyBuilder:Validate () (at Assets/Editor/P125JourneyBuilder.cs:60)
+LostWorlds.Person2.Editor.P14DemoBuild:Validate () (at Assets/Editor/P14DemoBuild.cs:22)
+LostWorlds.Person2.Editor.RelicRemovalValidation/<>c:<ValidateBatch>b__9_0 () (at Assets/Editor/RelicRemovalValidation.cs:96)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P125JourneyBuilder.cs Line: 60)
+
+Opening scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+	Deserialize:            17.351 ms
+	Integration:            14.248 ms
+	Integration of assets:  0.023 ms
+	Thread Wait Time:       0.204 ms
+	Total Operation Time:   31.826 ms
+Unloading 304 unused Assets / (3.4 MB). Loaded Objects now: 10406.
+Memory consumption went from 424.7 MB to 421.3 MB.
+Total: 8.167900 ms (FindLiveObjects: 0.525100 ms CreateObjectMapping: 0.200100 ms MarkObjects: 6.858500 ms  DeleteObjects: 0.280400 ms)
+
+P12.5 VALID: Ruins_Prototype; 8 unique tokens, non-solid portal at P11 exit, obstacle clearance.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P125JourneyBuilder:Validate () (at Assets/Editor/P125JourneyBuilder.cs:60)
+LostWorlds.Person2.Editor.P14DemoBuild:Validate () (at Assets/Editor/P14DemoBuild.cs:22)
+LostWorlds.Person2.Editor.RelicRemovalValidation/<>c:<ValidateBatch>b__9_0 () (at Assets/Editor/RelicRemovalValidation.cs:96)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P125JourneyBuilder.cs Line: 60)
+
+Opening scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+	Deserialize:            5.979 ms
+	Integration:            15.693 ms
+	Integration of assets:  0.015 ms
+	Thread Wait Time:       0.107 ms
+	Total Operation Time:   21.794 ms
+Unloading 92 unused Assets / (132.2 KB). Loaded Objects now: 9376.
+Memory consumption went from 420.2 MB to 420.1 MB.
+Total: 8.020200 ms (FindLiveObjects: 0.632600 ms CreateObjectMapping: 0.154100 ms MarkObjects: 6.806900 ms  DeleteObjects: 0.153700 ms)
+
+P12.5 VALID: CrystalCave_Prototype; 8 unique tokens, non-solid portal at P11 exit, obstacle clearance.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P125JourneyBuilder:Validate () (at Assets/Editor/P125JourneyBuilder.cs:60)
+LostWorlds.Person2.Editor.P14DemoBuild:Validate () (at Assets/Editor/P14DemoBuild.cs:22)
+LostWorlds.Person2.Editor.RelicRemovalValidation/<>c:<ValidateBatch>b__9_0 () (at Assets/Editor/RelicRemovalValidation.cs:96)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P125JourneyBuilder.cs Line: 60)
+
+Opening scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+	Deserialize:            5.694 ms
+	Integration:            11.388 ms
+	Integration of assets:  0.019 ms
+	Thread Wait Time:       0.041 ms
+	Total Operation Time:   17.142 ms
+Unloading 71 unused Assets / (79.7 KB). Loaded Objects now: 9900.
+Memory consumption went from 420.7 MB to 420.7 MB.
+Total: 8.108900 ms (FindLiveObjects: 0.584100 ms CreateObjectMapping: 0.141800 ms MarkObjects: 6.788600 ms  DeleteObjects: 0.174500 ms)
+
+P12.5 VALID: HiddenCity_Prototype; 10 unique tokens, non-solid portal at P11 exit, obstacle clearance.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P125JourneyBuilder:Validate () (at Assets/Editor/P125JourneyBuilder.cs:60)
+LostWorlds.Person2.Editor.P14DemoBuild:Validate () (at Assets/Editor/P14DemoBuild.cs:22)
+LostWorlds.Person2.Editor.RelicRemovalValidation/<>c:<ValidateBatch>b__9_0 () (at Assets/Editor/RelicRemovalValidation.cs:96)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P125JourneyBuilder.cs Line: 60)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            34.819 ms
+	Integration:            125.562 ms
+	Integration of assets:  0.033 ms
+	Thread Wait Time:       0.031 ms
+	Total Operation Time:   160.445 ms
+Unloading 109 unused Assets / (112.6 KB). Loaded Objects now: 17135.
+Memory consumption went from 432.2 MB to 432.1 MB.
+Total: 9.121400 ms (FindLiveObjects: 1.613700 ms CreateObjectMapping: 0.333200 ms MarkObjects: 6.712900 ms  DeleteObjects: 0.106700 ms)
+
+Opening scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            34.798 ms
+	Integration:            105.713 ms
+	Integration of assets:  0.011 ms
+	Thread Wait Time:       0.036 ms
+	Total Operation Time:   140.557 ms
+Unloading 13 unused Assets / (30.7 KB). Loaded Objects now: 17135.
+Memory consumption went from 432.1 MB to 432.0 MB.
+Total: 9.156600 ms (FindLiveObjects: 1.164200 ms CreateObjectMapping: 0.238100 ms MarkObjects: 7.231400 ms  DeleteObjects: 0.063300 ms)
+
+P12 VALID: Jungle_Prototype; 64-particle cap, no added colliders, low audio defaults, P11 binding retained.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishBuilder:Validate () (at Assets/Editor/P12PolishBuilder.cs:92)
+LostWorlds.Person2.Editor.P14DemoBuild:Validate () (at Assets/Editor/P14DemoBuild.cs:22)
+LostWorlds.Person2.Editor.RelicRemovalValidation/<>c:<ValidateBatch>b__9_0 () (at Assets/Editor/RelicRemovalValidation.cs:96)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P12PolishBuilder.cs Line: 92)
+
+Opening scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+	Deserialize:            16.091 ms
+	Integration:            14.875 ms
+	Integration of assets:  0.017 ms
+	Thread Wait Time:       0.036 ms
+	Total Operation Time:   31.021 ms
+Unloading 304 unused Assets / (157.8 KB). Loaded Objects now: 10406.
+Memory consumption went from 425.4 MB to 425.3 MB.
+Total: 7.865100 ms (FindLiveObjects: 0.617600 ms CreateObjectMapping: 0.224800 ms MarkObjects: 6.497700 ms  DeleteObjects: 0.259500 ms)
+
+P12 VALID: Ruins_Prototype; 64-particle cap, no added colliders, low audio defaults, P11 binding retained.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishBuilder:Validate () (at Assets/Editor/P12PolishBuilder.cs:92)
+LostWorlds.Person2.Editor.P14DemoBuild:Validate () (at Assets/Editor/P14DemoBuild.cs:22)
+LostWorlds.Person2.Editor.RelicRemovalValidation/<>c:<ValidateBatch>b__9_0 () (at Assets/Editor/RelicRemovalValidation.cs:96)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P12PolishBuilder.cs Line: 92)
+
+Opening scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+	Deserialize:            5.713 ms
+	Integration:            13.029 ms
+	Integration of assets:  0.021 ms
+	Thread Wait Time:       0.016 ms
+	Total Operation Time:   18.778 ms
+Unloading 92 unused Assets / (132.2 KB). Loaded Objects now: 9376.
+Memory consumption went from 421.0 MB to 420.8 MB.
+Total: 8.183900 ms (FindLiveObjects: 0.470000 ms CreateObjectMapping: 0.135800 ms MarkObjects: 7.117400 ms  DeleteObjects: 0.181900 ms)
+
+P12 VALID: CrystalCave_Prototype; 64-particle cap, no added colliders, low audio defaults, P11 binding retained.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishBuilder:Validate () (at Assets/Editor/P12PolishBuilder.cs:92)
+LostWorlds.Person2.Editor.P14DemoBuild:Validate () (at Assets/Editor/P14DemoBuild.cs:22)
+LostWorlds.Person2.Editor.RelicRemovalValidation/<>c:<ValidateBatch>b__9_0 () (at Assets/Editor/RelicRemovalValidation.cs:96)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P12PolishBuilder.cs Line: 92)
+
+Opening scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+	Deserialize:            5.679 ms
+	Integration:            12.731 ms
+	Integration of assets:  0.018 ms
+	Thread Wait Time:       0.019 ms
+	Total Operation Time:   18.448 ms
+Unloading 71 unused Assets / (80.0 KB). Loaded Objects now: 9900.
+Memory consumption went from 421.5 MB to 421.4 MB.
+Total: 8.312700 ms (FindLiveObjects: 0.864800 ms CreateObjectMapping: 0.184600 ms MarkObjects: 6.822700 ms  DeleteObjects: 0.117300 ms)
+
+P12 VALID: HiddenCity_Prototype; 64-particle cap, no added colliders, low audio defaults, P11 binding retained.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishBuilder:Validate () (at Assets/Editor/P12PolishBuilder.cs:92)
+LostWorlds.Person2.Editor.P14DemoBuild:Validate () (at Assets/Editor/P14DemoBuild.cs:22)
+LostWorlds.Person2.Editor.RelicRemovalValidation/<>c:<ValidateBatch>b__9_0 () (at Assets/Editor/RelicRemovalValidation.cs:96)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P12PolishBuilder.cs Line: 92)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            31.956 ms
+	Integration:            124.694 ms
+	Integration of assets:  0.046 ms
+	Thread Wait Time:       0.200 ms
+	Total Operation Time:   156.895 ms
+Unloading 109 unused Assets / (112.8 KB). Loaded Objects now: 17135.
+Memory consumption went from 433.1 MB to 433.0 MB.
+Total: 9.311800 ms (FindLiveObjects: 1.205500 ms CreateObjectMapping: 0.311800 ms MarkObjects: 7.138500 ms  DeleteObjects: 0.271800 ms)
+
+P14 build validation PASS: Windows x64 support, ordered realms, dependencies, P11/P12/P12.5 wiring.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P14DemoBuild:Validate () (at Assets/Editor/P14DemoBuild.cs:26)
+LostWorlds.Person2.Editor.RelicRemovalValidation/<>c:<ValidateBatch>b__9_0 () (at Assets/Editor/RelicRemovalValidation.cs:96)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P14DemoBuild.cs Line: 26)
+
+MonoPathRemapper: Attempts to remap: 38849; Successful remaps: 25230
+Serialized file version minimum: 23, current 23
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Ryan Dhiman-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Ryan Dhiman channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792065875153,"processId":51772,"allocatedMemory":15287733,"memoryLabels":[{"Default":192646},{"Permanent":15516},{"NewDelete":71855},{"Thread":4197984},{"Manager":34717},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":851132},{"Material":68},{"GfxDevice":55968},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":105344},{"Input":42840},{"JobScheduler":256},{"TextLib":336},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1259880},{"BaseObject":49168},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":28256},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":371583},{"StaticString":3808},{"Utility":2674806},{"Curl":2559},{"PoolAlloc":2264},{"AI":80},{"TypeTree":17165},{"ScriptManager":12640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7296},{"WebRequest":6858},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":729},{"Secure":2377},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":128},{"EditorUtility":184144},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4639546},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":40465},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":272},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3606},{"Windowing":456},{"Licensing":12763},{"AssetReference":32},{"IPCStream":32}]}

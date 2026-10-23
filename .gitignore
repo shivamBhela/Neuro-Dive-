@@ -21,3 +21,16 @@ dist/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs

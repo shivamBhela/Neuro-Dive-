@@ -1,0 +1,6 @@
+{
+  "name": "LostWorlds.Person2.World",
+  "rootNamespace": "LostWorlds.Person2.World",
+  "references": ["Unity.InputSystem"],
+  "autoReferenced": true
+}

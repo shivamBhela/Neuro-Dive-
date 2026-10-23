@@ -1,0 +1,48 @@
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Ll]ogs/
+/[Oo]bj/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE and generated project files
+.vs/
+.vscode/
+.idea/
+.gradle/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Unity crash and export artifacts
+/[Cc]rash[Rr]eports/
+/ExportedObj/
+/ExportedPackages/
+
+# Unity temporary recovery scenes
+/Assets/_Recovery/
+/Assets/_Recovery.meta

@@ -1,0 +1,2251 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 16236)
+VBCSCompiler prewarm took 19.06 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.1f1 (7efac9f6c10e) revision 8321737'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Ryan Dhiman" at "2026-10-07T10:11:05.6770078Z"
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 16068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-07T10:11:05Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 21864, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              a1b3014909ce4d22b0c7d04c460c36cd
+  Correlation Id:          2a0d397fc21e59dd856e4af430c7ff14
+  External correlation Id: 7283794888375040492
+  Machine Id:              31n885ZKCdDnSsyGVgHSG2ufeGg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Ryan Dhiman" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Ryan Dhiman-notifications" at "2026-10-07T10:11:05.7313675Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469972738122-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.06s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Unity.exe
+-batchmode
+-projectPath
+C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007
+-executeMethod
+LostWorlds.Person2.Editor.P125RegressionBatch.Run
+-logFile
+C:\UnityProjects\Lost Worlds\Documentation\JungleRoad-P11.log
+-journeySuite
+P11IntegrationValidation
+Successfully changed project path to: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007
+C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-JungleFinal-20261007
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [22132]  Target information:
+
+Player connection [22132]  * "[IP] 192.168.56.1 [Port] 55505 [Flags] 2 [Guid] 1724065762 [EditorId] 1724065762 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QH19IDG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22132]  * "[IP] 172.25.160.1 [Port] 55505 [Flags] 2 [Guid] 1724065762 [EditorId] 1724065762 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QH19IDG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22132]  * "[IP] 172.25.184.191 [Port] 55505 [Flags] 2 [Guid] 1724065762 [EditorId] 1724065762 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QH19IDG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22132] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22132] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-24436" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-JungleFinal-20261007[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Refreshing native plugins compatible for Editor in 2.05 ms, found 0 plugins.
+Initialize engine version: 6000.6.1f1 (7efac9f6c10e)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-JungleFinal-20261007/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   NVIDIA
+    VRAM:     6001 MB
+    Driver:   32.0.16.1060
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007655 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.762 seconds
+Domain Reload Profiling: 2714ms
+	BeginReloadAssembly (240ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (134ms)
+	LoadAllAssembliesAndSetupDomain (532ms)
+		LoadAssemblies (213ms)
+		TypeCache.Refresh (386ms)
+			TypeCache.ScanAssembly (366ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1765ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (275ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (731ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 59 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.searcher@4.9.5 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.render-pipelines.universal@e178ec6338de)
+    com.unity.test-framework@1.8.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.timeline@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.timeline@c56d56b0070b)
+    com.unity.ugui@2.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.ugui@fa62679cc16a)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.shadergraph@7e60a14be593)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-JungleFinal-20261007\Library\PackageCache\com.unity.test-framework.performance@0a60b857a52e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.03 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-JungleFinal-20261007
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 4s571ms
+[ 818/1060  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1056/1060  1s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[1057/1060  2s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 147 defines and 383 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[1058/1060  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[1059/1060  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+*** Tundra build success (4.48 seconds), 5 items updated, 1060 evaluated
+AssetDatabase: script compilation time: 5.645047s
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.41 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.705 seconds
+Domain Reload Profiling: 3824ms
+	BeginReloadAssembly (516ms)
+		DisableScriptedObjects (36ms)
+		CreateAndSetChildDomain (185ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (153ms)
+	LoadAllAssembliesAndSetupDomain (1404ms)
+		LoadAssemblies (919ms)
+		TypeCache.Refresh (271ms)
+			TypeCache.ScanAssembly (254ms)
+		AnalyzeDomain (118ms)
+			BuildScriptInfoCaches (101ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1707ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (544ms)
+			ProcessInitializeOnLoadMethodAttributes (225ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (80ms)
+Starting new worker id: 0 with log in C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-JungleFinal-20261007/Logs/AssetImportWorkerHW0.log
+Refreshing native plugins compatible for Editor in 5.60 ms, found 4 plugins.
+
+Asset Pipeline Refresh (id=cc356939e59bde2448cde17fb8ac4506): Total: 11.787 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3022 ms
+		Asset DB Callback time: managed=546 ms, native=57 ms
+		Scripting: domain reloads=1, domain reload time=2290 ms, compile time=5651 ms, other=218 ms
+		Project Asset Count: scripts=1438, non-scripts=2467
+		Asset File Changes: new=0, changed=5, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 44.064ms
+	ApplyChangesToAssetFolders: 1.928ms
+	Scan: 440.529ms
+	Collect global state as custom dependencies: 37.565ms
+	OnSourceAssetsModified: 0.679ms
+	CategorizeScriptCompilationAssets: 91.049ms
+	ProcessAssetsWithTransientArtifactChanges: 125.196ms
+	CategorizeAssets: 111.715ms
+	CompileScripts: 5651.392ms
+	ImportOutOfDateAssets: 1774.490ms (1725.290ms without children)
+		ReloadNativeAssets: 0.060ms
+		UnloadImportedAssets: 0.956ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.020ms
+		ImportSchedulerStart: 47.155ms
+	PostProcessAllAssets: 557.129ms
+		XRBuildSystem.XRAssetImported 4.932ms
+		VCAutoAddAssetPostprocess 3.273ms
+		PostProcessCallbackCreateDeferredMaterials 0.396ms
+		ShaderAssetModifiedCallback 0.078ms
+		MonoPostProcessAllAssets: 545.910ms
+			AssetPostprocessor.OnPostprocessAllAssets 321.095ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 59.903ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 56.379ms
+			SyncVS.PostprocessSyncProject 22.415ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 13.987ms
+			AssetChangedListener.OnPostprocessAllAssets 6.483ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 4.827ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.480ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 4.455ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.830ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 2.071ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.805ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.458ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.333ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.162ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 1.076ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.948ms
+			AssetEvents.OnPostprocessAllAssets 0.853ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.794ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.790ms
+			PostProcessor.OnPostprocessAllAssets 0.755ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.706ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.670ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.599ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.489ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.480ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.409ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.368ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.351ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.347ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.320ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.312ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.289ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.211ms
+	PostAssetChangesProfiler: 8.024ms
+	UnloadStreamsBegin: 2.512ms
+	PersistCurrentRevisions: 0.228ms
+	GenerateScriptTypeHashes: 4.067ms
+	GenerateScriptTypeSerializationHashes: 7.349ms
+	Untracked: 2926.521ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Scanning for USB devices : 1.757ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Lost Worlds
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6655 unused Assets / (7.4 MB). Loaded Objects now: 7657.
+Memory consumption went from 412.1 MB to 404.7 MB.
+Total: 28.228800 ms (FindLiveObjects: 1.259000 ms CreateObjectMapping: 0.626700 ms MarkObjects: 15.213000 ms  DeleteObjects: 10.446500 ms)
+
+[Project] Loading completed in 19.832 seconds
+	Project init time: 				18.714 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.322 seconds
+		Asset Database init time: 		0.964 seconds
+		Global illumination init time: 	0.005 seconds
+		Assemblies load time: 			2.846 seconds
+		Unity extensions init time: 	0.061 seconds
+		Asset Database refresh time: 	11.788 seconds
+	Scene opening time: 			0.628 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791367885418,"processId":24436,"projectLoad":19.8323258,"projectInit":18.7138134,"templateInit":0.0,"packageManagerInit":0.3217217,"assetDatabaseInit":0.9642085,"globalIlluminationInit":0.0052645,"assembliesLoad":2.8458356,"unityExtensionsInit":0.0612846,"assetDatabaseRefresh":11.7876944,"sceneOpening":0.6284099}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791367885418,"processId":24436,"editorVersion":"6000.6.1f1 (7efac9f6c10e)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Asset Pipeline Refresh (id=84a4e46508781914cb4ff8fc03888bb8): Total: 0.281 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            121.469 ms
+	Integration:            221.515 ms
+	Integration of assets:  14.365 ms
+	Thread Wait Time:       0.136 ms
+	Total Operation Time:   357.485 ms
+Unloading 17 unused Assets / (190.2 KB). Loaded Objects now: 15913.
+Memory consumption went from 405.9 MB to 405.7 MB.
+Total: 31.676600 ms (FindLiveObjects: 2.360000 ms CreateObjectMapping: 0.605900 ms MarkObjects: 27.314000 ms  DeleteObjects: 0.261300 ms)
+
+Importing 'GUID: 280e861fa0b0f74488e9b1f5fd920075 - Path: Assets/Scenes/Person2/Jungle_Prototype.unity' with importer (DefaultImporter)
+Imported 'GUID: 280e861fa0b0f74488e9b1f5fd920075' -> (Import Result ID: '15a22d54ccee76726480d24263daf6ff') in 0.023 seconds [static dependencies only]. Details - ImportResultOutputID=4c6cc8af1f71e23a13df5be976290e01 DependenciesID=e8ce0d8b7af9fee05d45fbb49be9d7f1 StaticDependenciesID=82a670ab10cf9920337ff4b70d7f28ea 
+Refreshing native plugins compatible for Editor in 24.04 ms, found 4 plugins.
+Asset Pipeline Refresh (id=079c76f3e2bb27f46a2c530371847f17): Total: 0.195 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+	Deserialize:            35.361 ms
+	Integration:            64.790 ms
+	Integration of assets:  0.053 ms
+	Thread Wait Time:       0.056 ms
+	Total Operation Time:   100.261 ms
+Unloading 409 unused Assets / (2.9 MB). Loaded Objects now: 11166.
+Memory consumption went from 423.4 MB to 420.4 MB.
+Total: 28.122800 ms (FindLiveObjects: 2.001300 ms CreateObjectMapping: 0.740100 ms MarkObjects: 23.277500 ms  DeleteObjects: 1.091300 ms)
+
+Importing 'GUID: 01101cf77d7b0744baf9d099d2a97676 - Path: Assets/Scenes/Person2/Ruins_Prototype.unity' with importer (DefaultImporter)
+Imported 'GUID: 01101cf77d7b0744baf9d099d2a97676' -> (Import Result ID: '0c68d51795ead9a6f1d9430724742bc0') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=8524be6dd4078bb2ed80ea6a9e2ab8c3 DependenciesID=19e5fa5cdac7527df6d859479c8aae6f StaticDependenciesID=fe16c091c98d367870cda5812f1028d0 
+Refreshing native plugins compatible for Editor in 14.00 ms, found 4 plugins.
+Asset Pipeline Refresh (id=13e5bcc5da6d1fd4a97758a7c307ea48): Total: 0.109 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+	Deserialize:            29.049 ms
+	Integration:            65.022 ms
+	Integration of assets:  0.060 ms
+	Thread Wait Time:       0.048 ms
+	Total Operation Time:   94.177 ms
+Unloading 381 unused Assets / (5.0 MB). Loaded Objects now: 9389.
+Memory consumption went from 420.9 MB to 415.9 MB.
+Total: 26.341300 ms (FindLiveObjects: 1.384000 ms CreateObjectMapping: 0.483700 ms MarkObjects: 21.017800 ms  DeleteObjects: 2.588600 ms)
+
+Importing 'GUID: 39f2e4ca47ae8644490387d72821a285 - Path: Assets/Scenes/Person2/CrystalCave_Prototype.unity' with importer (DefaultImporter)
+Imported 'GUID: 39f2e4ca47ae8644490387d72821a285' -> (Import Result ID: '81822ea5dbd8e04b745c7e0f1c49d9be') in 0.007 seconds [static dependencies only]. Details - ImportResultOutputID=d4826c6278d0863a75b8d58f9a51f06c DependenciesID=5722f2aca100d016c986d73fa797376c StaticDependenciesID=c9638878fc60d82d1b4af365f3a78ac2 
+Refreshing native plugins compatible for Editor in 13.41 ms, found 4 plugins.
+Asset Pipeline Refresh (id=7ebdc78f5ac19bc49a1127c9d83edf6c): Total: 0.128 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+	Deserialize:            22.604 ms
+	Integration:            35.309 ms
+	Integration of assets:  0.060 ms
+	Thread Wait Time:       0.293 ms
+	Total Operation Time:   58.266 ms
+Unloading 253 unused Assets / (2.4 MB). Loaded Objects now: 9855.
+Memory consumption went from 421.4 MB to 419.0 MB.
+Total: 23.433100 ms (FindLiveObjects: 1.619000 ms CreateObjectMapping: 0.539900 ms MarkObjects: 19.438900 ms  DeleteObjects: 0.896500 ms)
+
+Importing 'GUID: d110e5b36c59e0145babf4369bc37e04 - Path: Assets/Scenes/Person2/HiddenCity_Prototype.unity' with importer (DefaultImporter)
+Imported 'GUID: d110e5b36c59e0145babf4369bc37e04' -> (Import Result ID: '014c5706300c382dec779b39785a6be5') in 0.006 seconds [static dependencies only]. Details - ImportResultOutputID=041ac306cdc3bb2dd25028011de59f1a DependenciesID=3e19e85636c2d8f3c1242e0da52c1193 StaticDependenciesID=3ba4e175a066c099a979ba8d8e3963a7 
+Refreshing native plugins compatible for Editor in 15.56 ms, found 4 plugins.
+Asset Pipeline Refresh (id=511edebd14384c248aec9ce5440df4d8): Total: 0.118 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            42.931 ms
+	Integration:            104.009 ms
+	Integration of assets:  0.054 ms
+	Thread Wait Time:       0.047 ms
+	Total Operation Time:   147.041 ms
+Unloading 269 unused Assets / (4.0 MB). Loaded Objects now: 15922.
+Memory consumption went from 428.4 MB to 424.4 MB.
+Total: 22.059300 ms (FindLiveObjects: 1.999800 ms CreateObjectMapping: 0.501300 ms MarkObjects: 17.731800 ms  DeleteObjects: 0.856200 ms)
+
+Opening scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+	Deserialize:            19.354 ms
+	Integration:            32.244 ms
+	Integration of assets:  0.030 ms
+	Thread Wait Time:       0.215 ms
+	Total Operation Time:   51.844 ms
+Unloading 250 unused Assets / (0.7 MB). Loaded Objects now: 11166.
+Memory consumption went from 417.9 MB to 417.2 MB.
+Total: 17.296800 ms (FindLiveObjects: 0.997700 ms CreateObjectMapping: 0.346600 ms MarkObjects: 14.804600 ms  DeleteObjects: 0.433000 ms)
+
+Opening scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+	Deserialize:            20.267 ms
+	Integration:            31.044 ms
+	Integration of assets:  0.039 ms
+	Thread Wait Time:       0.034 ms
+	Total Operation Time:   51.384 ms
+Unloading 222 unused Assets / (Unknown). Loaded Objects now: 9389.
+Memory consumption went from 415.7 MB to 415.7 MB.
+Total: 15.401300 ms (FindLiveObjects: 0.874300 ms CreateObjectMapping: 0.249400 ms MarkObjects: 12.935800 ms  DeleteObjects: 0.707900 ms)
+
+Worker ready: AssetImportWorkerHW0 0
+Opening scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+	Deserialize:            15.779 ms
+	Integration:            27.293 ms
+	Integration of assets:  0.034 ms
+	Thread Wait Time:       0.253 ms
+	Total Operation Time:   43.358 ms
+Unloading 94 unused Assets / (100.6 KB). Loaded Objects now: 9855.
+Memory consumption went from 416.3 MB to 416.2 MB.
+Total: 17.369300 ms (FindLiveObjects: 1.145100 ms CreateObjectMapping: 0.298600 ms MarkObjects: 14.877400 ms  DeleteObjects: 0.231000 ms)
+
+P11 structural validation PASS: four realms, anchors, paths, branches and Build Settings.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationBuilder:Validate () (at Assets/Editor/P11IntegrationBuilder.cs:73)
+LostWorlds.Person2.Editor.P11IntegrationBuilder:SetupBatch () (at Assets/Editor/P11IntegrationBuilder.cs:20)
+LostWorlds.Person2.Editor.P11IntegrationValidation:BuildAndValidateBatch () (at Assets/Editor/P11IntegrationValidation.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+LostWorlds.Person2.Editor.P125RegressionBatch:Dispatch () (at Assets/Editor/P125RegressionBatch.cs:18)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationBuilder.cs Line: 73)
+
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+	Deserialize:            13.932 ms
+	Integration:            20.638 ms
+	Integration of assets:  0.009 ms
+	Thread Wait Time:       0.044 ms
+	Total Operation Time:   34.623 ms
+Unloading 10 unused Assets / (22.5 KB). Loaded Objects now: 9855.
+Memory consumption went from 416.3 MB to 416.2 MB.
+Total: 14.537400 ms (FindLiveObjects: 0.884200 ms CreateObjectMapping: 0.244700 ms MarkObjects: 12.735800 ms  DeleteObjects: 0.070600 ms)
+
+Opening scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            28.232 ms
+	Integration:            65.932 ms
+	Integration of assets:  0.044 ms
+	Thread Wait Time:       0.033 ms
+	Total Operation Time:   94.241 ms
+Unloading 110 unused Assets / (114.5 KB). Loaded Objects now: 15922.
+Memory consumption went from 423.4 MB to 423.3 MB.
+Total: 15.916100 ms (FindLiveObjects: 1.299800 ms CreateObjectMapping: 0.394100 ms MarkObjects: 13.408000 ms  DeleteObjects: 0.162400 ms)
+
+P8.5 Jungle_Prototype: 4 prefab obstacles, 4 solid colliders, 100 centre-lane collision/side-bypass checks; protected locations clear.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P85ObstacleBuilder:ValidateScene (UnityEngine.SceneManagement.Scene,int) (at Assets/Editor/P85ObstacleBuilder.cs:209)
+LostWorlds.Person2.Editor.P85ObstacleBuilder:Validate () (at Assets/Editor/P85ObstacleBuilder.cs:216)
+LostWorlds.Person2.Editor.P11IntegrationValidation:BuildAndValidateBatch () (at Assets/Editor/P11IntegrationValidation.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+LostWorlds.Person2.Editor.P125RegressionBatch:Dispatch () (at Assets/Editor/P125RegressionBatch.cs:18)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P85ObstacleBuilder.cs Line: 209)
+
+Opening scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+	Deserialize:            13.745 ms
+	Integration:            26.935 ms
+	Integration of assets:  0.040 ms
+	Thread Wait Time:       0.048 ms
+	Total Operation Time:   40.768 ms
+Unloading 251 unused Assets / (446.8 KB). Loaded Objects now: 11166.
+Memory consumption went from 419.2 MB to 418.7 MB.
+Total: 11.482600 ms (FindLiveObjects: 0.918300 ms CreateObjectMapping: 0.300100 ms MarkObjects: 9.370500 ms  DeleteObjects: 0.332200 ms)
+
+P8.5 Ruins_Prototype: 4 prefab obstacles, 8 solid colliders, 100 centre-lane collision/side-bypass checks; protected locations clear.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P85ObstacleBuilder:ValidateScene (UnityEngine.SceneManagement.Scene,int) (at Assets/Editor/P85ObstacleBuilder.cs:209)
+LostWorlds.Person2.Editor.P85ObstacleBuilder:Validate () (at Assets/Editor/P85ObstacleBuilder.cs:216)
+LostWorlds.Person2.Editor.P11IntegrationValidation:BuildAndValidateBatch () (at Assets/Editor/P11IntegrationValidation.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+LostWorlds.Person2.Editor.P125RegressionBatch:Dispatch () (at Assets/Editor/P125RegressionBatch.cs:18)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P85ObstacleBuilder.cs Line: 209)
+
+Opening scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+	Deserialize:            11.340 ms
+	Integration:            27.584 ms
+	Integration of assets:  0.069 ms
+	Thread Wait Time:       0.079 ms
+	Total Operation Time:   39.072 ms
+Unloading 223 unused Assets / (186.3 KB). Loaded Objects now: 9389.
+Memory consumption went from 416.8 MB to 416.6 MB.
+Total: 13.204900 ms (FindLiveObjects: 0.619300 ms CreateObjectMapping: 0.211700 ms MarkObjects: 11.468500 ms  DeleteObjects: 0.303100 ms)
+
+P8.5 CrystalCave_Prototype: 4 prefab obstacles, 8 solid colliders, 100 centre-lane collision/side-bypass checks; protected locations clear.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P85ObstacleBuilder:ValidateScene (UnityEngine.SceneManagement.Scene,int) (at Assets/Editor/P85ObstacleBuilder.cs:209)
+LostWorlds.Person2.Editor.P85ObstacleBuilder:Validate () (at Assets/Editor/P85ObstacleBuilder.cs:216)
+LostWorlds.Person2.Editor.P11IntegrationValidation:BuildAndValidateBatch () (at Assets/Editor/P11IntegrationValidation.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+LostWorlds.Person2.Editor.P125RegressionBatch:Dispatch () (at Assets/Editor/P125RegressionBatch.cs:18)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P85ObstacleBuilder.cs Line: 209)
+
+Opening scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+	Deserialize:            7.930 ms
+	Integration:            19.051 ms
+	Integration of assets:  0.021 ms
+	Thread Wait Time:       0.119 ms
+	Total Operation Time:   27.121 ms
+Unloading 95 unused Assets / (107.0 KB). Loaded Objects now: 9855.
+Memory consumption went from 417.2 MB to 417.1 MB.
+Total: 14.562200 ms (FindLiveObjects: 0.651700 ms CreateObjectMapping: 0.180200 ms MarkObjects: 13.023200 ms  DeleteObjects: 0.200300 ms)
+
+P8.5 HiddenCity_Prototype: 4 prefab obstacles, 8 solid colliders, 100 centre-lane collision/side-bypass checks; protected locations clear.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P85ObstacleBuilder:ValidateScene (UnityEngine.SceneManagement.Scene,int) (at Assets/Editor/P85ObstacleBuilder.cs:209)
+LostWorlds.Person2.Editor.P85ObstacleBuilder:Validate () (at Assets/Editor/P85ObstacleBuilder.cs:216)
+LostWorlds.Person2.Editor.P11IntegrationValidation:BuildAndValidateBatch () (at Assets/Editor/P11IntegrationValidation.cs:24)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+LostWorlds.Person2.Editor.P125RegressionBatch:Dispatch () (at Assets/Editor/P125RegressionBatch.cs:18)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P85ObstacleBuilder.cs Line: 209)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+	Deserialize:            12.866 ms
+	Integration:            19.652 ms
+	Integration of assets:  0.008 ms
+	Thread Wait Time:       0.046 ms
+	Total Operation Time:   32.572 ms
+Unloading 10 unused Assets / (22.5 KB). Loaded Objects now: 9856.
+Memory consumption went from 417.1 MB to 417.1 MB.
+Total: 13.767500 ms (FindLiveObjects: 1.052800 ms CreateObjectMapping: 0.330700 ms MarkObjects: 11.754500 ms  DeleteObjects: 0.060800 ms)
+
+Opening scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            27.538 ms
+	Integration:            61.278 ms
+	Integration of assets:  0.029 ms
+	Thread Wait Time:       0.021 ms
+	Total Operation Time:   88.867 ms
+Unloading 111 unused Assets / (120.8 KB). Loaded Objects now: 15922.
+Memory consumption went from 424.4 MB to 424.3 MB.
+Total: 14.399700 ms (FindLiveObjects: 1.151200 ms CreateObjectMapping: 0.342000 ms MarkObjects: 12.070900 ms  DeleteObjects: 0.182200 ms)
+
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Created GICache directory at C:/Users/Ryan Dhiman/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.130s, timestamps: [19.842 - 19.972]
+Starting new worker id: 1 with log in C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-JungleFinal-20261007/Logs/AssetImportWorkerHW1.log
+P11 PASS: Optional player boot is safe
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:36)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Fresh session starts 0/3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:36)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+[P9 simulator] SENT LEFT (delivery does not imply gameplay acceptance)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Hardware.CommandDebugFeedback:Received (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandDebugFeedback.cs:15)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:38)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Hardware/CommandDebugFeedback.cs Line: 15)
+
+[P9 simulator] SENT RIGHT (delivery does not imply gameplay acceptance)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Hardware.CommandDebugFeedback:Received (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandDebugFeedback.cs:15)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:38)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Hardware/CommandDebugFeedback.cs Line: 15)
+
+[P9 simulator] SENT JUMP (delivery does not imply gameplay acceptance)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Hardware.CommandDebugFeedback:Received (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandDebugFeedback.cs:15)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:38)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Hardware/CommandDebugFeedback.cs Line: 15)
+
+P11 PASS: LEFT RIGHT JUMP exposed without movement
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:38)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+[P9 simulator] SENT JUMP (delivery does not imply gameplay acceptance)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Hardware.CommandDebugFeedback:Received (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandDebugFeedback.cs:15)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:39)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Hardware/CommandDebugFeedback.cs Line: 15)
+
+P11 PASS: JUMP does not move reference
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:39)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Jungle has no required route choice
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:40)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+[P9 simulator] SENT LEFT (delivery does not imply gameplay acceptance)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Hardware.CommandDebugFeedback:Received (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandDebugFeedback.cs:15)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:40)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Hardware/CommandDebugFeedback.cs Line: 15)
+
+[P9 simulator] SENT RIGHT (delivery does not imply gameplay acceptance)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Hardware.CommandDebugFeedback:Received (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandDebugFeedback.cs:15)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:40)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Hardware/CommandDebugFeedback.cs Line: 15)
+
+P11 PASS: Jungle directions reach optional player callbacks
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:40)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+[P9 simulator] SENT GRAB (delivery does not imply gameplay acceptance)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Hardware.CommandDebugFeedback:Received (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandDebugFeedback.cs:15)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:43)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Hardware/CommandDebugFeedback.cs Line: 15)
+
+P11 PASS: Existing P4 interaction through shared channel: GrabDemoObject
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:43)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+[P9 simulator] SENT ACTIVATE (delivery does not imply gameplay acceptance)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Hardware.CommandDebugFeedback:Received (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandDebugFeedback.cs:15)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:43)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Hardware/CommandDebugFeedback.cs Line: 15)
+
+P11 PASS: Existing P4 interaction through shared channel: ActivateBeacon
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:43)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Correct realm 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:48)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Main path data available
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:48)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Shared tracker wired to realm relic
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+[P5 Relics] Collected Verdant Seed: 1/3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Collectibles.RelicInteractable:ApplyInteraction (LostWorlds.Person2.Interaction.InteractionInteractor) (at Assets/Scripts/Collectibles/RelicInteractable.cs:37)
+LostWorlds.Person2.Interaction.InteractableBase:TryInteract (LostWorlds.Person2.Interaction.InteractionInteractor) (at Assets/Scripts/Interaction/InteractableBase.cs:42)
+LostWorlds.Person2.Interaction.InteractionInteractor:TryInteract (LostWorlds.Person2.Interaction.InteractionCommand) (at Assets/Scripts/Interaction/InteractionInteractor.cs:49)
+LostWorlds.Person2.Interaction.InteractionInteractor:TryGrab () (at Assets/Scripts/Interaction/InteractionInteractor.cs:25)
+LostWorlds.Person2.Integration.IntegrationSession:Interact (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Integration/IntegrationSession.cs:94)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Collectibles/RelicInteractable.cs Line: 37)
+
+[P9 simulator] SENT GRAB (delivery does not imply gameplay acceptance)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Hardware.CommandDebugFeedback:Received (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandDebugFeedback.cs:15)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Hardware/CommandDebugFeedback.cs Line: 15)
+
+P11 PASS: Relic collection persisted 1/3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Duplicate blocked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: HUD reflects session count
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Entrance cannot trigger exit
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:51)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Exit accepted
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:51)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Duplicate transition/completion blocked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:51)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+[P9 simulator] SENT JUMP (delivery does not imply gameplay acceptance)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Hardware.CommandDebugFeedback:Received (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandDebugFeedback.cs:15)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:52)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Hardware/CommandDebugFeedback.cs Line: 15)
+
+P11 PASS: Commands gated during transition
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:52)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+Unloading 50 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 12.418900 ms
+Loaded scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+	Deserialize:            25.206 ms
+	Integration:            50.255 ms
+	Integration of assets:  0.513 ms
+	Thread Wait Time:       3.940 ms
+	Total Operation Time:   79.914 ms
+P11 PASS: Session survives scene replacement
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:52)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Arrival waits for Person 1 rebinding
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:52)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Relics survive unload
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:52)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Correct realm 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:48)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Main path data available
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:48)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+Unloading 520 unused Assets / (1.0 MB). Loaded Objects now: 10945.
+Memory consumption went from 438.9 MB to 437.9 MB.
+Total: 30.989300 ms (FindLiveObjects: 1.128600 ms CreateObjectMapping: 0.268600 ms MarkObjects: 26.432200 ms  DeleteObjects: 2.517100 ms)
+
+P11 PASS: Shared tracker wired to realm relic
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+[P5 Relics] Collected Sun Seal: 2/3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Collectibles.RelicInteractable:ApplyInteraction (LostWorlds.Person2.Interaction.InteractionInteractor) (at Assets/Scripts/Collectibles/RelicInteractable.cs:37)
+LostWorlds.Person2.Interaction.InteractableBase:TryInteract (LostWorlds.Person2.Interaction.InteractionInteractor) (at Assets/Scripts/Interaction/InteractableBase.cs:42)
+LostWorlds.Person2.Interaction.InteractionInteractor:TryInteract (LostWorlds.Person2.Interaction.InteractionCommand) (at Assets/Scripts/Interaction/InteractionInteractor.cs:49)
+LostWorlds.Person2.Interaction.InteractionInteractor:TryGrab () (at Assets/Scripts/Interaction/InteractionInteractor.cs:25)
+LostWorlds.Person2.Integration.IntegrationSession:Interact (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Integration/IntegrationSession.cs:94)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Collectibles/RelicInteractable.cs Line: 37)
+
+[P9 simulator] SENT GRAB (delivery does not imply gameplay acceptance)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Hardware.CommandDebugFeedback:Received (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandDebugFeedback.cs:15)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Hardware/CommandDebugFeedback.cs Line: 15)
+
+P11 PASS: Relic collection persisted 2/3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Duplicate blocked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: HUD reflects session count
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Entrance cannot trigger exit
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:51)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Exit accepted
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:51)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Duplicate transition/completion blocked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:51)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+[P9 simulator] SENT JUMP (delivery does not imply gameplay acceptance)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Hardware.CommandDebugFeedback:Received (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandDebugFeedback.cs:15)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:52)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Hardware/CommandDebugFeedback.cs Line: 15)
+
+P11 PASS: Commands gated during transition
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:52)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.248800 ms
+Loaded scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+	Deserialize:            22.851 ms
+	Integration:            29.522 ms
+	Integration of assets:  1.545 ms
+	Thread Wait Time:       3.375 ms
+	Total Operation Time:   57.293 ms
+P11 PASS: Session survives scene replacement
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:52)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Arrival waits for Person 1 rebinding
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:52)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Relics survive unload
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:52)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Correct realm 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:48)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Main path data available
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:48)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+Unloading 148 unused Assets / (97.2 KB). Loaded Objects now: 9339.
+Memory consumption went from 436.5 MB to 436.4 MB.
+Total: 23.939600 ms (FindLiveObjects: 0.722200 ms CreateObjectMapping: 0.257800 ms MarkObjects: 22.123700 ms  DeleteObjects: 0.281300 ms)
+
+P11 PASS: Shared tracker wired to realm relic
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+[P5 Relics] Collected Amethyst Prism: 3/3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Collectibles.RelicInteractable:ApplyInteraction (LostWorlds.Person2.Interaction.InteractionInteractor) (at Assets/Scripts/Collectibles/RelicInteractable.cs:37)
+LostWorlds.Person2.Interaction.InteractableBase:TryInteract (LostWorlds.Person2.Interaction.InteractionInteractor) (at Assets/Scripts/Interaction/InteractableBase.cs:42)
+LostWorlds.Person2.Interaction.InteractionInteractor:TryInteract (LostWorlds.Person2.Interaction.InteractionCommand) (at Assets/Scripts/Interaction/InteractionInteractor.cs:49)
+LostWorlds.Person2.Interaction.InteractionInteractor:TryGrab () (at Assets/Scripts/Interaction/InteractionInteractor.cs:25)
+LostWorlds.Person2.Integration.IntegrationSession:Interact (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Integration/IntegrationSession.cs:94)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Collectibles/RelicInteractable.cs Line: 37)
+
+[P9 simulator] SENT GRAB (delivery does not imply gameplay acceptance)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Hardware.CommandDebugFeedback:Received (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandDebugFeedback.cs:15)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Hardware/CommandDebugFeedback.cs Line: 15)
+
+P11 PASS: Relic collection persisted 3/3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Duplicate blocked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: HUD reflects session count
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:49)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Entrance cannot trigger exit
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:51)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Exit accepted
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:51)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Duplicate transition/completion blocked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:51)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+[P9 simulator] SENT JUMP (delivery does not imply gameplay acceptance)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Hardware.CommandDebugFeedback:Received (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandDebugFeedback.cs:15)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:52)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Hardware/CommandDebugFeedback.cs Line: 15)
+
+P11 PASS: Commands gated during transition
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:52)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.108500 ms
+Loaded scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+	Deserialize:            23.739 ms
+	Integration:            31.496 ms
+	Integration of assets:  1.275 ms
+	Thread Wait Time:       4.017 ms
+	Total Operation Time:   60.527 ms
+P11 PASS: Session survives scene replacement
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:52)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Arrival waits for Person 1 rebinding
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:52)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Relics survive unload
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:52)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Correct realm 3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:48)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Main path data available
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:48)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Selected branch exposes four world points
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<>c__DisplayClass9_0:<Run>b__1 (LostWorlds.Person2.Integration.RealmBindings,LostWorlds.Person2.World.RouteChoice,UnityEngine.Vector3[]) (at Assets/Editor/P11IntegrationValidation.cs:37)
+LostWorlds.Person2.Integration.IntegrationSession/<>c__DisplayClass69_0:<SelectedPath>b__0 (System.Delegate) (at Assets/Scripts/Integration/IntegrationSession.cs:89)
+LostWorlds.Person2.Integration.IntegrationSession:Notify (System.Delegate,System.Action`1<System.Delegate>) (at Assets/Scripts/Integration/IntegrationSession.cs:144)
+LostWorlds.Person2.Integration.IntegrationSession:SelectedPath (LostWorlds.Person2.World.RouteChoice,UnityEngine.Vector3[]) (at Assets/Scripts/Integration/IntegrationSession.cs:89)
+LostWorlds.Person2.Integration.BranchPathBinding:Accepted (LostWorlds.Person2.World.RouteChoiceZone,LostWorlds.Person2.World.RouteChoice) (at Assets/Scripts/Integration/BranchPathBinding.cs:18)
+LostWorlds.Person2.World.RouteChoiceZone/<>c__DisplayClass32_0:<TryChoose>b__0 (System.Delegate) (at Assets/Scripts/World/RouteChoiceZone.cs:66)
+LostWorlds.Person2.World.RouteChoiceZone:Notify (System.Delegate,System.Action`1<System.Delegate>) (at Assets/Scripts/World/RouteChoiceZone.cs:93)
+LostWorlds.Person2.World.RouteChoiceZone:TryChoose (LostWorlds.Person2.World.RouteChoice,UnityEngine.Transform) (at Assets/Scripts/World/RouteChoiceZone.cs:66)
+LostWorlds.Person2.Integration.IntegrationSession:ConsumeRouteDirection (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Integration/IntegrationSession.cs:85)
+LostWorlds.Person2.Integration.PlayerCommandBridge:Receive (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Integration/PlayerCommandBridge.cs:19)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:50)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+[P6 Route] CityRouteChoice: LEFT accepted for encounter 1. Selection only; no movement.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.World.RouteChoiceZone:TryChoose (LostWorlds.Person2.World.RouteChoice,UnityEngine.Transform) (at Assets/Scripts/World/RouteChoiceZone.cs:70)
+LostWorlds.Person2.Integration.IntegrationSession:ConsumeRouteDirection (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Integration/IntegrationSession.cs:85)
+LostWorlds.Person2.Integration.PlayerCommandBridge:Receive (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Integration/PlayerCommandBridge.cs:19)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:50)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/World/RouteChoiceZone.cs Line: 70)
+
+[P9 simulator] SENT LEFT (delivery does not imply gameplay acceptance)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Hardware.CommandDebugFeedback:Received (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandDebugFeedback.cs:15)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:50)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Hardware/CommandDebugFeedback.cs Line: 15)
+
+[P9 simulator] SENT RIGHT (delivery does not imply gameplay acceptance)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Hardware.CommandDebugFeedback:Received (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandDebugFeedback.cs:15)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:50)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Hardware/CommandDebugFeedback.cs Line: 15)
+
+P11 PASS: Route accepts exactly one LEFT choice
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:50)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Selected branch exposes four world points
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<>c__DisplayClass9_0:<Run>b__1 (LostWorlds.Person2.Integration.RealmBindings,LostWorlds.Person2.World.RouteChoice,UnityEngine.Vector3[]) (at Assets/Editor/P11IntegrationValidation.cs:37)
+LostWorlds.Person2.Integration.IntegrationSession/<>c__DisplayClass69_0:<SelectedPath>b__0 (System.Delegate) (at Assets/Scripts/Integration/IntegrationSession.cs:89)
+LostWorlds.Person2.Integration.IntegrationSession:Notify (System.Delegate,System.Action`1<System.Delegate>) (at Assets/Scripts/Integration/IntegrationSession.cs:144)
+LostWorlds.Person2.Integration.IntegrationSession:SelectedPath (LostWorlds.Person2.World.RouteChoice,UnityEngine.Vector3[]) (at Assets/Scripts/Integration/IntegrationSession.cs:89)
+LostWorlds.Person2.Integration.BranchPathBinding:Accepted (LostWorlds.Person2.World.RouteChoiceZone,LostWorlds.Person2.World.RouteChoice) (at Assets/Scripts/Integration/BranchPathBinding.cs:18)
+LostWorlds.Person2.World.RouteChoiceZone/<>c__DisplayClass32_0:<TryChoose>b__0 (System.Delegate) (at Assets/Scripts/World/RouteChoiceZone.cs:66)
+LostWorlds.Person2.World.RouteChoiceZone:Notify (System.Delegate,System.Action`1<System.Delegate>) (at Assets/Scripts/World/RouteChoiceZone.cs:93)
+LostWorlds.Person2.World.RouteChoiceZone:TryChoose (LostWorlds.Person2.World.RouteChoice,UnityEngine.Transform) (at Assets/Scripts/World/RouteChoiceZone.cs:66)
+LostWorlds.Person2.Integration.IntegrationSession:ConsumeRouteDirection (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Integration/IntegrationSession.cs:85)
+LostWorlds.Person2.Integration.PlayerCommandBridge:Receive (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Integration/PlayerCommandBridge.cs:19)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:50)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+[P6 Route] CityRouteChoice: RIGHT accepted for encounter 2. Selection only; no movement.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.World.RouteChoiceZone:TryChoose (LostWorlds.Person2.World.RouteChoice,UnityEngine.Transform) (at Assets/Scripts/World/RouteChoiceZone.cs:70)
+LostWorlds.Person2.Integration.IntegrationSession:ConsumeRouteDirection (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Integration/IntegrationSession.cs:85)
+LostWorlds.Person2.Integration.PlayerCommandBridge:Receive (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Integration/PlayerCommandBridge.cs:19)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:50)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/World/RouteChoiceZone.cs Line: 70)
+
+[P9 simulator] SENT RIGHT (delivery does not imply gameplay acceptance)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.Hardware.CommandDebugFeedback:Received (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandDebugFeedback.cs:15)
+LostWorlds.Person2.Hardware.CommandChannel:Send (LostWorlds.Person2.Hardware.HardwareCommand) (at Assets/Scripts/Hardware/CommandChannel.cs:30)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:50)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Hardware/CommandDebugFeedback.cs Line: 15)
+
+P11 PASS: RIGHT exposes alternate branch
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:50)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Route consumes direction instead of duplicate movement callback
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:50)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Entrance cannot trigger exit
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:51)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Exit accepted
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:51)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Duplicate transition/completion blocked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:51)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1280x720: Title
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1280x720: Count
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1280x720: Status
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1280x720: Message
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1280x720: EffortStatus
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1280x720: JourneyStatus
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1280x720: CommandStatus
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1280x720: HardwareStatus
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1280x720: JourneyTokenCounter
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Canvas scale matches 1280x720
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:88)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1920x1080: Title
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1920x1080: Count
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1920x1080: Status
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1920x1080: Message
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1920x1080: EffortStatus
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1920x1080: JourneyStatus
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1920x1080: CommandStatus
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1920x1080: HardwareStatus
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Text fits at 1920x1080: JourneyTokenCounter
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:80)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Canvas scale matches 1920x1080
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Capture (UnityEngine.Camera,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P11IntegrationValidation.cs:88)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:54)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Final completion fires once with 3/3 retained
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:55)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Three next-realm arrival callbacks
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:55)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 PASS: Exactly one persistent session
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Check (bool,string) (at Assets/Editor/P11IntegrationValidation.cs:32)
+LostWorlds.Person2.Editor.P11IntegrationValidation/<Run>d__9:MoveNext () (at Assets/Editor/P11IntegrationValidation.cs:55)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 32)
+
+P11 RESULT: 80 checks; passed=True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P11IntegrationValidation:End (bool) (at Assets/Editor/P11IntegrationValidation.cs:31)
+LostWorlds.Person2.Editor.P11IntegrationValidation:Tick () (at Assets/Editor/P11IntegrationValidation.cs:30)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P11IntegrationValidation.cs Line: 31)
+
+Unloading 308 unused Assets / (160.8 KB). Loaded Objects now: 9895.
+Memory consumption went from 465.8 MB to 465.6 MB.
+Total: 33.161800 ms (FindLiveObjects: 0.755300 ms CreateObjectMapping: 0.192700 ms MarkObjects: 31.041100 ms  DeleteObjects: 0.636600 ms)
+
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            27.191 ms
+	Integration:            72.620 ms
+	Integration of assets:  0.068 ms
+	Thread Wait Time:       -0.006 ms
+	Total Operation Time:   99.874 ms
+Unloading 25 unused Assets / (245.8 KB). Loaded Objects now: 15928.
+Memory consumption went from 470.7 MB to 470.4 MB.
+Total: 30.186100 ms (FindLiveObjects: 1.183600 ms CreateObjectMapping: 0.346400 ms MarkObjects: 27.757200 ms  DeleteObjects: 0.184200 ms)
+
+MonoPathRemapper: Attempts to remap: 37382; Successful remaps: 25174
+Serialized file version minimum: 22, current 23
+Worker ready: AssetImportWorkerHW1 1
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Ryan Dhiman-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Ryan Dhiman channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791367901028,"processId":24436,"allocatedMemory":16351165,"memoryLabels":[{"Default":195192},{"Permanent":15516},{"NewDelete":69623},{"Thread":4198104},{"Manager":821501},{"VertexData":584},{"Geometry":816},{"Texture":24},{"Shader":851250},{"Material":68},{"GfxDevice":56400},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":79296},{"Input":42840},{"JobScheduler":256},{"TextLib":336},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1319264},{"BaseObject":49168},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":25243},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":564978},{"StaticString":3808},{"Utility":2674806},{"Curl":2559},{"PoolAlloc":2360},{"AI":80},{"TypeTree":17165},{"ScriptManager":12640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7152},{"WebRequest":12639},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":729},{"Secure":2377},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":128},{"EditorUtility":187159},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4639704},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":40465},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":272},{"ProfilerEditor":9778},{"CoreBusinessMetrics":3606},{"Windowing":456},{"Licensing":12763},{"AssetReference":32},{"IPCStream":32}]}

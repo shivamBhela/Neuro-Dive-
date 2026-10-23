@@ -1,0 +1,6 @@
+{
+ "name":"LostWorlds.Person2.Integration",
+ "rootNamespace":"LostWorlds.Person2.Integration",
+ "references":["UnityEngine.UI","LostWorlds.Person2.Hardware","LostWorlds.Person2.Interaction","LostWorlds.Person2.World","LostWorlds.Person2.UI"],
+ "autoReferenced":true
+}

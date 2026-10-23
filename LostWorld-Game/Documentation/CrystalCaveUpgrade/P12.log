@@ -1,0 +1,1606 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 93440)
+VBCSCompiler prewarm took 21.78 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.1f1 (7efac9f6c10e) revision 8321737'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Ryan Dhiman" at "2026-10-15T17:16:00.6055778Z"
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 16068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-15T17:16:00Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 67264, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              6a6e5a4c0d874c4baa3705916711e1e9
+  Correlation Id:          4c1805e75067ee09f199aab9e2c47017
+  External correlation Id: 3896209122660809171
+  Machine Id:              31n885ZKCdDnSsyGVgHSG2ufeGg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Ryan Dhiman" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Ryan Dhiman-notifications" at "2026-10-15T17:16:00.6504116Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469972738122-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Unity.exe
+-batchmode
+-projectPath
+C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015
+-executeMethod
+LostWorlds.Person2.Editor.P125RegressionBatch.Run
+-logFile
+C:\UnityProjects\Lost Worlds\Documentation\CrystalCaveUpgrade\P12.log
+-journeySuite
+P12PolishValidation
+Successfully changed project path to: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015
+C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [42556]  Target information:
+
+Player connection [42556]  * "[IP] 192.168.56.1 [Port] 55505 [Flags] 2 [Guid] 343064200 [EditorId] 343064200 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QH19IDG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [42556]  * "[IP] 192.168.29.159 [Port] 55505 [Flags] 2 [Guid] 343064200 [EditorId] 343064200 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QH19IDG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [42556] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [42556] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-73712" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Initialize engine version: 6000.6.1f1 (7efac9f6c10e)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   NVIDIA
+    VRAM:     6001 MB
+    Driver:   32.0.16.1060
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003323 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.681 seconds
+Domain Reload Profiling: 1241ms
+	BeginReloadAssembly (139ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (118ms)
+		TypeCache.Refresh (223ms)
+			TypeCache.ScanAssembly (208ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (683ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (235ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 59 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.searcher@4.9.5 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.render-pipelines.universal@e178ec6338de)
+    com.unity.test-framework@1.8.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.timeline@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.timeline@c56d56b0070b)
+    com.unity.ugui@2.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ugui@fa62679cc16a)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.shadergraph@7e60a14be593)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.test-framework.performance@0a60b857a52e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s573ms
+[ 812/1050  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.49 seconds), 1 items updated, 1050 evaluated
+AssetDatabase: script compilation time: 1.175230s
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.61 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.942 seconds
+Domain Reload Profiling: 2296ms
+	BeginReloadAssembly (376ms)
+		DisableScriptedObjects (29ms)
+		CreateAndSetChildDomain (168ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (874ms)
+		LoadAssemblies (562ms)
+		TypeCache.Refresh (157ms)
+			TypeCache.ScanAssembly (146ms)
+		AnalyzeDomain (77ms)
+			BuildScriptInfoCaches (68ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (943ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (13ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Starting new worker id: 0 with log in C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=d1ab1761f22d97849b93d09a54d7a801): Total: 4.445 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1634 ms
+		Asset DB Callback time: managed=40 ms, native=20 ms
+		Scripting: domain reloads=1, domain reload time=1450 ms, compile time=1178 ms, other=121 ms
+		Project Asset Count: scripts=1439, non-scripts=2531
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 24.058ms
+	ApplyChangesToAssetFolders: 0.907ms
+	Scan: 238.602ms
+	Collect global state as custom dependencies: 20.572ms
+	CategorizeScriptCompilationAssets: 46.184ms
+	ProcessAssetsWithTransientArtifactChanges: 89.717ms
+	CategorizeAssets: 49.606ms
+	CompileScripts: 1177.768ms
+	ImportOutOfDateAssets: 992.536ms (956.549ms without children)
+		UnloadImportedAssets: 0.692ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.658ms
+		ImportSchedulerStart: 34.591ms
+	PostProcessAllAssets: 40.953ms
+		MonoPostProcessAllAssets: 40.888ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 13.641ms
+			SyncVS.PostprocessSyncProject 10.631ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.662ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.556ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.812ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.757ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.474ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.235ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.234ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.189ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.166ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.150ms
+	UnloadStreamsBegin: 1.599ms
+	PersistCurrentRevisions: 0.153ms
+	GenerateScriptTypeHashes: 1.727ms
+	GenerateScriptTypeSerializationHashes: 3.128ms
+	Untracked: 1754.389ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 0.587ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Lost Worlds
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6663 unused Assets / (10.2 MB). Loaded Objects now: 7666.
+Memory consumption went from 405.0 MB to 394.8 MB.
+Total: 15.692100 ms (FindLiveObjects: 1.360500 ms CreateObjectMapping: 0.510800 ms MarkObjects: 6.262000 ms  DeleteObjects: 7.210100 ms)
+
+[Project] Loading completed in 8.956 seconds
+	Project init time: 				8.429 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.271 seconds
+		Asset Database init time: 		0.318 seconds
+		Global illumination init time: 	0.002 seconds
+		Assemblies load time: 			1.292 seconds
+		Unity extensions init time: 	0.036 seconds
+		Asset Database refresh time: 	4.446 seconds
+	Scene opening time: 			0.177 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1792084569448,"processId":73712,"projectLoad":8.9559222,"projectInit":8.4294185,"templateInit":0.0,"packageManagerInit":0.2711505,"assetDatabaseInit":0.3179334,"globalIlluminationInit":0.0021195,"assembliesLoad":1.2918072,"unityExtensionsInit":0.0356018,"assetDatabaseRefresh":4.4455392,"sceneOpening":0.177034}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1792084569448,"processId":73712,"editorVersion":"6000.6.1f1 (7efac9f6c10e)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+[Licensing::Client] Successfully resolved entitlement details
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Asset Pipeline Refresh (id=5e5834df9034a6a46b0166f5ce507bbf): Total: 0.071 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            53.736 ms
+	Integration:            217.983 ms
+	Integration of assets:  2.721 ms
+	Thread Wait Time:       0.098 ms
+	Total Operation Time:   274.539 ms
+Unloading 15 unused Assets / (16.5 KB). Loaded Objects now: 17068.
+Memory consumption went from 411.2 MB to 411.2 MB.
+Total: 11.187600 ms (FindLiveObjects: 1.201300 ms CreateObjectMapping: 0.326600 ms MarkObjects: 9.067600 ms  DeleteObjects: 0.251000 ms)
+
+Opening scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+	Deserialize:            16.500 ms
+	Integration:            19.710 ms
+	Integration of assets:  0.019 ms
+	Thread Wait Time:       0.044 ms
+	Total Operation Time:   36.274 ms
+Unloading 304 unused Assets / (3.4 MB). Loaded Objects now: 10339.
+Memory consumption went from 403.1 MB to 399.7 MB.
+Total: 8.274200 ms (FindLiveObjects: 0.650300 ms CreateObjectMapping: 0.167100 ms MarkObjects: 6.899900 ms  DeleteObjects: 0.265900 ms)
+
+Opening scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+	Deserialize:            13.541 ms
+	Integration:            31.431 ms
+	Integration of assets:  0.036 ms
+	Thread Wait Time:       0.043 ms
+	Total Operation Time:   45.051 ms
+Unloading 92 unused Assets / (42.4 KB). Loaded Objects now: 10051.
+Memory consumption went from 399.6 MB to 399.6 MB.
+Total: 7.791400 ms (FindLiveObjects: 0.553900 ms CreateObjectMapping: 0.148300 ms MarkObjects: 6.686200 ms  DeleteObjects: 0.134800 ms)
+
+Opening scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+	Deserialize:            6.395 ms
+	Integration:            10.836 ms
+	Integration of assets:  0.014 ms
+	Thread Wait Time:       0.112 ms
+	Total Operation Time:   17.358 ms
+Unloading 76 unused Assets / (41.3 KB). Loaded Objects now: 9833.
+Memory consumption went from 399.3 MB to 399.2 MB.
+Total: 7.847300 ms (FindLiveObjects: 0.610600 ms CreateObjectMapping: 0.159900 ms MarkObjects: 6.657700 ms  DeleteObjects: 0.138900 ms)
+
+Opening scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            38.984 ms
+	Integration:            157.361 ms
+	Integration of assets:  0.034 ms
+	Thread Wait Time:       0.040 ms
+	Total Operation Time:   196.419 ms
+Unloading 109 unused Assets / (47.0 KB). Loaded Objects now: 17068.
+Memory consumption went from 411.0 MB to 410.9 MB.
+Total: 8.677100 ms (FindLiveObjects: 1.080500 ms CreateObjectMapping: 0.250600 ms MarkObjects: 6.876900 ms  DeleteObjects: 0.123000 ms)
+
+P12 VALID: Jungle_Prototype; 64-particle cap, no added colliders, low audio defaults, P11 binding retained.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishBuilder:Validate () (at Assets/Editor/P12PolishBuilder.cs:92)
+LostWorlds.Person2.Editor.P12PolishBuilder:Setup () (at Assets/Editor/P12PolishBuilder.cs:86)
+LostWorlds.Person2.Editor.P12PolishValidation:BuildAndValidateBatch () (at Assets/Editor/P12PolishValidation.cs:20)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+LostWorlds.Person2.Editor.P125RegressionBatch:Dispatch () (at Assets/Editor/P125RegressionBatch.cs:18)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P12PolishBuilder.cs Line: 92)
+
+Opening scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+	Deserialize:            16.512 ms
+	Integration:            14.814 ms
+	Integration of assets:  0.018 ms
+	Thread Wait Time:       0.079 ms
+	Total Operation Time:   31.424 ms
+Unloading 304 unused Assets / (3.3 MB). Loaded Objects now: 10339.
+Memory consumption went from 403.5 MB to 400.1 MB.
+Total: 7.867600 ms (FindLiveObjects: 0.530100 ms CreateObjectMapping: 0.153100 ms MarkObjects: 6.624500 ms  DeleteObjects: 0.276500 ms)
+
+P12 VALID: Ruins_Prototype; 64-particle cap, no added colliders, low audio defaults, P11 binding retained.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishBuilder:Validate () (at Assets/Editor/P12PolishBuilder.cs:92)
+LostWorlds.Person2.Editor.P12PolishBuilder:Setup () (at Assets/Editor/P12PolishBuilder.cs:86)
+LostWorlds.Person2.Editor.P12PolishValidation:BuildAndValidateBatch () (at Assets/Editor/P12PolishValidation.cs:20)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+LostWorlds.Person2.Editor.P125RegressionBatch:Dispatch () (at Assets/Editor/P125RegressionBatch.cs:18)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P12PolishBuilder.cs Line: 92)
+
+Opening scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+	Deserialize:            13.935 ms
+	Integration:            29.658 ms
+	Integration of assets:  0.038 ms
+	Thread Wait Time:       0.017 ms
+	Total Operation Time:   43.648 ms
+Unloading 92 unused Assets / (125.1 KB). Loaded Objects now: 10051.
+Memory consumption went from 400.0 MB to 399.9 MB.
+Total: 8.534400 ms (FindLiveObjects: 0.562900 ms CreateObjectMapping: 0.163300 ms MarkObjects: 6.483800 ms  DeleteObjects: 1.021200 ms)
+
+P12 VALID: CrystalCave_Prototype; 64-particle cap, no added colliders, low audio defaults, P11 binding retained.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishBuilder:Validate () (at Assets/Editor/P12PolishBuilder.cs:92)
+LostWorlds.Person2.Editor.P12PolishBuilder:Setup () (at Assets/Editor/P12PolishBuilder.cs:86)
+LostWorlds.Person2.Editor.P12PolishValidation:BuildAndValidateBatch () (at Assets/Editor/P12PolishValidation.cs:20)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+LostWorlds.Person2.Editor.P125RegressionBatch:Dispatch () (at Assets/Editor/P125RegressionBatch.cs:18)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P12PolishBuilder.cs Line: 92)
+
+Opening scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+	Deserialize:            5.759 ms
+	Integration:            11.771 ms
+	Integration of assets:  0.020 ms
+	Thread Wait Time:       0.020 ms
+	Total Operation Time:   17.570 ms
+Unloading 76 unused Assets / (140.6 KB). Loaded Objects now: 9833.
+Memory consumption went from 399.6 MB to 399.5 MB.
+Total: 7.746900 ms (FindLiveObjects: 0.541900 ms CreateObjectMapping: 0.169600 ms MarkObjects: 6.585700 ms  DeleteObjects: 0.142400 ms)
+
+P12 VALID: HiddenCity_Prototype; 64-particle cap, no added colliders, low audio defaults, P11 binding retained.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishBuilder:Validate () (at Assets/Editor/P12PolishBuilder.cs:92)
+LostWorlds.Person2.Editor.P12PolishBuilder:Setup () (at Assets/Editor/P12PolishBuilder.cs:86)
+LostWorlds.Person2.Editor.P12PolishValidation:BuildAndValidateBatch () (at Assets/Editor/P12PolishValidation.cs:20)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+LostWorlds.Person2.Editor.P125RegressionBatch:Dispatch () (at Assets/Editor/P125RegressionBatch.cs:18)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/P12PolishBuilder.cs Line: 92)
+
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+	Deserialize:            5.324 ms
+	Integration:            10.456 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.107 ms
+	Total Operation Time:   15.890 ms
+Unloading 10 unused Assets / (22.8 KB). Loaded Objects now: 9833.
+Memory consumption went from 399.7 MB to 399.6 MB.
+Total: 7.469900 ms (FindLiveObjects: 0.484700 ms CreateObjectMapping: 0.151400 ms MarkObjects: 6.501800 ms  DeleteObjects: 0.047900 ms)
+
+Opening scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+Worker ready: AssetImportWorkerHW0 0
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Person2/Jungle_Prototype.unity'
+	Deserialize:            36.990 ms
+	Integration:            159.299 ms
+	Integration of assets:  0.032 ms
+	Thread Wait Time:       0.068 ms
+	Total Operation Time:   196.390 ms
+Unloading 109 unused Assets / (112.6 KB). Loaded Objects now: 17068.
+Memory consumption went from 411.7 MB to 411.6 MB.
+Total: 8.744700 ms (FindLiveObjects: 1.106200 ms CreateObjectMapping: 0.273000 ms MarkObjects: 6.872400 ms  DeleteObjects: 0.110100 ms)
+
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Created GICache directory at C:/Users/Ryan Dhiman/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.034s, timestamps: [8.959 - 8.993]
+[Licensing::Client] Successfully resolved entitlement details
+P12 PASS: Realm polish and profile present 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:31)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Bounded particle count
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:32)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: No collision or route changes from decoration
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:32)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Missing audio clips safely remain silent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:33)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Conservative audio caps
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:33)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Mute affects ambience and success
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:34)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Reduced motion stops and clears all particles
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:35)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Motion can resume without gameplay changes
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:35)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Disable clears particle activity
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:36)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Existing action succeeds: GrabDemoObject
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: One success callback after disable/re-enable
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Success emits a bounded soft effect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Rejected repeat produces no polish feedback
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Existing action succeeds: ActivateBeacon
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: One success callback after disable/re-enable
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Success emits a bounded soft effect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Rejected repeat produces no polish feedback
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Existing action succeeds: JunglePortalLever_ACTIVATE
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: One success callback after disable/re-enable
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Success emits a bounded soft effect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Rejected repeat produces no polish feedback
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: P11 exit works with polish
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:43)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: P11 duplicate guard retained
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:43)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+Unloading 96 Unused Serialized files (Serialized files now loaded: 0)
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+UnloadTime: 8.689600 ms
+Loaded scene 'Assets/Scenes/Person2/Ruins_Prototype.unity'
+	Deserialize:            24.081 ms
+	Integration:            26.602 ms
+	Integration of assets:  0.831 ms
+	Thread Wait Time:       21.515 ms
+	Total Operation Time:   73.029 ms
+P12 PASS: Old realm polish destroyed on unload
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:43)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: P11 session persists independently
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:43)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Realm polish and profile present 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:31)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Bounded particle count
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:32)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: No collision or route changes from decoration
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:32)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Missing audio clips safely remain silent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:33)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Conservative audio caps
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:33)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Mute affects ambience and success
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:34)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Reduced motion stops and clears all particles
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:35)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Motion can resume without gameplay changes
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:35)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Disable clears particle activity
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:36)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+Starting new worker id: 1 with log in C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015/Logs/AssetImportWorkerHW1.log
+P12 PASS: Existing action succeeds: RuinsStonePedestal_ACTIVATE
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: One success callback after disable/re-enable
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Success emits a bounded soft effect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Rejected repeat produces no polish feedback
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: P11 exit works with polish
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:43)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: P11 duplicate guard retained
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:43)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+Unloading 503 unused Assets / (3.5 MB). Loaded Objects now: 10381.
+Memory consumption went from 461.7 MB to 458.2 MB.
+Total: 19.915400 ms (FindLiveObjects: 0.710600 ms CreateObjectMapping: 0.184000 ms MarkObjects: 17.795100 ms  DeleteObjects: 0.896000 ms)
+
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+UnloadTime: 1.511100 ms
+Loaded scene 'Assets/Scenes/Person2/CrystalCave_Prototype.unity'
+	Deserialize:            26.252 ms
+	Integration:            30.327 ms
+	Integration of assets:  0.949 ms
+	Thread Wait Time:       3.969 ms
+	Total Operation Time:   61.498 ms
+P12 PASS: Old realm polish destroyed on unload
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:43)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: P11 session persists independently
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:43)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Realm polish and profile present 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:31)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Bounded particle count
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:32)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: No collision or route changes from decoration
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:32)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Missing audio clips safely remain silent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:33)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Conservative audio caps
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:33)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Mute affects ambience and success
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:34)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Reduced motion stops and clears all particles
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:35)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Motion can resume without gameplay changes
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:35)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Disable clears particle activity
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:36)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Existing action succeeds: CrystalPedestal_ACTIVATE
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: One success callback after disable/re-enable
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Success emits a bounded soft effect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Rejected repeat produces no polish feedback
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:40)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: P11 exit works with polish
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:43)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: P11 duplicate guard retained
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:43)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+Unloading 174 unused Assets / (133.1 KB). Loaded Objects now: 10102.
+Memory consumption went from 457.2 MB to 457.1 MB.
+Total: 19.206300 ms (FindLiveObjects: 0.875900 ms CreateObjectMapping: 0.215000 ms MarkObjects: 17.333000 ms  DeleteObjects: 0.432900 ms)
+
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+UnloadTime: 1.725500 ms
+Loaded scene 'Assets/Scenes/Person2/HiddenCity_Prototype.unity'
+	Deserialize:            16.031 ms
+	Integration:            17.643 ms
+	Integration of assets:  0.797 ms
+	Thread Wait Time:       4.512 ms
+	Total Operation Time:   38.982 ms
+P12 PASS: Old realm polish destroyed on unload
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:43)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: P11 session persists independently
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:43)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Realm polish and profile present 3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:31)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Bounded particle count
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:32)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: No collision or route changes from decoration
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:32)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Missing audio clips safely remain silent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:33)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Conservative audio caps
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:33)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Mute affects ambience and success
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:34)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Reduced motion stops and clears all particles
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:35)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Motion can resume without gameplay changes
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:35)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Disable clears particle activity
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:36)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: P11 exit works with polish
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:43)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: P11 duplicate guard retained
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:43)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 PASS: Completion needs no collectibles
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Check (bool,string) (at Assets/Editor/P12PolishValidation.cs:24)
+LostWorlds.Person2.Editor.P12PolishValidation/<Run>d__9:MoveNext () (at Assets/Editor/P12PolishValidation.cs:45)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 24)
+
+P12 RESULT: 71 checks; passed=True
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P12PolishValidation:Finish (bool) (at Assets/Editor/P12PolishValidation.cs:23)
+LostWorlds.Person2.Editor.P12PolishValidation:Tick () (at Assets/Editor/P12PolishValidation.cs:22)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P12PolishValidation.cs Line: 23)
+
+Unloading 289 unused Assets / (227.2 KB). Loaded Objects now: 9786.
+Memory consumption went from 458.9 MB to 458.7 MB.
+Total: 16.751600 ms (FindLiveObjects: 0.535900 ms CreateObjectMapping: 0.150400 ms MarkObjects: 15.414600 ms  DeleteObjects: 0.367300 ms)
+
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            27.891 ms
+	Integration:            158.376 ms
+	Integration of assets:  0.073 ms
+	Thread Wait Time:       0.087 ms
+	Total Operation Time:   186.427 ms
+Unloading 24 unused Assets / (72.4 KB). Loaded Objects now: 17080.
+Memory consumption went from 471.2 MB to 471.1 MB.
+Total: 18.921800 ms (FindLiveObjects: 1.046300 ms CreateObjectMapping: 0.291800 ms MarkObjects: 17.043800 ms  DeleteObjects: 0.145700 ms)
+
+MonoPathRemapper: Attempts to remap: 38198; Successful remaps: 25174
+Serialized file version minimum: 23, current 23
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Ryan Dhiman-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Ryan Dhiman channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792084575494,"processId":73712,"allocatedMemory":16255041,"memoryLabels":[{"Default":197126},{"Permanent":15516},{"NewDelete":73927},{"Thread":4198064},{"Manager":821501},{"VertexData":1160},{"Geometry":816},{"Texture":24},{"Shader":851132},{"Material":68},{"GfxDevice":56688},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":79296},{"Input":42840},{"JobScheduler":256},{"TextLib":336},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1319264},{"BaseObject":49168},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":16336},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":459173},{"StaticString":3808},{"Utility":2674806},{"Curl":2559},{"PoolAlloc":2360},{"AI":80},{"TypeTree":17165},{"ScriptManager":12640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7152},{"WebRequest":12968},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":729},{"Secure":2377},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":128},{"EditorUtility":198632},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4639546},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":40465},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":272},{"ProfilerEditor":9778},{"CoreBusinessMetrics":3606},{"Windowing":456},{"Licensing":12763},{"AssetReference":32},{"IPCStream":32}]}

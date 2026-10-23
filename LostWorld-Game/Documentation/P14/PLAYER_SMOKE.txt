@@ -1,0 +1,99 @@
+P14 SMOKE PASS: Realm order 0
+P14 SMOKE PASS: Persistent ledger 0
+P14 SMOKE PASS: Interaction/relic GrabDemoObject
+P14 SMOKE PASS: Duplicate interaction rejected
+P14 SMOKE PASS: Interaction/relic ActivateBeacon
+P14 SMOKE PASS: Duplicate interaction rejected
+P14 SMOKE PASS: Interaction/relic JungleRelic
+P14 SMOKE PASS: Duplicate interaction rejected
+P14 SMOKE PASS: Route locked
+P14 SMOKE PASS: Unique token jungle.shared.1
+P14 SMOKE PASS: Unique token jungle.shared.2
+P14 SMOKE PASS: Unique token jungle.shared.3
+P14 SMOKE PASS: Unique token jungle.shared.4
+P14 SMOKE PASS: Unique token jungle.shared.5
+P14 SMOKE PASS: Unique token jungle.shared.6
+P14 SMOKE PASS: Unique token jungle.left.1
+P14 SMOKE PASS: Unique token jungle.left.2
+P14 SMOKE PASS: Unique token jungle.right.1
+P14 SMOKE PASS: Unique token jungle.right.2
+P14 SMOKE PASS: Token total
+P14 SMOKE PASS: Build token HUD
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Reduced Motion
+P14 SMOKE PASS: Portal advances
+P14 SMOKE PASS: Duplicate transition blocked
+P14 SMOKE PASS: Realm order 1
+P14 SMOKE PASS: Persistent ledger 1
+P14 SMOKE PASS: Interaction/relic RuinsRelic
+P14 SMOKE PASS: Duplicate interaction rejected
+P14 SMOKE PASS: Unique token ruins.shared.1
+P14 SMOKE PASS: Unique token ruins.shared.2
+P14 SMOKE PASS: Unique token ruins.shared.3
+P14 SMOKE PASS: Unique token ruins.shared.4
+P14 SMOKE PASS: Unique token ruins.shared.5
+P14 SMOKE PASS: Unique token ruins.shared.6
+P14 SMOKE PASS: Unique token ruins.shared.7
+P14 SMOKE PASS: Unique token ruins.shared.8
+P14 SMOKE PASS: Token total
+P14 SMOKE PASS: Build token HUD
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Reduced Motion
+P14 SMOKE PASS: Portal advances
+P14 SMOKE PASS: Duplicate transition blocked
+P14 SMOKE PASS: Realm order 2
+P14 SMOKE PASS: Persistent ledger 2
+P14 SMOKE PASS: Interaction/relic CrystalCaveRelic
+P14 SMOKE PASS: Duplicate interaction rejected
+P14 SMOKE PASS: Unique token crystalcave.shared.1
+P14 SMOKE PASS: Unique token crystalcave.shared.2
+P14 SMOKE PASS: Unique token crystalcave.shared.3
+P14 SMOKE PASS: Unique token crystalcave.shared.4
+P14 SMOKE PASS: Unique token crystalcave.shared.5
+P14 SMOKE PASS: Unique token crystalcave.shared.6
+P14 SMOKE PASS: Unique token crystalcave.shared.7
+P14 SMOKE PASS: Unique token crystalcave.shared.8
+P14 SMOKE PASS: Token total
+P14 SMOKE PASS: Build token HUD
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Reduced Motion
+P14 SMOKE PASS: Portal advances
+P14 SMOKE PASS: Duplicate transition blocked
+P14 SMOKE PASS: Realm order 3
+P14 SMOKE PASS: Persistent ledger 3
+P14 SMOKE PASS: Route locked
+P14 SMOKE PASS: Unique token hiddencity.shared.1
+P14 SMOKE PASS: Unique token hiddencity.shared.2
+P14 SMOKE PASS: Unique token hiddencity.shared.3
+P14 SMOKE PASS: Unique token hiddencity.shared.4
+P14 SMOKE PASS: Unique token hiddencity.shared.5
+P14 SMOKE PASS: Unique token hiddencity.shared.6
+P14 SMOKE PASS: Unique token hiddencity.left.1
+P14 SMOKE PASS: Unique token hiddencity.left.2
+P14 SMOKE PASS: Unique token hiddencity.right.1
+P14 SMOKE PASS: Unique token hiddencity.right.2
+P14 SMOKE PASS: Token total
+P14 SMOKE PASS: Build token HUD
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Reduced Motion
+P14 SMOKE PASS: Portal advances
+P14 SMOKE PASS: Duplicate transition blocked
+P14 SMOKE PASS: Complete once with 3 relics and 36 tokens
+P14 SMOKE PASS: No runtime warnings/errors
+P14 SMOKE RESULT: 98 checks; passed=True

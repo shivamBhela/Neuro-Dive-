@@ -1,0 +1,127 @@
+PASS Build Settings: Assets/Scenes/Person2/Jungle_Prototype.unity
+PASS No missing scripts: Jungle_Prototype
+PASS Materials/shaders valid: Jungle_Prototype
+PASS Four bounded particle systems, 76 maximum particles: Jungle_Prototype
+PASS Portal has no blocking colliders: Jungle_Prototype
+PASS Portal adds no dynamic lights: Jungle_Prototype
+INVENTORY Jungle_Prototype: renderers=1764, colliders=632, lights=2, particle cap=76
+PASS Build Settings: Assets/Scenes/Person2/Ruins_Prototype.unity
+PASS No missing scripts: Ruins_Prototype
+PASS Materials/shaders valid: Ruins_Prototype
+PASS Four bounded particle systems, 76 maximum particles: Ruins_Prototype
+PASS Portal has no blocking colliders: Ruins_Prototype
+PASS Portal adds no dynamic lights: Ruins_Prototype
+INVENTORY Ruins_Prototype: renderers=570, colliders=221, lights=1, particle cap=76
+PASS Build Settings: Assets/Scenes/Person2/CrystalCave_Prototype.unity
+PASS No missing scripts: CrystalCave_Prototype
+PASS Materials/shaders valid: CrystalCave_Prototype
+PASS Four bounded particle systems, 76 maximum particles: CrystalCave_Prototype
+PASS Portal has no blocking colliders: CrystalCave_Prototype
+PASS Portal adds no dynamic lights: CrystalCave_Prototype
+INVENTORY CrystalCave_Prototype: renderers=212, colliders=122, lights=7, particle cap=76
+PASS Build Settings: Assets/Scenes/Person2/HiddenCity_Prototype.unity
+PASS No missing scripts: HiddenCity_Prototype
+PASS Materials/shaders valid: HiddenCity_Prototype
+PASS Four bounded particle systems, 76 maximum particles: HiddenCity_Prototype
+PASS Portal has no blocking colliders: HiddenCity_Prototype
+PASS Portal adds no dynamic lights: HiddenCity_Prototype
+INVENTORY HiddenCity_Prototype: renderers=321, colliders=140, lights=1, particle cap=76
+PASS Portal recovers lost runtime cache without Awake
+PASS Portal restores runtime cache on re-enable
+PASS Fresh journey starts with 0 tokens
+PASS Persistent effort model exists
+PASS Near Limit feedback
+PASS Rest feedback does not block play
+PASS No retired counter in persistent HUD 0
+PASS Correct journey realm 0
+PASS Same persistent token ledger 0
+PASS JUMP callback only, no player movement 0
+PASS Jungle has no route-choice requirement
+PASS P4 channel interaction: GrabDemoObject
+PASS Repeated interaction rejected
+PASS P4 channel interaction: ActivateBeacon
+PASS Repeated interaction rejected
+PASS Token collected once: jungle.shared.1
+PASS Token collected once: jungle.shared.2
+PASS Token collected once: jungle.shared.3
+PASS Token collected once: jungle.shared.4
+PASS Token collected once: jungle.shared.5
+PASS Token collected once: jungle.shared.6
+PASS Token collected once: jungle.left.1
+PASS Token collected once: jungle.left.2
+PASS Token collected once: jungle.right.1
+PASS Token collected once: jungle.right.2
+PASS Exactly one event per persistent token 0
+PASS Token HUD tally 0
+PASS Reduced Motion clears all realm/portal particles 0
+PASS Portal rejects outside reference 0
+PASS Existing portal advances 0
+PASS Repeated portal ignored 0
+PASS Session persists; arrival awaits Person 1 binding
+PASS No retired counter in persistent HUD 1
+PASS Correct journey realm 1
+PASS Same persistent token ledger 1
+PASS JUMP callback only, no player movement 1
+PASS Token collected once: ruins.shared.1
+PASS Token collected once: ruins.shared.2
+PASS Token collected once: ruins.shared.3
+PASS Token collected once: ruins.shared.4
+PASS Token collected once: ruins.shared.5
+PASS Token collected once: ruins.shared.6
+PASS Token collected once: ruins.shared.7
+PASS Token collected once: ruins.shared.8
+PASS Exactly one event per persistent token 1
+PASS Token HUD tally 1
+PASS Reduced Motion clears all realm/portal particles 1
+PASS Portal rejects outside reference 1
+PASS Existing portal advances 1
+PASS Repeated portal ignored 1
+PASS Session persists; arrival awaits Person 1 binding
+PASS No retired counter in persistent HUD 2
+PASS Correct journey realm 2
+PASS Same persistent token ledger 2
+PASS JUMP callback only, no player movement 2
+PASS Token collected once: crystalcave.shared.1
+PASS Token collected once: crystalcave.shared.2
+PASS Token collected once: crystalcave.shared.3
+PASS Token collected once: crystalcave.shared.4
+PASS Token collected once: crystalcave.shared.5
+PASS Token collected once: crystalcave.shared.6
+PASS Token collected once: crystalcave.shared.7
+PASS Token collected once: crystalcave.shared.8
+PASS Exactly one event per persistent token 2
+PASS Token HUD tally 2
+PASS Reduced Motion clears all realm/portal particles 2
+PASS Portal rejects outside reference 2
+PASS Existing portal advances 2
+PASS Repeated portal ignored 2
+PASS Session persists; arrival awaits Person 1 binding
+PASS No retired counter in persistent HUD 3
+PASS Correct journey realm 3
+PASS Same persistent token ledger 3
+PASS JUMP callback only, no player movement 3
+PASS One LEFT route accepted 3
+PASS RIGHT accepted once in fresh encounter 3
+PASS Token collected once: hiddencity.shared.1
+PASS Token collected once: hiddencity.shared.2
+PASS Token collected once: hiddencity.shared.3
+PASS Token collected once: hiddencity.shared.4
+PASS Token collected once: hiddencity.shared.5
+PASS Token collected once: hiddencity.shared.6
+PASS Token collected once: hiddencity.left.1
+PASS Token collected once: hiddencity.left.2
+PASS Token collected once: hiddencity.right.1
+PASS Token collected once: hiddencity.right.2
+PASS Exactly one event per persistent token 3
+PASS Token HUD tally 3
+PASS Reduced Motion clears all realm/portal particles 3
+PASS Portal rejects outside reference 3
+PASS Existing portal advances 3
+PASS Repeated portal ignored 3
+PASS Four realms to one Journey Complete
+PASS Full journey retains 36 tokens
+PASS Exactly one persistent session
+PASS Rest state survives without penalizing completion
+PASS Effort reset remains available
+PASS No Console warnings/errors during QA
+P13 RESULT: 122 checks; passed=True

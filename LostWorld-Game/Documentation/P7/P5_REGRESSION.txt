@@ -1,0 +1,5 @@
+Unity 6000.6.1f1
+P5 checks passed: 31
+Actual synthetic 1/2/3 + R keyboard input collected world relics through P4 GRAB.
+0/3 -> 1/3 -> 2/3 -> 3/3; duplicate and invalid IDs blocked; events, visuals, range, disabled test input, independent P4 GRAB/ACTIVATE, shared tracker and fresh session reset passed.
+All test workspace offsets, camera changes and collection state were temporary and not saved.

@@ -1,0 +1,151 @@
+Mono path[0] = 'C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-JungleFinal-20261007/Builds/LostWorldsSIH/LostWorlds_Data/Managed'
+Mono config path = 'C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-JungleFinal-20261007/Builds/LostWorldsSIH/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.1f1 (7efac9f6c10e)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-JungleFinal-20261007/Builds/LostWorldsSIH/LostWorlds_Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   NVIDIA
+    VRAM:     6001 MB
+    Driver:   32.0.16.1060
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.010 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+Using Windows.Gaming.Input
+UnloadTime: 0.742300 ms
+P14 SMOKE PASS: Realm order 0
+P14 SMOKE PASS: Persistent ledger 0
+[P9 simulator] SENT GRAB (delivery does not imply gameplay acceptance)
+P14 SMOKE PASS: Interaction GrabDemoObject
+P14 SMOKE PASS: Duplicate interaction rejected
+[P9 simulator] SENT ACTIVATE (delivery does not imply gameplay acceptance)
+P14 SMOKE PASS: Interaction ActivateBeacon
+P14 SMOKE PASS: Duplicate interaction rejected
+P14 SMOKE PASS: Unique token jungle.shared.1
+P14 SMOKE PASS: Unique token jungle.shared.2
+P14 SMOKE PASS: Unique token jungle.shared.3
+P14 SMOKE PASS: Unique token jungle.shared.4
+P14 SMOKE PASS: Unique token jungle.shared.5
+P14 SMOKE PASS: Unique token jungle.shared.6
+P14 SMOKE PASS: Unique token jungle.left.1
+P14 SMOKE PASS: Unique token jungle.left.2
+P14 SMOKE PASS: Unique token jungle.right.1
+P14 SMOKE PASS: Unique token jungle.right.2
+P14 SMOKE PASS: Token total
+P14 SMOKE PASS: Build token HUD
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Reduced Motion
+Shader 'Hidden/Universal Render Pipeline/GaussianDepthOfField' is not supported or has been stripped from the build (in 'DepthOfFieldGaussianPostProcessPass'). PostProcessing render passes will not execute.
+Shader 'Hidden/Universal Render Pipeline/GaussianDepthOfField' is not supported or has been stripped from the build (in 'DepthOfFieldGaussianPostProcessPass'). PostProcessing render passes will not execute.
+Shader 'Hidden/Universal Render Pipeline/BokehDepthOfField' is not supported or has been stripped from the build (in 'DepthOfFieldBokehPostProcessPass'). PostProcessing render passes will not execute.
+Shader 'Hidden/Universal Render Pipeline/PaniniProjection' is not supported or has been stripped from the build (in 'PaniniProjectionPostProcessPass'). PostProcessing render passes will not execute.
+GPU Resident Drawer created.
+P14 SMOKE PASS: Portal advances
+P14 SMOKE PASS: Duplicate transition blocked
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.334900 ms
+P14 SMOKE PASS: Realm order 1
+P14 SMOKE PASS: Persistent ledger 1
+P14 SMOKE PASS: Unique token ruins.shared.1
+P14 SMOKE PASS: Unique token ruins.shared.2
+P14 SMOKE PASS: Unique token ruins.shared.3
+P14 SMOKE PASS: Unique token ruins.shared.4
+P14 SMOKE PASS: Unique token ruins.shared.5
+P14 SMOKE PASS: Unique token ruins.shared.6
+P14 SMOKE PASS: Unique token ruins.shared.7
+P14 SMOKE PASS: Unique token ruins.shared.8
+P14 SMOKE PASS: Token total
+P14 SMOKE PASS: Build token HUD
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 5412.
+Total: 1.440300 ms (FindLiveObjects: 0.166200 ms CreateObjectMapping: 0.057600 ms MarkObjects: 1.133500 ms  DeleteObjects: 0.041200 ms)
+
+P14 SMOKE PASS: Reduced Motion
+P14 SMOKE PASS: Portal advances
+P14 SMOKE PASS: Duplicate transition blocked
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.874300 ms
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3827.
+Total: 1.279700 ms (FindLiveObjects: 0.145100 ms CreateObjectMapping: 0.056100 ms MarkObjects: 1.025400 ms  DeleteObjects: 0.022600 ms)
+
+P14 SMOKE PASS: Realm order 2
+P14 SMOKE PASS: Persistent ledger 2
+P14 SMOKE PASS: Unique token crystalcave.shared.1
+P14 SMOKE PASS: Unique token crystalcave.shared.2
+P14 SMOKE PASS: Unique token crystalcave.shared.3
+P14 SMOKE PASS: Unique token crystalcave.shared.4
+P14 SMOKE PASS: Unique token crystalcave.shared.5
+P14 SMOKE PASS: Unique token crystalcave.shared.6
+P14 SMOKE PASS: Unique token crystalcave.shared.7
+P14 SMOKE PASS: Unique token crystalcave.shared.8
+P14 SMOKE PASS: Token total
+P14 SMOKE PASS: Build token HUD
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Reduced Motion
+P14 SMOKE PASS: Portal advances
+P14 SMOKE PASS: Duplicate transition blocked
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.375500 ms
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 4258.
+Total: 1.257600 ms (FindLiveObjects: 0.128700 ms CreateObjectMapping: 0.051100 ms MarkObjects: 1.022100 ms  DeleteObjects: 0.024000 ms)
+
+P14 SMOKE PASS: Realm order 3
+P14 SMOKE PASS: Persistent ledger 3
+[P6 Route] CityRouteChoice: LEFT accepted for encounter 1. Selection only; no movement.
+[P9 simulator] SENT LEFT (delivery does not imply gameplay acceptance)
+[P9 simulator] SENT RIGHT (delivery does not imply gameplay acceptance)
+P14 SMOKE PASS: Route locked
+P14 SMOKE PASS: Unique token hiddencity.shared.1
+P14 SMOKE PASS: Unique token hiddencity.shared.2
+P14 SMOKE PASS: Unique token hiddencity.shared.3
+P14 SMOKE PASS: Unique token hiddencity.shared.4
+P14 SMOKE PASS: Unique token hiddencity.shared.5
+P14 SMOKE PASS: Unique token hiddencity.shared.6
+P14 SMOKE PASS: Unique token hiddencity.left.1
+P14 SMOKE PASS: Unique token hiddencity.left.2
+P14 SMOKE PASS: Unique token hiddencity.right.1
+P14 SMOKE PASS: Unique token hiddencity.right.2
+P14 SMOKE PASS: Token total
+P14 SMOKE PASS: Build token HUD
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Portal shader supported
+P14 SMOKE PASS: Reduced Motion
+P14 SMOKE PASS: Portal advances
+P14 SMOKE PASS: Duplicate transition blocked
+P14 SMOKE PASS: Complete once with 36 tokens
+P14 SMOKE PASS: No runtime warnings/errors
+P14 SMOKE RESULT: 91 checks; passed=True
+GPU Resident Drawer disposed.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed

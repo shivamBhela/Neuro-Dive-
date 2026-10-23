@@ -1,0 +1,1175 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 19728)
+VBCSCompiler prewarm took 22.48 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.1f1 (7efac9f6c10e) revision 8321737'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Ryan Dhiman" at "2026-10-23T10:30:35.2247768Z"
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 16068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-23T10:30:35Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 30224, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              93208ae0298146acb8b861c149403f71
+  Correlation Id:          948ae43afd9edc4a9cc40bfd81330734
+  External correlation Id: 5329899138824236964
+  Machine Id:              31n885ZKCdDnSsyGVgHSG2ufeGg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Ryan Dhiman" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Ryan Dhiman-notifications" at "2026-10-23T10:30:35.2657327Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469972738122-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Unity.exe
+-batchmode
+-projectPath
+C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015
+-executeMethod
+LostWorlds.Person2.Editor.P8EffortValidation.Run
+-logFile
+C:\UnityProjects\Lost Worlds\Assets\Realmwalker\Validation\RecoveryEffort.log
+Successfully changed project path to: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015
+C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [18040]  Target information:
+
+Player connection [18040]  * "[IP] 192.168.56.1 [Port] 55505 [Flags] 2 [Guid] 1840279692 [EditorId] 1840279692 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QH19IDG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18040]  * "[IP] 172.22.209.219 [Port] 55505 [Flags] 2 [Guid] 1840279692 [EditorId] 1840279692 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QH19IDG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18040] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18040] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-30028" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Initialize engine version: 6000.6.1f1 (7efac9f6c10e)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   NVIDIA
+    VRAM:     6001 MB
+    Driver:   32.0.16.1060
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003714 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.667 seconds
+Domain Reload Profiling: 1190ms
+	BeginReloadAssembly (125ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (309ms)
+		LoadAssemblies (114ms)
+		TypeCache.Refresh (211ms)
+			TypeCache.ScanAssembly (198ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (668ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (236ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 59 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.searcher@4.9.5 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.render-pipelines.universal@e178ec6338de)
+    com.unity.test-framework@1.8.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.timeline@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.timeline@c56d56b0070b)
+    com.unity.ugui@2.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ugui@fa62679cc16a)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.shadergraph@7e60a14be593)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\Ryan Dhiman\AppData\Local\Temp\LostWorlds-BridgeLog-20261015\Library\PackageCache\com.unity.test-framework.performance@0a60b857a52e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.1f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s547ms
+[ 812/1050  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.47 seconds), 1 items updated, 1050 evaluated
+AssetDatabase: script compilation time: 1.230190s
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.10 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.037 seconds
+Domain Reload Profiling: 2380ms
+	BeginReloadAssembly (369ms)
+		DisableScriptedObjects (33ms)
+		CreateAndSetChildDomain (166ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (870ms)
+		LoadAssemblies (534ms)
+		TypeCache.Refresh (174ms)
+			TypeCache.ScanAssembly (161ms)
+		AnalyzeDomain (83ms)
+			BuildScriptInfoCaches (74ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1038ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (11ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Starting new worker id: 0 with log in C:/Users/Ryan Dhiman/AppData/Local/Temp/LostWorlds-BridgeLog-20261015/Logs/AssetImportWorkerHW0.log
+Importing 'GUID: 61405486c52d779499812812912aa9c3 - Path: Assets/Realmwalker/Validation/MenuPolish1600.png' with importer (TextureImporter)
+Imported 'GUID: 61405486c52d779499812812912aa9c3' -> (Import Result ID: 'a8e18fa3a8631cbf750c94fdb129435a') in 0.064 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2091716156b7dc040725d0560b01a2fb DependenciesID=6428d52a2813e0fffe1b771199b6d4a8 StaticDependenciesID=42931b0e0a5e65863fc3056e69e1aec3 
+Importing 'GUID: 74030ef8a3b5f0d48a226bb9fc5e88eb - Path: Assets/Realmwalker/Validation/MenuPolish1280.png' with importer (TextureImporter)
+Imported 'GUID: 74030ef8a3b5f0d48a226bb9fc5e88eb' -> (Import Result ID: '4ce9dfec89f6a6ef13e8c0cce0c45c6c') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=544bd418d3972541d57532176c6b4c11 DependenciesID=57b6c8f4a162a1772263ebc79348c3fe StaticDependenciesID=3ab1ecc6d1e36f5e24721fa238a1baa4 
+Importing 'GUID: 4d6ff42be9d46244c8ef4f1fb1aea1e3 - Path: Assets/Realmwalker/Validation/MenuPolish1920.png' with importer (TextureImporter)
+Imported 'GUID: 4d6ff42be9d46244c8ef4f1fb1aea1e3' -> (Import Result ID: 'b3a7bacb0ab9bcc4eeb0141416e33ccc') in 0.057 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12f11cfffb7727a670f0dccd89783de0 DependenciesID=6f45af09ff89de49585a43d3a9215c20 StaticDependenciesID=b723df2baf9cc877253ad58f42cdc2eb 
+Refreshing native plugins compatible for Editor in 2.61 ms, found 4 plugins.
+
+Asset Pipeline Refresh (id=52fe238fe99769f4883b4a2d99dc24da): Total: 4.891 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=3 (actual=3, local cache=0, cache server=0)
+		Asset DB Process Time: managed=3 ms, native=1864 ms
+		Asset DB Callback time: managed=210 ms, native=22 ms
+		Scripting: domain reloads=1, domain reload time=1445 ms, compile time=1234 ms, other=109 ms
+		Project Asset Count: scripts=1457, non-scripts=2831
+		Asset File Changes: new=0, changed=3, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 18.338ms
+	ApplyChangesToAssetFolders: 0.967ms
+	Scan: 221.937ms
+	Collect global state as custom dependencies: 20.502ms
+	OnSourceAssetsModified: 0.706ms
+	CategorizeScriptCompilationAssets: 51.838ms
+	ProcessAssetsWithTransientArtifactChanges: 93.342ms
+	CategorizeAssets: 55.053ms
+	CompileScripts: 1233.968ms
+	ImportOutOfDateAssets: 1243.129ms (1050.232ms without children)
+		ImportManagerImport: 149.829ms (1.233ms without children)
+			UpdateCategorizedAssets: 0.065ms
+		UnloadImportedAssets: 0.569ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.517ms
+		ImportSchedulerStart: 41.931ms
+	PostProcessAllAssets: 213.018ms
+		XRBuildSystem.XRAssetImported 1.953ms
+		VCAutoAddAssetPostprocess 1.255ms
+		MonoPostProcessAllAssets: 209.118ms
+			AssetPostprocessor.OnPostprocessAllAssets 125.780ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 17.875ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 17.315ms
+			SyncVS.PostprocessSyncProject 10.839ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 7.126ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.349ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.581ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.552ms
+			AssetChangedListener.OnPostprocessAllAssets 1.521ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.499ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.276ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.015ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.944ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.842ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.671ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.656ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.623ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.430ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.342ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.338ms
+			PostProcessor.OnPostprocessAllAssets 0.292ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.280ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.277ms
+			AssetEvents.OnPostprocessAllAssets 0.257ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.215ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.194ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.191ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.189ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.164ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.164ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.148ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.133ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.131ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.090ms
+	PostAssetChangesProfiler: 5.160ms
+	UnloadStreamsBegin: 1.551ms
+	PersistCurrentRevisions: 0.207ms
+	GenerateScriptTypeHashes: 1.751ms
+	GenerateScriptTypeSerializationHashes: 3.168ms
+	Untracked: 1723.716ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 1.108ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Lost Worlds
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6688 unused Assets / (7.0 MB). Loaded Objects now: 7694.
+Memory consumption went from 413.0 MB to 406.0 MB.
+Total: 13.913500 ms (FindLiveObjects: 0.886000 ms CreateObjectMapping: 0.507600 ms MarkObjects: 8.308000 ms  DeleteObjects: 3.872300 ms)
+
+Opening scene 'Assets/Scenes/Test/P8_EffortDemo.unity'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Test/P8_EffortDemo.unity'
+	Deserialize:            4.383 ms
+	Integration:            100.020 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.116 ms
+	Total Operation Time:   104.521 ms
+Unloading 7 unused Assets / (123.3 KB). Loaded Objects now: 8073.
+Memory consumption went from 403.7 MB to 403.6 MB.
+Total: 7.304300 ms (FindLiveObjects: 0.491400 ms CreateObjectMapping: 0.188700 ms MarkObjects: 6.259300 ms  DeleteObjects: 0.068100 ms)
+
+[Project] Loading completed in 10.139 seconds
+	Project init time: 				9.529 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.272 seconds
+		Asset Database init time: 		0.971 seconds
+		Global illumination init time: 	0.002 seconds
+		Assemblies load time: 			1.242 seconds
+		Unity extensions init time: 	0.019 seconds
+		Asset Database refresh time: 	4.891 seconds
+	Scene opening time: 			0.253 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1792751445313,"processId":30028,"projectLoad":10.1392089,"projectInit":9.5292019,"templateInit":0.0,"packageManagerInit":0.2721527,"assetDatabaseInit":0.9710492,"globalIlluminationInit":0.0022205,"assembliesLoad":1.2423582,"unityExtensionsInit":0.0190012,"assetDatabaseRefresh":4.8907301,"sceneOpening":0.2530072}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1792751445313,"processId":30028,"editorVersion":"6000.6.1f1 (7efac9f6c10e)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+[Licensing::Client] Successfully resolved entitlement details
+P8 PASS: Fresh session starts Normal at zero
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:48)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: HUD snapshot and cap
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:49)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Processed effort updates HUD model
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:55)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Hardware effort reaches beginner cap
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:56)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Repeated hardware sample accepted
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:57)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Malformed/out-of-range effort rejected
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:59)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Malformed/out-of-range effort rejected
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:59)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Malformed/out-of-range effort rejected
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:59)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Malformed/out-of-range effort rejected
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:59)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Malformed/out-of-range effort rejected
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:59)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Fractional effort accepted
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:60)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Below near threshold
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:64)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Exact near threshold
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:65)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Exact cap recommends rest
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:66)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Change and state callbacks
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:67)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Repeated values do not spam callbacks
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:68)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Invalid samples ignored
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:69)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Upper clamp
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:70)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Lower clamp and recovery
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:71)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Cap changes recalculate HUD/state
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:72)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Raising cap recalculates
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:73)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Disabled view unsubscribes
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:75)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Reenabled view reads snapshot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:76)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Reentrant mutation guarded
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:77)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Backspace reset
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:80)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Page Up adds effort
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:81)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Page Down lowers effort
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:82)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Disabled test input ignored
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:83)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: GRAB remains available during Rest Needed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:86)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: ACTIVATE remains available during Rest Needed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:87)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+[P6 Route] P6RouteChoice: LEFT accepted for encounter 1. Selection only; no movement.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+LostWorlds.Person2.World.RouteChoiceZone:TryChoose (LostWorlds.Person2.World.RouteChoice,UnityEngine.Transform) (at Assets/Scripts/World/RouteChoiceZone.cs:70)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:88)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/World/RouteChoiceZone.cs Line: 70)
+
+P8 PASS: Route remains available during rest
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:88)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Rest does not pause game
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:89)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1280x720: Title
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1280x720: Heading
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1280x720: Prompt
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1280x720: Message
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1280x720: DemoControls
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1280x720: EffortStatus
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1280x720: EffortTestControls
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Canvas scale matches 1280x720
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:131)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+Worker ready: AssetImportWorkerHW0 0
+P8 PASS: Text fits at 1600x900: Title
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1600x900: Heading
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1600x900: Prompt
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1600x900: Message
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1600x900: DemoControls
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1600x900: EffortStatus
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1600x900: EffortTestControls
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Canvas scale matches 1600x900
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:131)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1920x1080: Title
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1920x1080: Heading
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1920x1080: Prompt
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1920x1080: Message
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1920x1080: DemoControls
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1920x1080: EffortStatus
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Text fits at 1920x1080: EffortTestControls
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:123)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+P8 PASS: Canvas scale matches 1920x1080
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+LostWorlds.Person2.Editor.P8EffortValidation:Assert (bool,string) (at Assets/Editor/P8EffortValidation.cs:38)
+LostWorlds.Person2.Editor.P8EffortValidation:Capture (LostWorlds.Person2.UI.P7HudDemoControls,LostWorlds.Person2.UI.Person2Hud,int,int,string) (at Assets/Editor/P8EffortValidation.cs:131)
+LostWorlds.Person2.Editor.P8EffortValidation:Checks () (at Assets/Editor/P8EffortValidation.cs:90)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Editor/P8EffortValidation.cs Line: 38)
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.165 ms
+	Integration:            12.557 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.101 ms
+	Total Operation Time:   14.826 ms
+Unloading 8 unused Assets / (224.1 KB). Loaded Objects now: 8240.
+Memory consumption went from 459.7 MB to 459.4 MB.
+Total: 17.851200 ms (FindLiveObjects: 0.570200 ms CreateObjectMapping: 0.192300 ms MarkObjects: 16.711900 ms  DeleteObjects: 0.063000 ms)
+
+[UnityConnectServicesConfig] config is NOT valid, switching to default
+Created GICache directory at C:/Users/Ryan Dhiman/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.022s, timestamps: [10.636 - 10.658]
+[Licensing::Client] Successfully resolved entitlement details
+MonoPathRemapper: Attempts to remap: 15521; Successful remaps: 1674
+Serialized file version minimum: 23, current 23
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Ryan Dhiman-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Ryan Dhiman channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792751450806,"processId":30028,"allocatedMemory":16446208,"memoryLabels":[{"Default":201427},{"Permanent":15516},{"NewDelete":81713},{"Thread":4198104},{"Manager":821469},{"VertexData":296},{"Geometry":816},{"Texture":24},{"Shader":851132},{"Material":68},{"GfxDevice":56184},{"Animation":952},{"Audio":696},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":33664},{"Input":42840},{"JobScheduler":256},{"TextLib":336},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1319264},{"BaseObject":49168},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":7393},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":417643},{"StaticString":3808},{"Utility":2674806},{"Curl":4238},{"PoolAlloc":2360},{"AI":80},{"TypeTree":17165},{"ScriptManager":12640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7008},{"WebRequest":26554},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":729},{"Secure":2377},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":128},{"EditorUtility":119504},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4934498},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":40465},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":272},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3606},{"Windowing":456},{"Licensing":12763},{"AssetReference":32},{"IPCStream":32}]}
