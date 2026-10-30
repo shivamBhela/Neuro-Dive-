@@ -1,7 +1,0 @@
-{
-  "name": "LostWorlds.Person2.Interaction",
-  "rootNamespace": "LostWorlds.Person2.Interaction",
-  "references": ["Unity.InputSystem"],
-  "autoReferenced": true,
-  "noEngineReferences": false
-}

@@ -1,5 +1,0 @@
-Unity 6000.6.1f1
-P7 checks passed: 66
-P4/P5/P6 callbacks, original key controls, duplicate suppression, disabled/rebound subscriptions, context availability and reference immobility verified.
-Rendered and checked UI at 1280x720, 1600x900 and 1920x1080.
-No runtime test state saved.

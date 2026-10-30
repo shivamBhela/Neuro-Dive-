@@ -1,6 +1,0 @@
-{
- "name":"LostWorlds.Person2.Hardware",
- "rootNamespace":"LostWorlds.Person2.Hardware",
- "references":["Unity.InputSystem","UnityEngine.UI","LostWorlds.Person2.UI","LostWorlds.Person2.Interaction","LostWorlds.Person2.World"],
- "autoReferenced":true
-}

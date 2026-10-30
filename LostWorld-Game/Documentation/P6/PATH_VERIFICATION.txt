@@ -1,2 +1,0 @@
-234 ground/body-clearance samples passed across both existing 4.5m branches (3m sampled corridor).
-Original path geometry retained. No new solid obstacles.

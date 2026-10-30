@@ -1,5 +1,0 @@
-Unity 6000.6.1f1
-P6 checks passed: 34
-Actual Input System A/D/LeftArrow/RightArrow events passed.
-Outside/disabled/ambiguous/held/repeated/opposite/reentrant input, explicit encounter reset, scaled/rotated zone reuse, callbacks, visual feedback and fresh-session reset passed.
-No input action moved the reference transform. Test changes were not saved.

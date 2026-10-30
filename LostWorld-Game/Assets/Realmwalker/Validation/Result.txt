@@ -1,2 +1,0 @@
-103 mesh parts; 15660 triangles; 1.924977m tall. +Z forward, feet at y=0. No runtime behaviour.
-Rigid separate meshes; no skeleton, skin weights, humanoid Avatar, animation or UV unwrap yet. R1B must consolidate/retopologize deforming joints and skin the model; procedural projection UVs are not paint-ready.

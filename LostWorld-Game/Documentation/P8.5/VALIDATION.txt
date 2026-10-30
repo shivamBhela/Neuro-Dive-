@@ -1,4 +1,0 @@
-Unity 6000.6.1f1
-4 realms, 8 reusable prefabs, 16 obstacles.
-400 centre-lane collision/side-bypass checks; protected locations and route zone clear.
-Static solid colliders, spacing, grounding, size limits and prefab links verified.
